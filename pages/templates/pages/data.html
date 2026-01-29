@@ -1,0 +1,246 @@
+{% extends "base_simple.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<!-- Page Title -->
+<div class="page-title dark-background hero-background">
+  <div class="container position-relative">
+    <h2>{% trans "Data &amp; Analytics for Digital Products" %}</h2>
+    <p>{% trans "We help companies turn raw data into clear insights, dashboards, and data-driven decisions — aligning analytics, product, and business goals." %}</p>
+
+    <nav class="breadcrumbs" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
+      <ol>
+        <li>
+          <a href="{% url 'pages:index' %}">{% trans "Home" %}</a>
+        </li>
+        <li class="current">{% trans "Data &amp; Analytics" %}</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Decorative layers -->
+  <span class="hero-orb orb-1"></span>
+  <span class="hero-orb orb-2"></span>
+  <span class="hero-orb orb-3"></span>
+</div>
+<!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8">
+            <div class="service-hero">
+              <img src="{% static "assets/img/services/data.png" %}" alt="data" class="img-fluid">
+            </div>
+
+            <div class="service-content">
+              <div class="service-header">
+                <h2>{% trans "Data &amp; Analytics Strategy &amp; Implementation" %}</h2>
+                <p class="service-intro">{% trans "We design and implement scalable data and analytics solutions for digital products — from data collection and pipelines to dashboards, experimentation, and predictive models. Our focus is on actionable insights, reliable infrastructure, and measurable business impact." %}</p>
+              </div>
+
+              <div class="service-features">
+                <h4>{% trans "What You'll Get" %}</h4>
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-activity"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Data Collection &amp; Tracking Setup" %}</h5>
+                        <p>{% trans "Design and implementation of reliable event tracking, data schemas, and analytics foundations across web, backend, and third-party tools." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-diagram-3"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Data Pipelines &amp; Warehousing" %}</h5>
+                        <p>{% trans "Building scalable pipelines to collect, transform, and store data from multiple sources in a single source of truth." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-bar-chart"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Analytics &amp; BI Dashboards" %}</h5>
+                        <p>{% trans "Clear, decision-oriented dashboards tailored for founders, product teams, and marketing — no vanity metrics." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-funnel"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Product &amp; Growth Analytics" %}</h5>
+                        <p>{% trans "Analysis of user behavior, funnels, cohorts, retention, and conversion to identify growth opportunities and bottlenecks." %}</p><br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-graph-up"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Advanced Analytics &amp; Forecasting" %}</h5>
+                        <p>{% trans "Predictive models and advanced analysis to support planning, optimization, and strategic decisions." %}</p><br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-shield-check"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Data Quality &amp; Governance" %}</h5>
+                        <p>{% trans "Monitoring, validation, and documentation to ensure data accuracy, consistency, and long-term reliability." %}</p><br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="service-process">
+                <h4>{% trans "Our Process" %}</h4>
+                <div class="process-steps">
+                  <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                      <h5>{% trans "Discovery &amp; Data Audit" %}</h5>
+                      <p>{% trans "We analyze your product, business goals, existing data, tools, and gaps to understand what matters and what’s missing." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                      <h5>{% trans "Data Strategy &amp; Architecture" %}</h5>
+                      <p>{% trans "We design the data architecture, metrics framework, and analytics roadmap aligned with your business and product strategy." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                      <h5>{% trans "Implementation &amp; Integration" %}</h5>
+                      <p>{% trans "Tracking, pipelines, dashboards, and models are implemented with clear documentation and regular checkpoints." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                      <h5>{% trans "Insights, Optimization &amp; Support" %}</h5>
+                      <p>{% trans "We turn data into insights, iterate on dashboards, and support continuous optimization as your product grows." %}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-sidebar">
+
+              <div class="service-menu">
+                <h4>{% trans "Our Services" %}</h4>
+                <div class="menu-list">
+                  <a href="#" class="menu-item active">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Data &amp; Analytics Strategy" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Product &amp; Growth Analytics" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "BI Dashboards &amp; Reporting" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Data Pipelines &amp; Warehousing" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Tracking &amp; Analytics Setup" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Advanced Analytics &amp; Forecasting" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Data Quality &amp; Monitoring" %}</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="service-info">
+                <h4>{% trans "Service Details" %}</h4>
+                <div class="info-list">
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Duration:" %}</span>
+                    <span class="info-value">{% trans "2–4 months (initial setup)" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Team Size:" %}</span>
+                    <span class="info-value">{% trans "1–3 data specialists" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Delivery:" %}</span>
+                    <span class="info-value">{% trans "Analytics platform &amp; dashboards" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Support:" %}</span>
+                    <span class="info-value">{% trans "Ongoing analytics &amp; optimization" %}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-content">
+                  <h4>{% trans "Need Help?" %}</h4>
+                  <p>{% trans "Not sure what data you should track or how to turn numbers into decisions? Let’s design an analytics system that actually supports your product and business growth." %}</p>
+                  <div class="contact-info">
+                    <div class="contact-item">
+                      <i class="bi bi-telephone"></i>
+                      <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                      <i class="bi bi-envelope"></i>
+                      <span>info@example.com</span>
+                    </div>
+                  </div>
+                  <p>{% trans "commercial offer" %}</p>
+                  <a href="{% url 'pages:download_data_pdf' %}" class="btn btn-success">{% trans "Download Data &amp; Analytics PDF" %}</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+{% endblock content %}

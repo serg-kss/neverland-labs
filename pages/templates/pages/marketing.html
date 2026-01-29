@@ -1,0 +1,224 @@
+{% extends "base_simple.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<!-- Page Title -->
+<div class="page-title dark-background hero-background">
+  <div class="container position-relative">
+    <h2>{% trans "Marketing Strategy for Digital Products" %}</h2>
+    <p>{% trans "We help digital products grow through clear positioning, measurable acquisition strategies, and close alignment between marketing, product, and technology." %}</p>
+
+    <nav class="breadcrumbs" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
+      <ol>
+        <li>
+          <a href="{% url 'pages:index' %}">{% trans "Home" %}</a>
+        </li>
+        <li class="current">{% trans "Marketing" %}</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Decorative layers -->
+  <span class="hero-orb orb-1"></span>
+  <span class="hero-orb orb-2"></span>
+  <span class="hero-orb orb-3"></span>
+</div>
+<!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8">
+            <div class="service-hero">
+              <img src="{% static "assets/img/services/marketing.png" %}" alt="marketing" class="img-fluid">
+            </div>
+
+            <div class="service-content">
+              <div class="service-header">
+                <h2>{% trans "Digital Marketing Strategy &amp; Implementation" %}</h2>
+                <p class="service-intro">{% trans "We design and execute marketing strategies tailored specifically for digital products — SaaS platforms, web applications, and online services. Our approach combines market research, product analytics, and technical implementation to ensure every marketing decision supports real business growth." %}</p>
+              </div>
+
+              <div class="service-features">
+                <h4>{% trans "What You'll Get" %}</h4>
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-clipboard-data"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Product &amp; Market Analysis" %}</h5>
+                        <p>{% trans "Deep analysis of your product, target audience, competitors, and product-market fit signals to identify real growth opportunities." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-bullseye"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Audience &amp; Positioning Strategy" %}</h5>
+                        <p>{% trans "Clear definition of your ideal customers, value propositions, and messaging that resonates with real user needs across acquisition, onboarding, and retention." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-megaphone"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Acquisition Channels Strategy" %}</h5>
+                        <p>{% trans "Selection, validation, and prioritization of acquisition channels — paid, content, SEO, partnerships, or outbound — based on product stage and unit economics." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-funnel"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Growth &amp; Funnel Optimization" %}</h5>
+                        <p>{% trans "Systematic improvement of conversion funnels, onboarding flows, and key product metrics to maximize ROI, retention, and lifetime value." %}</p><br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="service-process">
+                <h4>{% trans "Our Process" %}</h4>
+                <div class="process-steps">
+                  <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                      <h5>{% trans "Discovery &amp; Product Understanding" %}</h5>
+                      <p>{% trans "We start by understanding your product, business goals, users, and constraints. No assumptions — only real context, data, and constraints." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                      <h5>{% trans "Strategy &amp; Hypothesis Design" %}</h5>
+                      <p>{% trans "We build a clear marketing strategy with validated hypotheses, KPIs, and measurable success criteria." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                      <h5>{% trans "Implementation &amp; Integration" %}</h5>
+                      <p>{% trans "Strategy is translated into concrete actions: tracking setup, landing pages, campaigns, messaging, and technical integrations with your product and analytics stack." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                      <h5>{% trans "Monitoring &amp; Iteration" %}</h5>
+                      <p>{% trans "We measure results, refine tactics, and adapt the strategy based on real data — not vanity metrics." %}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-sidebar">
+
+              <div class="service-menu">
+                <h4>{% trans "Our Services" %}</h4>
+                <div class="menu-list">
+                  <a href="#" class="menu-item active">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Marketing Strategy for Digital Products" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Go-To-Market &amp; Launch Strategy" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Performance &amp; Growth Marketing" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "SEO &amp; Demand Capture" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Lifecycle &amp; Email Marketing" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Brand Strategy &amp; Digital Presence" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Analytics &amp; Dashboards" %}</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="service-info">
+                <h4>{% trans "Service Details" %}</h4>
+                <div class="info-list">
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Duration:" %}</span>
+                    <span class="info-value">{% trans "2–4 months (strategy phase)" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Team Size:" %}</span>
+                    <span class="info-value">{% trans "2–4 core specialists" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Delivery:" %}</span>
+                    <span class="info-value">{% trans "Strategy roadmap + execution plan" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Support:" %}</span>
+                    <span class="info-value">{% trans "Ongoing consulting &amp; optimization" %}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-content">
+                  <h4>{% trans "Need Help?" %}</h4>
+                  <p>{% trans "Not sure where to start or which channels make sense for your product? Let’s discuss your goals and define a strategy that actually works." %}</p>
+                  <div class="contact-info">
+                    <div class="contact-item">
+                      <i class="bi bi-telephone"></i>
+                      <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                      <i class="bi bi-envelope"></i>
+                      <span>info@example.com</span>
+                    </div>
+                  </div>
+                  <p>{% trans "commercial offer" %}</p>
+                  <a href="{% url 'pages:download_marketing_pdf' %}" class="btn btn-success">{% trans "Download Marketing Services PDF" %}</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+{% endblock content %}

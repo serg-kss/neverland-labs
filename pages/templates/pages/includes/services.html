@@ -1,0 +1,146 @@
+{% load static %}
+{% load i18n %}
+
+<section id="services" class="services section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title">
+    <h2>{% trans "Services" %}</h2>
+    <p>{% trans "What we do best — and how it supports real business growth" %}</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <!-- Digital Product Development -->
+      <div class="col-lg-6 col-md-6">
+        <div class="service-card featured">
+          <div class="service-icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <div class="service-content">
+            <h3>
+              <a href="{% url "pages:development" %}">
+                {% trans "Digital Product Development" %}
+              </a>
+            </h3>
+            <p>
+              {% trans "We design and build scalable web platforms, internal tools, and digital products with clean architecture and long-term maintainability in mind." %}
+            </p>
+            <a href="{% url "pages:development" %}" class="btn-cta">
+              <span>{% trans "View Development Services" %}</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="service-bg"></div>
+        </div>
+      </div>
+
+      <!-- Product & UX Design -->
+      <div class="col-lg-6 col-md-6">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="bi bi-palette"></i>
+          </div>
+          <div class="service-content">
+            <h3>
+              <a href="{% url "pages:ux" %}">
+                {% trans "UX Design" %}
+              </a>
+            </h3>
+            <p>
+              {% trans "We create clear, user-centered interfaces and product experiences that support usability, conversion, and business goals." %}
+            </p>
+            <a href="{% url "pages:ux" %}" class="btn-cta">
+              <span>{% trans "Learn More" %}</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="service-bg"></div>
+        </div>
+      </div>
+
+      <!-- Growth & Digital Marketing -->
+      <div class="col-lg-8 col-md-6">
+        <div class="service-card compact">
+          <div class="service-icon">
+            <i class="bi bi-graph-up-arrow"></i>
+          </div>
+          <div class="service-content">
+            <h3>
+              <a href="{% url "pages:marketing" %}">
+                {% trans "Growth &amp; Digital Marketing" %}
+              </a>
+            </h3>
+            <p>
+              {% trans "We help products find their market, improve conversion, and grow through strategy, positioning, and data-informed marketing." %}
+            </p>
+            <a href="{% url "pages:marketing" %}" class="btn-cta">
+              <span>{% trans "Explore Marketing Solutions" %}</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="service-bg"></div>
+        </div>
+      </div>
+
+      <!-- Data & Analytics -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card compact">
+          <div class="service-icon">
+            <i class="bi bi-bar-chart-line"></i>
+          </div>
+          <div class="service-content">
+            <h3>
+              <a href="{% url "pages:data" %}">
+                {% trans "Data &amp; Analytics" %}
+              </a>
+            </h3>
+            <p>
+              {% trans "We turn data into actionable insights that support smarter decisions, clearer strategy, and measurable product growth." %}
+            </p>
+            <a href="{% url "pages:data" %}" class="btn-cta">
+              <span>{% trans "See Analytics Capabilities" %}</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <div class="service-bg"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Stats (neutral, honest) -->
+    <div class="stats-highlight">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-item">
+            <div class="stat-number">3</div>
+            <div class="stat-label">{% trans "Core Expertise Areas" %}</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-item">
+            <div class="stat-number">Senior</div>
+            <div class="stat-label">{% trans "Level Approach" %}</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-item">
+            <div class="stat-number">EU / US</div>
+            <div class="stat-label">{% trans "Market Focus" %}</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="stat-item">
+            <div class="stat-number">Long-term</div>
+            <div class="stat-label">{% trans "Product Mindset" %}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>

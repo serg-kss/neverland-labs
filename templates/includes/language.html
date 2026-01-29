@@ -1,0 +1,94 @@
+{% load i18n static %}
+{% get_current_language as CURRENT_LANGUAGE %}
+
+
+<style>
+.lang-switcher-topbar {
+    position: relative;
+    margin-left: 16px;
+}
+
+.lang-current {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.lang-current img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.lang-dropdown {
+    position: absolute;
+    top: 130%;
+    right: 0;
+    background: #000704;
+    border-radius: 6px;
+    min-width: 140px;
+    display: none;
+    z-index: 1000;
+}
+
+.lang-switcher-topbar:focus-within .lang-dropdown {
+    display: block;
+}
+
+.lang-dropdown button {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.lang-dropdown button:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+</style>
+
+<div class="lang-switcher-topbar">
+
+  <button class="lang-current" type="button">
+    {% if CURRENT_LANGUAGE == "uk" %}
+      <img src="{% static 'assets/img/flags/uk.png' %}" alt="UA">
+    {% else %}
+      <img src="{% static 'assets/img/flags/en.png' %}" alt="EN">
+    {% endif %}
+    <i class="bi bi-chevron-down"></i>
+  </button>
+
+  <div class="lang-dropdown">
+
+    <form action="{% url 'set_language' %}" method="post">
+      {% csrf_token %}
+      <input type="hidden" name="language" value="en">
+      <input type="hidden" name="next" value="{{ request.path }}">
+      <button type="submit">
+        <img src="{% static 'assets/img/flags/en.png' %}">
+        English
+      </button>
+    </form>
+
+    <form action="{% url 'set_language' %}" method="post">
+      {% csrf_token %}
+      <input type="hidden" name="language" value="uk">
+      <input type="hidden" name="next" value="{{ request.path }}">
+      <button type="submit">
+        <img src="{% static 'assets/img/flags/uk.png' %}">
+        Українська
+      </button>
+    </form>
+
+  </div>
+</div>

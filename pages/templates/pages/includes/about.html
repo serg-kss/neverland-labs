@@ -1,0 +1,98 @@
+{% load static %}
+{% load i18n %}
+
+<section id="about" class="about section">
+    <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="content">
+              <h2>{% trans "A Thoughtful Approach to Digital Product Development" %}</h2>
+              <p class="lead">{% trans "We are a focused digital studio helping businesses design, build, and scale digital products." %}</p>
+              <p>{% trans "Our approach is built around clarity, clean engineering, and business-driven decisions. We don’t chase trends — we focus on creating reliable, scalable solutions that solve real problems and deliver long-term value." %}</p>
+              <p>{% trans "By combining web development, data-driven insights, and a senior-level mindset, we help companies move faster, make smarter decisions, and grow with confidence." %}</p>
+              <div class="stats-container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="stat-item">
+                            <div class="label">{% trans "Development" %}</div>
+                            <div class="desc">
+                                {% trans "Building reliable digital products" %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stat-item">
+                            <div class="label">{% trans "Marketing" %}</div>
+                            <div class="desc">
+                                {% trans "Driving growth through strategy and execution" %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stat-item">
+                            <div class="label">{% trans "Data &amp; Analytics" %}</div>
+                            <div class="desc">
+                                {% trans "Turning data into actionable insights" %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="cta-wrapper">
+                <a href="#portfolio" class="btn btn-primary">{% trans "Discover Our Work" %}</a>
+                <a href="#team" class="btn btn-outline">{% trans "Meet Our Team" %}</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-wrapper">
+              <div class="about-visual">
+                <svg
+                    class="logo-system-large"
+                    viewBox="0 0 800 800"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+                <!-- outer triangle -->
+                <path d="M400 90 L700 630 L100 630 Z"
+                    stroke="rgba(37,116,51,0.25)"
+                    stroke-width="6"/>
+
+                <path d="M400 150 L640 610 L160 610 Z"
+                    stroke="rgba(37,116,51,0.35)"
+                    stroke-width="5"/>
+
+                <!-- inner triangle -->
+                <path d="M400 230 L560 580 L240 580 Z"
+                    stroke="rgba(37,116,51,0.45)"
+                    stroke-width="4"/>
+
+                <!-- connections to center -->
+                <path d="M400 230 L400 380"
+                    stroke="rgba(37,116,51,0.25)"
+                    stroke-width="2"/>
+
+                <path d="M240 580 L400 380"
+                    stroke="rgba(37,116,51,0.25)"
+                    stroke-width="2"/>
+
+                <path d="M560 580 L400 380"
+                    stroke="rgba(37,116,51,0.25)"
+                    stroke-width="2"/>
+                </g>
+
+                <!-- vertices (directions) -->
+                <circle cx="400" cy="90" r="9" class="node dev"/>
+                <circle cx="100" cy="630" r="9" class="node marketing"/>
+                <circle cx="700" cy="630" r="9" class="node data"/>
+
+                <!-- center (business result) -->
+                <circle cx="400" cy="380" r="12" class="node core"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>

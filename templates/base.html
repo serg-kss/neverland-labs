@@ -1,0 +1,547 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>{{title}}</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static "assets/img/favicon.png" %}" rel="icon">
+  <link href="{% static "assets/img/apple-touch-icon.png" %}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static "assets/vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/bootstrap-icons/bootstrap-icons.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/glightbox/css/glightbox.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/swiper/swiper-bundle.min.css" %}" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static "assets/css/main.css" %}" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center dark-background">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center" data-aos="fade-down" data-aos-delay="700">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">neverlandLabs@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+          <div class="d-block d-md-none">
+            {% include "includes/language.html" %}
+          </div>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          {% include "includes/language.html" %}
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="{% url 'pages:index' %}" class="logo d-flex align-items-center">
+          <img src="{% static "assets/img/nl.png" %}" alt="neverlandLabs">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero">{% trans "Home" %}</a></li>
+            <li><a href="#about">{% trans "About" %}</a></li>
+            <li><a href="#services">{% trans "Services" %}</a></li>
+            <li><a href="#portfolio">{% trans "Portfolio" %}</a></li>
+            <li><a href="#team">{% trans "Team" %}</a></li>
+
+            <!-- Megamenu 2 -->
+            <li class="megamenu-2"><a href="#"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600;">Neverland<span style="color: #257433; font-weight: 600;"> Labs</span></span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+
+              <!-- Mobile Megamenu -->
+              <ul class="mobile-megamenu">
+
+                <li><a href="{% url "pages:development" %}">{% trans "Web Development" %}</a></li>
+                <li><a href="{% url "pages:ux" %}">{% trans "UX Design" %}</a></li>
+                <li><a href="{% url "pages:marketing" %}">{% trans "Digital Marketing" %}</a></li>
+                <li><a href="{% url "pages:data" %}">{% trans "Data &amp; Analytics" %}</a></li>
+
+              </ul><!-- End Mobile Megamenu -->
+
+              <!-- Desktop Megamenu -->
+              <div class="desktop-megamenu">
+
+                <div class="tab-navigation">
+                  <ul class="nav nav-tabs flex-column" id="2190-megamenu-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="2190-tab-1-tab" data-bs-toggle="tab" data-bs-target="#2190-tab-1" type="button" role="tab" aria-controls="2190-tab-1" aria-selected="true">
+                        <i class="bi bi-diagram-3"></i>
+                        <span>{% trans "Product Engineering" %}</span>
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="2190-tab-2-tab" data-bs-toggle="tab" data-bs-target="#2190-tab-2" type="button" role="tab" aria-controls="2190-tab-2" aria-selected="false">
+                        <i class="bi bi-vector-pen"></i>
+                        <span>{% trans "UX Design" %}</span>
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="2190-tab-3-tab" data-bs-toggle="tab" data-bs-target="#2190-tab-3" type="button" role="tab" aria-controls="2190-tab-3" aria-selected="false">
+                        <i class="bi bi-megaphone"></i>
+                        <span>{% trans "Digital Marketing" %}</span>
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="2190-tab-4-tab" data-bs-toggle="tab" data-bs-target="#2190-tab-4" type="button" role="tab" aria-controls="2190-tab-4" aria-selected="false">
+                        <i class="bi bi-bar-chart-line"></i>
+                        <span>{% trans "Data &amp; Analytics" %}</span>
+                      </button>
+                    </li>
+                    <li class="nav-item d-none" role="presentation">
+                      <button class="nav-link" id="2190-tab-5-tab" data-bs-toggle="tab" data-bs-target="#2190-tab-5" type="button" role="tab" aria-controls="2190-tab-5" aria-selected="false">
+                        <i class="bi bi-journal-text"></i>
+                        <span>{% trans "Resources" %}</span>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="tab-content">
+
+                  <!-- Product Engineering -->
+                  <div class="tab-pane fade show active" id="2190-tab-1" role="tabpanel" aria-labelledby="2190-tab-1-tab">
+                    <div class="content-grid">
+                      <div class="product-section">
+                        <h4>{% trans "Our Services" %}</h4>
+                        <div class="product-list">
+                          <div class="product-link">
+                            <i class="bi bi-layers"></i>
+                            <div>
+                              <span>{% trans "SaaS &amp; Platform Development" %}</span>
+                              <small>{% trans "Design and development of scalable SaaS platforms and custom business systems." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-window"></i>
+                            <div>
+                              <span>{% trans "Frontend Development (React, Next.js)" %}</span>
+                              <small>{% trans "High-performance, SEO-friendly interfaces focused on user experience." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-cpu"></i>
+                            <div>
+                              <span>{% trans "Backend Development (NestJS, Django)" %}</span>
+                              <small>{% trans "Secure, scalable backend systems with clean architecture and APIs." %}</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="product-section">
+                        <h4 class="invisible">{% trans "Data &amp; Analytics" %}</h4>
+                        <div class="product-list">
+                          <div class="product-link">
+                            <i class="bi bi-robot"></i>
+                            <div>
+                              <span>{% trans "Bots &amp; Automation Systems" %}</span>
+                              <small>{% trans "Automation of business processes, notifications, and integrations." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-diagram-3"></i>
+                            <div>
+                              <span>{% trans "API Development &amp; Integrations" %}</span>
+                              <small>{% trans "Reliable API design and integration with third-party services." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-database"></i>
+                            <div>
+                              <span>{% trans "Database Design &amp; Optimization" %}</span>
+                              <small>{% trans "Efficient data models, performance tuning, and data integrity." %}</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="featured-banner">
+                      <div class="banner-content">
+                        <img src="{% static "assets/img/services/development.png" %}" alt="Enterprise Solutions" class="banner-image">
+                        <div class="banner-info">
+                          <h5>{% trans "Digital Product Development" %}</h5>
+                          <p>{% trans "We build scalable, high-performance web applications using modern full-stack technologies — from product design to production-ready systems." %}</p>
+                          <a href="{% url "pages:development" %}" class="cta-btn">{% trans "More Details" %} <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- UX Design -->
+                  <div class="tab-pane fade" id="2190-tab-2" role="tabpanel" aria-labelledby="2190-tab-2-tab">
+                    <div class="content-grid">
+                      <div class="product-section">
+                        <h4>{% trans "Our Services" %}</h4>
+                        <div class="product-list">
+                          <div class="product-link">
+                            <i class="bi bi-search"></i>
+                            <div>
+                              <span>{% trans "UX Research &amp; Product Discovery" %}</span>
+                              <small>{% trans "User research and product discovery to clearly define user needs." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-diagram-3"></i>
+                            <div>
+                              <span>{% trans "User Flows &amp; Information Architecture" %}</span>
+                              <small>{% trans "Designing clear user flows that make complex products easy to understand." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-layers"></i>
+                            <div>
+                              <span>{% trans "Wireframing &amp; Prototyping" %}</span>
+                              <small>{% trans "Wireframes and prototypes for early validation." %}</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="product-section">
+                        <h4 class="invisible">Deploy &amp; Monitor</h4>
+                        <div class="product-list">
+                          <div class="product-link">
+                            <i class="bi bi-palette2"></i>
+                            <div>
+                              <span>{% trans "UI Design &amp; Design Systems" %}</span>
+                              <small>{% trans "Clean, scalable UI and design systems." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-clipboard-check"></i>
+                            <div>
+                              <span>{% trans "Usability Testing" %}</span>
+                              <small>{% trans "Tested with users." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-code-slash"></i>
+                            <div>
+                              <span>{% trans "Design Support for Development" %}</span>
+                              <small>{% trans "Close collaboration with developers, documentation, and ongoing design support." %}</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="featured-banner">
+                      <div class="banner-content">
+                        <img src="{% static "assets/img/services/ux.png" %}" alt="Development Tools" class="banner-image">
+                        <div class="banner-info">
+                          <h5>{% trans "Product-Focused UX &amp; UI Design" %}</h5>
+                          <p>{% trans "We design user experiences and interfaces that are clear, intuitive, and aligned with real business goals — not just visual trends." %}</p>
+                          <a href="{% url "pages:ux" %}" class="cta-btn">{% trans "More Details" %} <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Digital Marketing -->
+                  <div class="tab-pane fade" id="2190-tab-3" role="tabpanel" aria-labelledby="2190-tab-3-tab">
+                    <div class="content-grid">
+                      <div class="product-section">
+                        <h4>{% trans "Our Services" %}</h4>
+                        <div class="product-list">
+                          <div class="product-link">
+                            <i class="bi bi-compass"></i>
+                            <div>
+                              <span>{% trans "Marketing Strategy for Digital Products" %}</span>
+                              <small>{% trans "Product positioning and growth strategy aligned with business goals." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-rocket-takeoff"></i>
+                            <div>
+                              <span>{% trans "Go-To-Market &amp; Launch Strategy" %}</span>
+                              <small>{% trans "Launch planning, messaging, and acquisition strategy for new products." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-search"></i>
+                            <div>
+                              <span>{% trans "SEO &amp; Demand Capture" %}</span>
+                              <small>{% trans "Organic growth through SEO, content, and intent-driven demand capture." %}</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="product-section">
+                        <h4 class="invisible">Media Production</h4>
+                        <div class="product-list">
+                          <div class="product-link">
+                            <i class="bi bi-envelope-paper"></i>
+                            <div>
+                              <span>{% trans "Lifecycle &amp; Email Marketing" %}</span>
+                              <small>{% trans "User onboarding, retention, and lifecycle automation via email &amp; messaging." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-globe"></i>
+                            <div>
+                              <span>{% trans "Brand Strategy &amp; Digital Presence" %}</span>
+                              <small>{% trans "Clear brand positioning across web, product, and communication channels." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-bar-chart-line"></i>
+                            <div>
+                              <span>{% trans "Analytics &amp; Dashboards" %}</span>
+                              <small>{% trans "Actionable metrics, funnels, and dashboards focused on growth decisions." %}</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="featured-banner">
+                      <div class="banner-content">
+                        <img src="{% static "assets/img/services/marketing.png" %}" alt="Creative Suite" class="banner-image">
+                        <div class="banner-info">
+                          <h5>{% trans "Digital Marketing Strategy &amp; Implementation" %}</h5>
+                          <p>{% trans "We grow digital products with clear strategy and measurable results." %}</p>
+                          <a href="{% url "pages:marketing" %}" class="cta-btn">{% trans "More Details" %}<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Data -->
+                  <div class="tab-pane fade" id="2190-tab-4" role="tabpanel" aria-labelledby="2190-tab-4-tab">
+                    <div class="content-grid">
+                      <div class="product-section">
+                        <h4>{% trans "Our Services" %}</h4>
+                        <div class="product-list">
+                          <div class="product-link">
+                            <i class="bi bi-compass"></i>
+                            <div>
+                              <span>{% trans "Data &amp; Analytics Strategy" %}</span>
+                              <small>{% trans "Analytics strategy aligned with product and business goals." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-rocket-takeoff"></i>
+                            <div>
+                              <span>{% trans "Product &amp; Growth Analytics" %}</span>
+                              <small>{% trans "Metrics and insights to track growth, activation, and retention." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-speedometer2"></i>
+                            <div>
+                              <span>{% trans "BI Dashboards &amp; Reporting" %}</span>
+                              <small>{% trans "Clear dashboards and reports for fast, informed decisions." %}</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="product-section">
+                        <h4 class="invisible">Media Production</h4>
+                        <div class="product-list">
+                          <div class="product-link">
+                            <i class="bi bi-diagram-3"></i>
+                            <div>
+                              <span>{% trans "Tracking &amp; Analytics Setup" %}</span>
+                              <small>{% trans "Event tracking, funnels, and analytics tool setup." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-graph-up-arrow"></i>
+                            <div>
+                              <span>{% trans "Advanced Analytics &amp; Forecasting" %}</span>
+                              <small>{% trans "Advanced analysis and forecasting for product and revenue planning." %}</small>
+                            </div>
+                          </div>
+                          <div class="product-link">
+                            <i class="bi bi-shield-check"></i>
+                            <div>
+                              <span>{% trans "Data Quality &amp; Monitoring" %}</span>
+                              <small>{% trans "Data validation, monitoring, and reliability controls." %}</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="featured-banner">
+                      <div class="banner-content">
+                        <img src="{% static "assets/img/services/data.png" %}" alt="Creative Suite" class="banner-image">
+                        <div class="banner-info">
+                          <h5>{% trans "Data &amp; Analytics Strategy &amp; Implementation" %}</h5>
+                          <p>{% trans "We turn raw data into clear insights and data-driven decisions." %}</p>
+                          <a href="{% url "pages:data" %}" class="cta-btn">{% trans "More Details" %}<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Resources Tab -->
+                  <div class="tab-pane fade d-none" id="2190-tab-5" role="tabpanel" aria-labelledby="2190-tab-5-tab">
+                    <div class="resources-layout">
+                      <div class="resource-categories">
+                        <div class="resource-category">
+                          <i class="bi bi-book"></i>
+                          <h5>Documentation</h5>
+                          <p>Comprehensive guides and API references for all our products and services.</p>
+                          <a href="#" class="resource-link">Browse Docs <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                        <div class="resource-category">
+                          <i class="bi bi-play-circle"></i>
+                          <h5>Video Tutorials</h5>
+                          <p>Step-by-step video guides to help you get the most out of our solutions.</p>
+                          <a href="#" class="resource-link">Watch Tutorials <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                        <div class="resource-category">
+                          <i class="bi bi-chat-square-dots"></i>
+                          <h5>Community Forum</h5>
+                          <p>Connect with other users, share tips, and get answers to your questions.</p>
+                          <a href="#" class="resource-link">Join Community <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                        <div class="resource-category">
+                          <i class="bi bi-newspaper"></i>
+                          <h5>Blog &amp; Articles</h5>
+                          <p>Latest insights, best practices, and industry trends from our experts.</p>
+                          <a href="#" class="resource-link">Read Blog <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div><!-- End Desktop Megamenu -->
+
+            </li><!-- End Megamenu 2 -->
+
+            <li><a href="#contact">{% trans "Contact" %}</a></li>
+
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+    {% block content %}{% endblock content %}
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="{% url 'pages:index' %}" class="logo d-flex align-items-center">
+            <img src="{% static "assets/img/nl.png" %}" alt="neverlandLabs">
+          </a>
+          <p>{% trans "We build, market and optimize digital products using data." %}</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>{% trans "Useful Links" %}</h4>
+          <ul>
+            <li><a href="{% url 'pages:index' %}">{% trans "Home" %}</a></li>
+            <li><a href="{% url 'pages:terms' %}">{% trans "Terms of service" %}</a></li>
+            <li><a href="{% url 'pages:privacy' %}">{% trans "Privacy policy" %}</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>{% trans "Our Services" %}</h4>
+          <ul>
+            <li><a href="{% url "pages:development" %}">{% trans "Digital Product Development" %}</a></li>
+            <li><a href="{% url "pages:ux" %}">{% trans "UX Design" %}</a></li>
+            <li><a href="{% url "pages:marketing" %}">{% trans "Growth &amp; Digital Marketing" %}</a></li>
+            <li><a href="{% url "pages:data" %}">{% trans "Data &amp; Analytics" %}</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>{% trans "Contact Us" %}</h4>
+          <p>{% trans "Ukraine" %}</p>
+          <p class="mt-4"><strong>{% trans "Phone" %}:</strong> <span>+1 5589 55488 55</span></p>
+          <p><strong>Email:</strong> <span>neverlandLabs@gmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>{% trans "Copyright" %}</span> <strong class="px-1 sitename">Neverland Labs</strong> <span>{% trans "All Rights Reserved" %}</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static "assets/vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
+  <script src="{% static "assets/vendor/php-email-form/validate.js" %}"></script>
+  <script src="{% static "assets/vendor/glightbox/js/glightbox.min.js" %}"></script>
+  <script src="{% static "assets/vendor/purecounter/purecounter_vanilla.js" %}"></script>
+  <script src="{% static "assets/vendor/swiper/swiper-bundle.min.js" %}"></script>
+  <script src="{% static "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" %}"></script>
+  <script src="{% static "assets/vendor/isotope-layout/isotope.pkgd.min.js" %}"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Main JS File -->
+  <script>
+    AOS.init({
+    once: true,
+    offset: 120,
+    duration: 700,
+    easing: 'ease-out-cubic',
+    disableMutationObserver: true, // важно для стабильности
+   });
+  </script>
+  <script src="{% static "assets/js/main.js" %}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+{% extends "base_simple.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<!-- Page Title -->
+<div class="page-title dark-background hero-background">
+  <div class="container position-relative">
+    <p>{% trans "How we collect, use, and protect your information when you work with Neverland Labs." %}</p>
+
+    <nav class="breadcrumbs">
+      <ol>
+        <li>
+          <a href="{% url 'pages:index' %}">{% trans "Home" %}</a>
+        </li>
+        <li class="current">{% trans "Privacy" %}</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Decorative layers -->
+  <span class="hero-orb orb-1"></span>
+  <span class="hero-orb orb-2"></span>
+  <span class="hero-orb orb-3"></span>
+</div>
+<!-- End Page Title -->
+
+
+    <!-- Privacy Section -->
+    <section id="privacy" class="privacy section">
+
+      <div class="container">
+        <!-- Header -->
+        <div class="privacy-header">
+          <div class="header-content">
+            <div class="last-updated">{% trans "Effective Date: February 3, 2025" %}</div>
+            <h1>{% trans "Privacy Policy" %}</h1>
+            <p class="intro-text">{% trans "This Privacy Policy explains how Neverland Labs (“we”, “our”, or “us”) collects, uses, and protects personal information when you visit our website or work with us on digital products and services. We are committed to handling your information responsibly and transparently." %}</p>
+          </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="privacy-content">
+          <!-- Introduction -->
+          <div class="content-section">
+            <h2>1. {% trans "Introduction" %}</h2>
+            <p>{% trans "When you interact with Neverland Labs, you trust us with your information. We take this responsibility seriously and aim to collect only the data necessary to provide our services and communicate effectively." %}</p>
+            <p>{% trans "This Privacy Policy is intended to help you understand what information we collect, why we collect it, and how it is used." %}</p>
+          </div>
+
+          <!-- Information Collection -->
+          <div class="content-section">
+            <h2>2. {% trans "Information We Collect" %}</h2>
+            <p>{% trans "We collect limited information to operate our website and work with clients effectively." %}</p>
+
+            <h3>2.1 {% trans "Information You Provide" %}</h3>
+            <p>{% trans "You may voluntarily provide personal information when you:" %}</p>
+            <ul>
+              <li>{% trans "contact us through forms or email" %}</li>
+              <li>{% trans "discuss a project or collaboration" %}</li>
+              <li>{% trans "communicate with us during ongoing work" %}</li>
+            </ul>
+            <p>{% trans "This information may include:" %}</p>
+            <ul>
+              <li>{% trans "your name" %}</li>
+              <li>{% trans "email address" %}</li>
+              <li>{% trans "company name" %}</li>
+              <li>{% trans "project-related details you choose to share" %}</li>
+            </ul>
+            <p>{% trans "We do not require account creation on our website." %}</p>
+
+            <h3>2.2 {% trans "Automatically Collected Information" %}</h3>
+            <p>{% trans "When you visit our website, we may automatically collect basic technical information such as:" %}</p>
+            <ul>
+              <li>{% trans "browser type" %}</li>
+              <li>{% trans "device type" %}</li>
+              <li>{% trans "approximate location (country or region)" %}</li>
+              <li>{% trans "pages visited and usage statistics" %}</li>
+            </ul>
+            <p>{% trans "This data is collected in an aggregated form and is used solely to improve website performance and user experience." %}</p>
+          </div>
+
+          <!-- Use of Information -->
+          <div class="content-section">
+            <h2>3. {% trans "How We Use Your Information" %}</h2>
+            <p>{% trans "We use collected information to:" %}</p>
+            <ul>
+              <li>{% trans "respond to inquiries and requests" %}</li>
+              <li>{% trans "communicate about projects and services" %}</li>
+              <li>{% trans "deliver and maintain our services" %}</li>
+              <li>{% trans "improve our website and workflows" %}</li>
+              <li>{% trans "ensure security and prevent misuse" %}</li>
+            </ul>
+            <p>{% trans "We do not use your information for automated decision-making or profiling." %}</p>
+          </div>
+
+          <!-- Information Sharing -->
+          <div class="content-section">
+            <h2>4. {% trans "Information Sharing" %}</h2>
+            <p>{% trans "We do not sell, rent, or trade your personal information. We may share information only:" %}</p>
+            <ul>
+              <li>{% trans "with trusted service providers when necessary to deliver our services" %}</li>
+              <li>{% trans "when required by law or legal obligations" %}</li>
+            </ul>
+          </div>
+
+          <!-- Data Security -->
+          <div class="content-section">
+            <h2>5. {% trans "Data Security" %}</h2>
+            <p>{% trans "We take reasonable technical and organizational measures to protect personal information from unauthorized access, loss, or misuse." %}</p>
+            <p>{% trans "Access to personal information is limited to team members who need it to perform their work." %}</p>
+          </div>
+
+          <!-- Your Rights -->
+          <div class="content-section">
+            <h2>6. {% trans "Your Rights" %}</h2>
+            <p>{% trans "Depending on your location, you may have the right to:" %}</p>
+            <ul>
+              <li>{% trans "request access to your personal data" %}</li>
+              <li>{% trans "request correction of inaccurate data" %}</li>
+              <li>{% trans "request deletion of your data" %}</li>
+              <li>{% trans "withdraw consent at any time" %}</li>
+            </ul>
+            <p>{% trans "To exercise these rights, please contact us." %}</p>
+          </div>
+
+          <!-- Policy Updates -->
+          <div class="content-section">
+            <h2>7. {% trans "Changes to This Policy" %}</h2>
+            <p>{% trans "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date." %}</p>
+            <p>{% trans "Your continued use of our website or services after changes are published constitutes acceptance of the updated policy." %}</p>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="privacy-contact">
+          <h2>{% trans "Contact Us" %}</h2>
+          <p>{% trans "If you have any questions about this Privacy Policy or how we handle your information, you can contact us at:" %}</p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> neverlandLabs@gmail.com</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Privacy Section -->
+{% endblock content %}

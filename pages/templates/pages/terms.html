@@ -1,0 +1,173 @@
+{% extends "base_simple.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<!-- Page Title -->
+<div class="page-title dark-background hero-background">
+  <div class="container position-relative">
+    <p>{% trans "An overview of the terms that ensure transparency and fairness in our collaboration." %}</p>
+
+    <nav class="breadcrumbs">
+      <ol>
+        <li>
+          <a href="{% url 'pages:index' %}">{% trans "Home" %}</a>
+        </li>
+        <li class="current">{% trans "Terms" %}</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Decorative layers -->
+  <span class="hero-orb orb-1"></span>
+  <span class="hero-orb orb-2"></span>
+  <span class="hero-orb orb-3"></span>
+</div>
+<!-- End Page Title -->
+
+    <!-- Terms Of Service Section -->
+    <section id="terms-of-service" class="terms-of-service section">
+
+      <div class="container">
+        <!-- Page Header -->
+        <div class="tos-header text-center">
+          <span class="last-updated">{% trans "Effective Date: February 3, 2025" %}</span>
+          <h2>{% trans "Terms of Service" %}</h2>
+          <p>{% trans "Please read these Terms of Service carefully before using our website or services." %}</p>
+        </div>
+
+        <!-- Content -->
+        <div class="tos-content">
+          <!-- Agreement Section -->
+          <div id="agreement" class="content-section">
+            <h3>1. {% trans "Agreement to Terms" %}</h3>
+            <p>{% trans "By accessing or using the Neverland Labs website and services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with these Terms, you should not use our website or services." %}</p>
+            <div class="info-box">
+              <i class="bi bi-info-circle"></i>
+              <p>{% trans "These Terms apply to all visitors, clients, and others who access or use our services." %}</p>
+            </div>
+          </div>
+
+          <!-- Scope of Services -->
+          <div id="scope-of-services" class="content-section">
+            <h3>2. {% trans "Scope of Services" %}</h3>
+            <p>{% trans "Neverland Labs provides digital product services, including but not limited to web development, technical consulting, and related services." %}</p>
+            <p>{% trans "Information published on this website is provided for general informational purposes only and does not constitute a binding offer unless explicitly stated." %}</p>
+          </div>
+
+          <!-- Intellectual Property -->
+          <div id="intellectual-property" class="content-section">
+            <h3>3. {% trans "Intellectual Property Rights" %}</h3>
+            <p>{% trans "All content on this website, including text, graphics, logos, visuals, and code samples, is the property of Neverland Labs or its licensors and is protected by applicable intellectual property laws." %}</p>
+            <p>{% trans "You may not:" %}</p>
+            <ul class="list-items">
+              <li>{% trans "copy, reproduce, or distribute content without prior written permission" %}</li>
+              <li>{% trans "modify or create derivative works based on our content" %}</li>
+              <li>{% trans "use our name, branding, or trademarks without authorization" %}</li>
+            </ul>
+            <p>{% trans "Content on this website is provided for informational and non-commercial use only." %}</p>
+          </div>
+
+          <!-- User Accounts -->
+          <div id="user-accounts" class="content-section">
+            <h3>4. {% trans "User Conduct" %}</h3>
+            <p>{% trans "You agree not to use the website or services in any way that could harm, disrupt, or interfere with their proper operation." %}</p>
+            <div class="alert-box">
+              <i class="bi bi-exclamation-triangle"></i>
+              <div class="alert-content">
+                <h5>{% trans "Prohibited activities include, but are not limited to:" %}</h5>
+                <ul class="list-items">
+                    <li>{% trans "attempting to gain unauthorized access to systems or data" %}</li>
+                    <li>{% trans "introducing malicious code or harmful content" %}</li>
+                    <li>{% trans "scraping or systematically extracting content" %}</li>
+                    <li>{% trans "misrepresenting your identity or affiliation" %}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prohibited Activities -->
+          <div id="prohibited" class="content-section">
+            <h3>5. {% trans "Third-Party Links" %}</h3>
+            <p>{% trans "Our website may contain links to third-party websites or services. We are not responsible for the content, policies, or practices of any third-party websites." %}</p>
+            <div class="prohibited-list">
+              <div class="prohibited-item">
+                <i class="bi bi-x-circle"></i>
+                <span>{% trans "Accessing third-party services is done at your own risk." %}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Disclaimers -->
+          <div id="disclaimer" class="content-section">
+            <h3>6. {% trans "Disclaimers" %}</h3>
+            <p>{% trans "Our website and services are provided on an “as is” and “as available” basis." %}</p>
+            <div class="disclaimer-box">
+              <p>{% trans "We make no warranties or guarantees that:" %}</p>
+              <ul>
+                <li>{% trans "the website will be uninterrupted or error-free" %}</li>
+                <li>{% trans "information provided will be accurate or up to date" %}</li>
+                <li>{% trans "the services will meet specific requirements" %}</li>
+              </ul>
+              <div class="alert-box">
+                <i class="bi bi-exclamation-triangle"></i>
+                <div class="alert-content align-content-center">
+                    <h5>{% trans "Use of our website and services is at your own discretion and risk." %}</h5>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <!-- Limitation of Liability -->
+          <div id="limitation" class="content-section">
+            <h3>7. {% trans "Limitation of Liability" %}</h3>
+            <p>{% trans "To the fullest extent permitted by law, Neverland Labs shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the website or services." %}</p>
+          </div>
+
+          <!-- Indemnification -->
+          <div id="indemnification" class="content-section">
+            <h3>8. {% trans "Indemnification" %}</h3>
+            <p>{% trans "You agree to indemnify and hold harmless Neverland Labs, its founders, team members, and partners from any claims, liabilities, damages, or expenses arising from your misuse of the website or violation of these Terms." %}</p>
+          </div>
+
+          <!-- Termination -->
+          <div id="termination" class="content-section">
+            <h3>9. {% trans "Termination" %}</h3>
+            <p>{% trans "We reserve the right to suspend or terminate access to our website or services at any time, without prior notice, if these Terms are violated or if necessary to protect our operations." %}</p>
+          </div>
+
+          <!-- Governing Law -->
+          <div id="governing-law" class="content-section">
+            <h3>10. {% trans "Governing Law" %}</h3>
+            <p>{% trans "These Terms shall be governed by and construed in accordance with the laws of Ukraine, without regard to conflict of law provisions." %}</p>
+          </div>
+
+          <!-- Changes -->
+          <div id="changes" class="content-section">
+            <h3>11. {% trans "Changes to Terms" %}</h3>
+            <p>{% trans "We may update these Terms of Service from time to time. Any changes will be posted on this page with an updated effective date." %}</p>
+            <div class="notice-box">
+              <i class="bi bi-bell"></i>
+              <p>{% trans "By continuing to use our website or services after changes become effective, you agree to the revised Terms." %}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="tos-contact">
+          <div class="contact-box">
+            <div class="contact-icon">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div class="contact-content">
+              <h4>{% trans "Contact" %}</h4>
+              <p>{% trans "If you have any questions regarding these Terms of Service, please contact us:" %}</p>
+              <a href="#" class="contact-link">Email: neverlandLabs@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Terms Of Service Section -->
+
+    {% endblock content %}

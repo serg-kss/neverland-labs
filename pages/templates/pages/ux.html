@@ -1,0 +1,232 @@
+{% extends "base_simple.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{% block content %}
+
+<!-- Page Title -->
+<div class="page-title dark-background hero-background">
+  <div class="container position-relative">
+    <h2>{% trans "UX &amp; UI Design for Digital Products" %}</h2>
+    <p>{% trans "We design user experiences and interfaces that are clear, intuitive, and aligned with real business goals — not just visual trends." %}</p>
+
+    <nav class="breadcrumbs" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
+      <ol>
+        <li>
+          <a href="{% url 'pages:index' %}">{% trans "Home" %}</a>
+        </li>
+        <li class="current">{% trans "Data &amp; Analytics" %}</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Decorative layers -->
+  <span class="hero-orb orb-1"></span>
+  <span class="hero-orb orb-2"></span>
+  <span class="hero-orb orb-3"></span>
+</div>
+<!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8">
+            <div class="service-hero">
+              <img src="{% static "assets/img/services/ux.png" %}" alt="UI/UX" class="img-fluid">
+            </div>
+
+            <div class="service-content">
+              <div class="service-header">
+                <h2>{% trans "Product-Focused UX &amp; UI Design" %}</h2>
+                <p class="service-intro">{% trans "We help digital products communicate value, reduce friction, and convert users through thoughtful UX strategy and clean UI design. Our design process is grounded in user behavior, product logic, and close collaboration with development and analytics." %}</p>
+              </div>
+
+              <div class="service-features">
+                <h4>{% trans "What You'll Get" %}</h4>
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-search"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "UX Research &amp; Product Discovery" %}</h5>
+                        <p>{% trans "Understanding users, business goals, and product constraints through research, interviews, and analysis." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-diagram-3"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Information Architecture &amp; User Flows" %}</h5>
+                        <p>{% trans "Clear structure and navigation that make complex products easy to understand and use." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-palette"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "UI Design &amp; Design Systems" %}</h5>
+                        <p>{% trans "Clean, consistent, and scalable interface design aligned with your brand and product vision." %}</p><br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-check2-circle"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "UX Validation &amp; Iteration" %}</h5>
+                        <p>{% trans "Usability testing and iteration based on real feedback — not assumptions." %}</p><br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-layout-text-window"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Wireframes &amp; UX Prototypes" %}</h5>
+                        <p>{% trans "Low- and mid-fidelity prototypes to validate ideas before visual design and development." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="service-process">
+                <h4>{% trans "Our Process" %}</h4>
+                <div class="process-steps">
+                  <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                      <h5>{% trans "Discovery &amp; UX Audit" %}</h5>
+                      <p>{% trans "We study your product, users, competitors, and existing interfaces to identify friction and opportunities." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                      <h5>{% trans "UX Strategy &amp; Structure" %}</h5>
+                      <p>{% trans "We define user flows, information architecture, and UX principles aligned with business goals." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                      <h5>{% trans "Design &amp; Prototyping" %}</h5>
+                      <p>{% trans "Wireframes and UI designs are created iteratively with regular reviews and alignment with development." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                      <h5>{% trans "Validation &amp; Handoff" %}</h5>
+                      <p>{% trans "We test designs, refine details, and prepare everything for smooth development handoff." %}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-sidebar">
+
+              <div class="service-menu">
+                <h4>{% trans "Our Services" %}</h4>
+                <div class="menu-list">
+                  <a href="#" class="menu-item active">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "UX Research &amp; Product Discovery" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "User Flows &amp; Information Architecture" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Wireframing &amp; Prototyping" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "UI Design &amp; Design Systems" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Usability Testing" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Design Support for Development" %}</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="service-info">
+                <h4>{% trans "Service Details" %}</h4>
+                <div class="info-list">
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Duration:" %}</span>
+                    <span class="info-value">{% trans "4–8 weeks" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Team Size:" %}</span>
+                    <span class="info-value">{% trans "1–2 designers" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Delivery:" %}</span>
+                    <span class="info-value">{% trans "UX/UI designs &amp; Figma prototypes" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Support:" %}</span>
+                    <span class="info-value">{% trans "Design support &amp; iteration" %}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-content">
+                  <h4>{% trans "Need Help?" %}</h4>
+                  <p>{% trans "Not sure why users drop off or how to improve usability? Let’s design an experience that users actually enjoy — and businesses benefit from." %}</p>
+                  <div class="contact-info">
+                    <div class="contact-item">
+                      <i class="bi bi-telephone"></i>
+                      <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                      <i class="bi bi-envelope"></i>
+                      <span>info@example.com</span>
+                    </div>
+                  </div>
+                  <p>{% trans "commercial offer" %}</p>
+                  <a href="{% url 'pages:download_ux_pdf' %}" class="btn btn-success">{% trans "Download UX/UI Design Overview (PDF)" %}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+{% endblock content %}

@@ -1,0 +1,3674 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-28 15:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: nlab/settings.py:122
+msgid "English"
+msgstr "Англійська"
+
+#: nlab/settings.py:123
+msgid "Ukrainian"
+msgstr "Українська"
+
+#: pages/templates/pages/data.html:10
+msgid "Data &amp; Analytics for Digital Products"
+msgstr "Дані та аналітика для цифрових продуктів"
+
+#: pages/templates/pages/data.html:11
+msgid ""
+"We help companies turn raw data into clear insights, dashboards, and data-"
+"driven decisions — aligning analytics, product, and business goals."
+msgstr ""
+"Ми допомагаємо компаніям перетворювати сирі дані на зрозумілі інсайти, "
+"дашборди та рішення, засновані на даних — узгоджуючи аналітику, продукт і "
+"бізнес-цілі."
+
+#: pages/templates/pages/data.html:19 pages/templates/pages/development.html:19
+#: pages/templates/pages/marketing.html:19
+#: pages/templates/pages/portfolio/action.html:29
+#: pages/templates/pages/privacy.html:14 pages/templates/pages/terms.html:14
+#: pages/templates/pages/ux.html:20 templates/404.html:16 templates/500.html:16
+#: templates/base.html:67 templates/base.html:480 templates/base_simple.html:94
+msgid "Home"
+msgstr "Головна"
+
+#: pages/templates/pages/data.html:21
+#: pages/templates/pages/includes/about.html:33
+#: pages/templates/pages/includes/services.html:97
+#: pages/templates/pages/includes/workprocess.html:45
+#: pages/templates/pages/ux.html:22 templates/base.html:82
+#: templates/base.html:112 templates/base.html:157 templates/base.html:492
+#: templates/base_simple.html:106
+msgid "Data &amp; Analytics"
+msgstr "Дані та аналітика"
+
+#: pages/templates/pages/data.html:47 templates/base.html:398
+msgid "Data &amp; Analytics Strategy &amp; Implementation"
+msgstr "Стратегія та впровадження даних і аналітики"
+
+#: pages/templates/pages/data.html:48
+msgid ""
+"We design and implement scalable data and analytics solutions for digital "
+"products — from data collection and pipelines to dashboards, "
+"experimentation, and predictive models. Our focus is on actionable insights, "
+"reliable infrastructure, and measurable business impact."
+msgstr ""
+"Ми проєктуємо та впроваджуємо масштабовані рішення з даних і аналітики для "
+"цифрових продуктів — від збору даних і пайплайнів до дашбордів, "
+"експериментів і прогнозних моделей. Наш фокус — практичні інсайти, надійна "
+"інфраструктура та вимірюваний бізнес-ефект."
+
+#: pages/templates/pages/data.html:52 pages/templates/pages/development.html:52
+#: pages/templates/pages/marketing.html:52 pages/templates/pages/ux.html:53
+msgid "What You'll Get"
+msgstr "Що ви отримаєте"
+
+#: pages/templates/pages/data.html:60
+msgid "Data Collection &amp; Tracking Setup"
+msgstr "Збір даних та налаштування трекінгу"
+
+#: pages/templates/pages/data.html:61
+msgid ""
+"Design and implementation of reliable event tracking, data schemas, and "
+"analytics foundations across web, backend, and third-party tools."
+msgstr ""
+"Проєктування та впровадження надійного трекінгу подій, схем даних і "
+"аналітичної основи для вебу, бекенду та сторонніх сервісів."
+
+#: pages/templates/pages/data.html:71 pages/templates/pages/data.html:179
+msgid "Data Pipelines &amp; Warehousing"
+msgstr "Пайплайни даних та сховища"
+
+#: pages/templates/pages/data.html:72
+msgid ""
+"Building scalable pipelines to collect, transform, and store data from "
+"multiple sources in a single source of truth."
+msgstr ""
+"Побудова масштабованих пайплайнів для збору, трансформації та зберігання "
+"даних з різних джерел в єдиному джерелі правди."
+
+#: pages/templates/pages/data.html:82
+msgid "Analytics &amp; BI Dashboards"
+msgstr "Аналітика та BI-дашборди"
+
+#: pages/templates/pages/data.html:83
+msgid ""
+"Clear, decision-oriented dashboards tailored for founders, product teams, "
+"and marketing — no vanity metrics."
+msgstr ""
+"Зрозумілі дашборди, орієнтовані на прийняття рішень, для фаундерів, "
+"продуктових і маркетингових команд — без vanity-метрик."
+
+#: pages/templates/pages/data.html:93 pages/templates/pages/data.html:171
+#: templates/base.html:352
+msgid "Product &amp; Growth Analytics"
+msgstr "Продуктова та growth-аналітика"
+
+#: pages/templates/pages/data.html:94
+msgid ""
+"Analysis of user behavior, funnels, cohorts, retention, and conversion to "
+"identify growth opportunities and bottlenecks."
+msgstr ""
+"Аналіз поведінки користувачів, воронок, когорт, утримання та конверсій для "
+"виявлення точок зростання й вузьких місць."
+
+#: pages/templates/pages/data.html:104 pages/templates/pages/data.html:187
+#: templates/base.html:379
+msgid "Advanced Analytics &amp; Forecasting"
+msgstr "Розширена аналітика та прогнозування"
+
+#: pages/templates/pages/data.html:105
+msgid ""
+"Predictive models and advanced analysis to support planning, optimization, "
+"and strategic decisions."
+msgstr ""
+"Прогнозні моделі та розширений аналіз для підтримки планування, оптимізації "
+"та стратегічних рішень."
+
+#: pages/templates/pages/data.html:115
+msgid "Data Quality &amp; Governance"
+msgstr "Якість даних та governance"
+
+#: pages/templates/pages/data.html:116
+msgid ""
+"Monitoring, validation, and documentation to ensure data accuracy, "
+"consistency, and long-term reliability."
+msgstr ""
+"Моніторинг, валідація та документація для забезпечення точності, "
+"узгодженості та довгострокової надійності даних."
+
+#: pages/templates/pages/data.html:124
+#: pages/templates/pages/development.html:102
+#: pages/templates/pages/marketing.html:102 pages/templates/pages/ux.html:115
+msgid "Our Process"
+msgstr "Наш підхід до роботи"
+
+#: pages/templates/pages/data.html:129
+msgid "Discovery &amp; Data Audit"
+msgstr "Дослідження та аудит даних"
+
+#: pages/templates/pages/data.html:130
+msgid ""
+"We analyze your product, business goals, existing data, tools, and gaps to "
+"understand what matters and what’s missing."
+msgstr ""
+"Ми аналізуємо ваш продукт, бізнес-цілі, наявні дані, інструменти та "
+"прогалини, щоб зрозуміти, що справді важливо і чого бракує."
+
+#: pages/templates/pages/data.html:136
+msgid "Data Strategy &amp; Architecture"
+msgstr "Стратегія та архітектура даних"
+
+#: pages/templates/pages/data.html:137
+msgid ""
+"We design the data architecture, metrics framework, and analytics roadmap "
+"aligned with your business and product strategy."
+msgstr ""
+"Ми проєктуємо архітектуру даних, систему метрик та аналітичну дорожню карту, "
+"узгоджену з вашою бізнес- і продуктовою стратегією."
+
+#: pages/templates/pages/data.html:143 pages/templates/pages/marketing.html:121
+msgid "Implementation &amp; Integration"
+msgstr "Впровадження та інтеграція"
+
+#: pages/templates/pages/data.html:144
+msgid ""
+"Tracking, pipelines, dashboards, and models are implemented with clear "
+"documentation and regular checkpoints."
+msgstr ""
+"Трекінг, пайплайни, дашборди та моделі впроваджуються з чіткою документацією "
+"та регулярними контрольними точками."
+
+#: pages/templates/pages/data.html:150
+msgid "Insights, Optimization &amp; Support"
+msgstr "Інсайти, оптимізація та підтримка"
+
+#: pages/templates/pages/data.html:151
+msgid ""
+"We turn data into insights, iterate on dashboards, and support continuous "
+"optimization as your product grows."
+msgstr ""
+"Ми перетворюємо дані на інсайти, вдосконалюємо дашборди та підтримуємо "
+"безперервну оптимізацію в міру зростання вашого продукту."
+
+#: pages/templates/pages/data.html:163
+#: pages/templates/pages/development.html:141
+#: pages/templates/pages/marketing.html:141 pages/templates/pages/ux.html:154
+#: templates/base.html:130 templates/base.html:200 templates/base.html:270
+#: templates/base.html:340 templates/base.html:487
+#: templates/base_simple.html:101
+msgid "Our Services"
+msgstr "Наші послуги"
+
+#: pages/templates/pages/data.html:167 templates/base.html:345
+msgid "Data &amp; Analytics Strategy"
+msgstr "Стратегія даних та аналітики"
+
+#: pages/templates/pages/data.html:175 templates/base.html:359
+msgid "BI Dashboards &amp; Reporting"
+msgstr "BI-дашборди та звітність"
+
+#: pages/templates/pages/data.html:183 templates/base.html:372
+msgid "Tracking &amp; Analytics Setup"
+msgstr "Налаштування трекінгу та аналітики"
+
+#: pages/templates/pages/data.html:191 templates/base.html:386
+msgid "Data Quality &amp; Monitoring"
+msgstr "Контроль якості та моніторинг даних"
+
+#: pages/templates/pages/data.html:197
+#: pages/templates/pages/development.html:179
+#: pages/templates/pages/marketing.html:175 pages/templates/pages/ux.html:184
+msgid "Service Details"
+msgstr "Деталі послуги"
+
+#: pages/templates/pages/data.html:200
+#: pages/templates/pages/development.html:182
+#: pages/templates/pages/marketing.html:178 pages/templates/pages/ux.html:187
+msgid "Duration:"
+msgstr "Тривалість:"
+
+#: pages/templates/pages/data.html:201
+msgid "2–4 months (initial setup)"
+msgstr "2–4 місяці"
+
+#: pages/templates/pages/data.html:204
+#: pages/templates/pages/development.html:186
+#: pages/templates/pages/marketing.html:182 pages/templates/pages/ux.html:191
+msgid "Team Size:"
+msgstr "Розмір команди:"
+
+#: pages/templates/pages/data.html:205
+msgid "1–3 data specialists"
+msgstr "1–3 спеціалісти з даних"
+
+#: pages/templates/pages/data.html:208
+#: pages/templates/pages/development.html:190
+#: pages/templates/pages/marketing.html:186 pages/templates/pages/ux.html:195
+msgid "Delivery:"
+msgstr "Результат:"
+
+#: pages/templates/pages/data.html:209
+msgid "Analytics platform &amp; dashboards"
+msgstr "Аналітична платформа"
+
+#: pages/templates/pages/data.html:212
+#: pages/templates/pages/development.html:194
+#: pages/templates/pages/marketing.html:190 pages/templates/pages/ux.html:199
+msgid "Support:"
+msgstr "Підтримка:"
+
+#: pages/templates/pages/data.html:213
+msgid "Ongoing analytics &amp; optimization"
+msgstr "Постійна аналітика та оптимізація"
+
+#: pages/templates/pages/data.html:220
+#: pages/templates/pages/development.html:202
+#: pages/templates/pages/marketing.html:198 pages/templates/pages/ux.html:207
+msgid "Need Help?"
+msgstr "Потрібна допомога?"
+
+#: pages/templates/pages/data.html:221
+msgid ""
+"Not sure what data you should track or how to turn numbers into decisions? "
+"Let’s design an analytics system that actually supports your product and "
+"business growth."
+msgstr ""
+"Не впевнені, які дані варто відстежувати та як перетворити цифри на рішення? "
+"Давайте спроєктуємо аналітичну систему, яка справді підтримує розвиток "
+"вашого продукту та бізнесу."
+
+#: pages/templates/pages/data.html:232
+#: pages/templates/pages/development.html:214
+#: pages/templates/pages/marketing.html:210 pages/templates/pages/ux.html:219
+msgid "commercial offer"
+msgstr "комерційна пропозиція"
+
+#: pages/templates/pages/data.html:233
+msgid "Download Data &amp; Analytics PDF"
+msgstr "Завантажити Data &amp; Analytics PDF"
+
+#: pages/templates/pages/development.html:10
+msgid "Web Development for Digital Products"
+msgstr "Веб-розробка для цифрових продуктів"
+
+#: pages/templates/pages/development.html:11 templates/base.html:189
+msgid ""
+"We build scalable, high-performance web applications using modern full-stack "
+"technologies — from product design to production-ready systems."
+msgstr ""
+"Ми створюємо масштабовані веб-продукти — від MVP до платформ, поєднуючи "
+"інженерію, дизайн і бізнес."
+
+#: pages/templates/pages/development.html:21 templates/base.html:79
+msgid "Web Development"
+msgstr "Веб-розробка"
+
+#: pages/templates/pages/development.html:47
+msgid "Full-Stack Web Development &amp; Implementation"
+msgstr "Фулстек веб-розробка та впровадження"
+
+#: pages/templates/pages/development.html:48
+msgid ""
+"We design and develop modern web applications for startups and digital "
+"businesses — SaaS platforms, internal tools, marketplaces, and custom "
+"systems. Our approach combines product thinking, clean architecture, and "
+"reliable technologies to build solutions that scale with your business."
+msgstr ""
+"Ми проєктуємо, розробляємо та підтримуємо сучасні веб-застосунки на "
+"перевірених технологіях. Фокус — чиста архітектура, продуктивність, "
+"масштабованість і довгострокова підтримка."
+
+#: pages/templates/pages/development.html:60
+msgid "Product-Driven Development"
+msgstr "Продуктово-орієнтована розробка"
+
+#: pages/templates/pages/development.html:61
+msgid ""
+"We start from business goals and user needs, not just technical requirements "
+"— ensuring the product solves real problems."
+msgstr ""
+"Ми починаємо з бізнес-цілей та потреб користувачів, а не лише з технічних "
+"вимог — щоб продукт вирішував реальні задачі."
+
+#: pages/templates/pages/development.html:71
+msgid "Modern Frontend Applications"
+msgstr "Сучасні frontend-застосунки"
+
+#: pages/templates/pages/development.html:72
+msgid ""
+"High-quality interfaces built with React and Next.js — fast, accessible, and "
+"optimized for performance and SEO."
+msgstr ""
+"Якісні інтерфейси на React та Next.js — швидкі, доступні та оптимізовані для "
+"продуктивності й SEO."
+
+#: pages/templates/pages/development.html:82
+msgid "Robust Backend Systems"
+msgstr "Надійні backend-системи"
+
+#: pages/templates/pages/development.html:83
+msgid ""
+"Secure and scalable backends using Node.js (NestJS) and Python (Django) with "
+"clean architecture and API-first design."
+msgstr ""
+"Безпечні та масштабовані backend-рішення на Node.js (NestJS) і Python "
+"(Django) з чистою архітектурою та API-first підходом."
+
+#: pages/templates/pages/development.html:93
+msgid "Databases &amp; Integrations"
+msgstr "Бази даних та інтеграції"
+
+#: pages/templates/pages/development.html:94
+msgid ""
+"Design and implementation of relational and non-relational databases, third-"
+"party integrations, and automation workflows."
+msgstr ""
+"Проєктування та впровадження реляційних і нереляційних баз даних, інтеграцій "
+"зі сторонніми сервісами та автоматизованих процесів."
+
+#: pages/templates/pages/development.html:107
+msgid "Discovery &amp; Technical Planning"
+msgstr "Аналіз та технічне планування"
+
+#: pages/templates/pages/development.html:108
+msgid ""
+"We analyze your product idea, requirements, constraints, and future growth "
+"to define the right technical approach."
+msgstr ""
+"Ми аналізуємо ідею продукту, вимоги, обмеження та потенціал росту, щоб "
+"визначити оптимальний технічний підхід."
+
+#: pages/templates/pages/development.html:114
+msgid "Architecture &amp; Design"
+msgstr "Архітектура та дизайн"
+
+#: pages/templates/pages/development.html:115
+msgid ""
+"We design system architecture, APIs, database schemas, and UX/UI prototypes "
+"in Figma before writing production code."
+msgstr ""
+"Ми проєктуємо архітектуру системи, API, схеми баз даних і UX/UI-прототипи у "
+"Figma ще до написання продакшен-коду."
+
+#: pages/templates/pages/development.html:121
+msgid "Development &amp; Integration"
+msgstr "Розробка та інтеграція"
+
+#: pages/templates/pages/development.html:122
+msgid ""
+"Frontend, backend, and integrations are implemented in parallel with regular "
+"demos and transparent progress updates."
+msgstr ""
+"Frontend, backend та інтеграції реалізуються паралельно з регулярними демо "
+"та прозорими оновленнями прогресу."
+
+#: pages/templates/pages/development.html:128
+msgid "Testing, Launch &amp; Support"
+msgstr "Тестування, запуск та підтримка"
+
+#: pages/templates/pages/development.html:129
+msgid ""
+"We test, deploy, monitor, and support your product — ensuring stability, "
+"performance, and long-term maintainability."
+msgstr ""
+"Ми тестуємо, деплоїмо, моніторимо та підтримуємо продукт, забезпечуючи "
+"стабільність, продуктивність і довгострокову підтримку."
+
+#: pages/templates/pages/development.html:145
+msgid "Custom Web Application Development"
+msgstr "Розробка кастомних веб-застосунків"
+
+#: pages/templates/pages/development.html:149 templates/base.html:135
+msgid "SaaS &amp; Platform Development"
+msgstr "Розробка SaaS та платформ"
+
+#: pages/templates/pages/development.html:153 templates/base.html:142
+msgid "Frontend Development (React, Next.js)"
+msgstr "Frontend-розробка (React, Next.js)"
+
+#: pages/templates/pages/development.html:157 templates/base.html:149
+msgid "Backend Development (NestJS, Django)"
+msgstr "Backend-розробка (NestJS, Django)"
+
+#: pages/templates/pages/development.html:161
+msgid "UI/UX Design (Figma)"
+msgstr "UI/UX дизайн (Figma)"
+
+#: pages/templates/pages/development.html:165 templates/base.html:162
+msgid "Bots &amp; Automation Systems"
+msgstr "Боти та системи автоматизації"
+
+#: pages/templates/pages/development.html:169 templates/base.html:169
+msgid "API Development &amp; Integrations"
+msgstr "Розробка API та інтеграції"
+
+#: pages/templates/pages/development.html:173 templates/base.html:176
+msgid "Database Design &amp; Optimization"
+msgstr "Проєктування та оптимізація баз даних"
+
+#: pages/templates/pages/development.html:183
+msgid "2–6 months (depending on scope)"
+msgstr "2–6 місяців (залежно від обсягу)"
+
+#: pages/templates/pages/development.html:187
+msgid "2–5 core specialists"
+msgstr "2–5 ключових спеціалістів"
+
+#: pages/templates/pages/development.html:191
+msgid "Production-ready application"
+msgstr "Готовий до продакшену продукт"
+
+#: pages/templates/pages/development.html:195
+msgid "Ongoing maintenance &amp; improvements"
+msgstr "Підтримка та розвиток"
+
+#: pages/templates/pages/development.html:203
+msgid ""
+"Not sure how to turn your idea into a real product? Let’s discuss your "
+"requirements and build a solution that fits your business — not just your "
+"tech stack."
+msgstr ""
+"Не знаєте, як перетворити ідею на реальний продукт? Обговоримо ваші вимоги "
+"та створимо рішення, яке відповідає бізнесу, а не лише технологіям."
+
+#: pages/templates/pages/development.html:215
+msgid "Download Web Development PDF"
+msgstr "завантажити Web Development PDF"
+
+#: pages/templates/pages/includes/about.html:9
+msgid "A Thoughtful Approach to Digital Product Development"
+msgstr "Продуманий підхід до створення цифрових продуктів"
+
+#: pages/templates/pages/includes/about.html:10
+msgid ""
+"We are a focused digital studio helping businesses design, build, and scale "
+"digital products."
+msgstr ""
+"Ми — сфокусована digital-студія, яка допомагає бізнесу проєктувати, "
+"створювати та масштабувати цифрові продукти."
+
+#: pages/templates/pages/includes/about.html:11
+msgid ""
+"Our approach is built around clarity, clean engineering, and business-driven "
+"decisions. We don’t chase trends — we focus on creating reliable, scalable "
+"solutions that solve real problems and deliver long-term value."
+msgstr ""
+"Наш підхід базується на чіткому розумінні завдань, якісній інженерії та "
+"бізнес-орієнтованих рішеннях. Ми не женемося за трендами — ми створюємо "
+"надійні, масштабовані рішення, що вирішують реальні задачі та забезпечують "
+"довгострокову цінність."
+
+#: pages/templates/pages/includes/about.html:12
+msgid ""
+"By combining web development, data-driven insights, and a senior-level "
+"mindset, we help companies move faster, make smarter decisions, and grow "
+"with confidence."
+msgstr ""
+"Поєднуючи веброзробку, data-driven підходи та експертний рівень мислення, ми "
+"допомагаємо компаніям діяти швидше, приймати зважені рішення та впевнено "
+"розвиватися."
+
+#: pages/templates/pages/includes/about.html:17
+#: pages/templates/pages/includes/portfolio.html:29
+#: pages/templates/pages/includes/workprocess.html:23
+msgid "Development"
+msgstr "Розробка програмного забеспечення"
+
+#: pages/templates/pages/includes/about.html:19
+msgid "Building reliable digital products"
+msgstr "Створення надійних цифрових продуктів"
+
+#: pages/templates/pages/includes/about.html:25
+#: pages/templates/pages/includes/portfolio.html:32
+#: pages/templates/pages/includes/workprocess.html:34
+#: pages/templates/pages/marketing.html:21
+msgid "Marketing"
+msgstr "Маркетинг"
+
+#: pages/templates/pages/includes/about.html:27
+msgid "Driving growth through strategy and execution"
+msgstr "Зростання бізнесу через стратегію та ефективну реалізацію"
+
+#: pages/templates/pages/includes/about.html:35
+msgid "Turning data into actionable insights"
+msgstr "Перетворення даних на практичні бізнес-інсайти"
+
+#: pages/templates/pages/includes/about.html:42
+msgid "Discover Our Work"
+msgstr "Наші проєкти"
+
+#: pages/templates/pages/includes/about.html:43
+msgid "Meet Our Team"
+msgstr "Познайомитися з командою"
+
+#: pages/templates/pages/includes/contact.html:7
+#: pages/templates/pages/terms.html:163 templates/base.html:444
+msgid "Contact"
+msgstr "Контакти"
+
+#: pages/templates/pages/includes/contact.html:8
+msgid "Let’s discuss your product and how we can help you move forward."
+msgstr ""
+"Обговорімо ваш продукт і те, як ми можемо допомогти вам рухатися вперед."
+
+#: pages/templates/pages/includes/contact.html:61
+msgid "Telegram"
+msgstr "Телеграм"
+
+#: pages/templates/pages/includes/contact.html:68
+msgid "Tell Us About Your Idea"
+msgstr "Розкажіть нам про вашу ідею"
+
+#: pages/templates/pages/includes/contact.html:69
+msgid ""
+"Tell us about your idea, product, or challenge — we’ll get back to you "
+"shortly."
+msgstr ""
+"Опишіть свою ідею, продукт або виклик — ми зв’яжемося з вами найближчим "
+"часом."
+
+#: pages/templates/pages/includes/contact.html:76
+msgid "Name"
+msgstr "Ім'я"
+
+#: pages/templates/pages/includes/contact.html:83
+msgid "Subject"
+msgstr "Тема"
+
+#: pages/templates/pages/includes/contact.html:86
+msgid "Message"
+msgstr "Повідомлення"
+
+#: pages/templates/pages/includes/contact.html:92
+msgid "All set! We’ll be in touch shortly."
+msgstr "Готово! Ми зв’яжемося з вами найближчим часом."
+
+#: pages/templates/pages/includes/contact.html:96
+msgid "Send Message"
+msgstr "Надіслати повідомлення"
+
+#: pages/templates/pages/includes/faq.html:8
+msgid "Frequently Asked Questions"
+msgstr "Поширені запитання"
+
+#: pages/templates/pages/includes/faq.html:9
+msgid "Everything you need to know before starting a project with us."
+msgstr "Усе, що варто знати перед початком проєкту з нами."
+
+#: pages/templates/pages/includes/faq.html:24
+msgid "What kind of projects do you work on?"
+msgstr "З якими проєктами ви працюєте?"
+
+#: pages/templates/pages/includes/faq.html:32
+msgid ""
+"We work on digital products of different complexity — from MVPs and early-"
+"stage startups to scalable, production-ready platforms for growing "
+"businesses."
+msgstr ""
+"Ми працюємо з цифровими продуктами різного рівня складності — від MVP та "
+"стартапів на ранній стадії до масштабованих, готових до продакшену платформ "
+"для зростаючого бізнесу."
+
+#: pages/templates/pages/includes/faq.html:42
+msgid "What does your development process look like?"
+msgstr "Як виглядає ваш процес розробки?"
+
+#: pages/templates/pages/includes/faq.html:50
+msgid ""
+"We start with understanding business goals and user needs, then move through "
+"UX, design, development, and integrations. Our focus is on clean "
+"architecture, scalability, and long-term maintainability."
+msgstr ""
+"Ми починаємо з розуміння бізнес-цілей і потреб користувачів, після чого "
+"переходимо до UX, дизайну, розробки та інтеграцій. Наш фокус — чиста "
+"архітектура, масштабованість і довгострокова підтримка продукту."
+
+#: pages/templates/pages/includes/faq.html:60
+msgid "How can we start working together?"
+msgstr "Як розпочати співпрацю?"
+
+#: pages/templates/pages/includes/faq.html:68
+msgid ""
+"Simply contact us via the form or email. We’ll schedule a short call, "
+"discuss your goals, and suggest the best next steps for your project."
+msgstr ""
+"Просто зв’яжіться з нами через форму на сайті або електронну пошту. Ми "
+"домовимося про коротку розмову, обговоримо ваші цілі та запропонуємо "
+"оптимальні наступні кроки для вашого проєкту."
+
+#: pages/templates/pages/includes/hero.html:12
+msgid "Technology That Solves Business Problems"
+msgstr "Технології для вирішення бізнес-задач"
+
+#: pages/templates/pages/includes/hero.html:13
+msgid "Building Digital Products That Drive Real Growth"
+msgstr "Цифрові продукти для реального зростання бізнесу"
+
+#: pages/templates/pages/includes/hero.html:14
+msgid ""
+"We help companies design, build, and scale digital products that drive "
+"measurable growth. From modern web platforms to data-driven insights, we "
+"turn ideas into reliable solutions that perform, convert, and evolve with "
+"your business."
+msgstr ""
+"Ми допомагаємо компаніям створювати та масштабувати цифрові продукти, "
+"орієнтовані на підвищення ефективності. Веб-платформи та data-driven "
+"рішення, які працюють і розвиваються разом із бізнесом."
+
+#: pages/templates/pages/includes/hero.html:16
+msgid "Our Capabilities"
+msgstr "Наші Можливості"
+
+#: pages/templates/pages/includes/hero.html:19
+msgid "Watch Demo"
+msgstr "Переглянути демо"
+
+#: pages/templates/pages/includes/hero.html:31
+msgid "Clean &amp; Maintainable Code"
+msgstr "Чистий та зручний у підтримці код"
+
+#: pages/templates/pages/includes/hero.html:36
+msgid "Senior-Level Approach"
+msgstr "Експертний підхід"
+
+#: pages/templates/pages/includes/hero.html:43
+msgid "Built for Performance"
+msgstr "Створюємо для продуктивності"
+
+#: pages/templates/pages/includes/hero.html:48
+msgid "Business-Driven Decisions"
+msgstr "Рішення, керовані потребами бізнесу"
+
+#: pages/templates/pages/includes/portfolio.html:16
+msgid "Real projects. Clear decisions. Measurable outcomes."
+msgstr "Реальні проєкти. Обґрунтовані рішення. Вимірюваний результат."
+
+#: pages/templates/pages/includes/portfolio.html:17
+msgid ""
+"Each project reflects our product mindset, technical depth, and focus on "
+"business impact."
+msgstr ""
+"Кожен проєкт відображає наш продуктовий підхід, технічну глибину та фокус на "
+"бізнес-результаті."
+
+#: pages/templates/pages/includes/portfolio.html:28
+msgid "All"
+msgstr "Всі"
+
+#: pages/templates/pages/includes/portfolio.html:30
+msgid "Design"
+msgstr "Дизайн"
+
+#: pages/templates/pages/includes/portfolio.html:31
+msgid "Data"
+msgstr "Дата"
+
+#: pages/templates/pages/includes/portfolio.html:44
+#, fuzzy
+#| msgid "Custom Web Application Development"
+msgid "Web Application"
+msgstr "Розробка кастомних веб-застосунків"
+
+#: pages/templates/pages/includes/services.html:8 templates/base.html:69
+msgid "Services"
+msgstr "Сервіси"
+
+#: pages/templates/pages/includes/services.html:9
+msgid "What we do best — and how it supports real business growth"
+msgstr "Те, що ми робимо найкраще — і як це допомагає бізнесу зростати"
+
+#: pages/templates/pages/includes/services.html:25 templates/base.html:188
+#: templates/base.html:489 templates/base_simple.html:103
+msgid "Digital Product Development"
+msgstr "Розробка цифрових продуктів"
+
+#: pages/templates/pages/includes/services.html:29
+msgid ""
+"We design and build scalable web platforms, internal tools, and digital "
+"products with clean architecture and long-term maintainability in mind."
+msgstr ""
+"Ми проєктуємо та створюємо масштабовані вебплатформи, внутрішні інструменти "
+"й цифрові продукти з продуманою архітектурою та розрахунком на "
+"довгостроковий розвиток."
+
+#: pages/templates/pages/includes/services.html:32
+msgid "View Development Services"
+msgstr "Детальніше про розробку"
+
+#: pages/templates/pages/includes/services.html:49 templates/base.html:80
+#: templates/base.html:100 templates/base.html:490
+#: templates/base_simple.html:104
+msgid "UX Design"
+msgstr "UX-дизайн"
+
+#: pages/templates/pages/includes/services.html:53
+msgid ""
+"We create clear, user-centered interfaces and product experiences that "
+"support usability, conversion, and business goals."
+msgstr ""
+"Ми створюємо зрозумілі, орієнтовані на користувача інтерфейси та продуктові "
+"рішення, що покращують зручність, конверсію та бізнес-результати."
+
+#: pages/templates/pages/includes/services.html:56
+msgid "Learn More"
+msgstr "Дізнатися більше"
+
+#: pages/templates/pages/includes/services.html:73 templates/base.html:491
+#: templates/base_simple.html:105
+msgid "Growth &amp; Digital Marketing"
+msgstr "Зростання та цифровий маркетинг"
+
+#: pages/templates/pages/includes/services.html:77
+msgid ""
+"We help products find their market, improve conversion, and grow through "
+"strategy, positioning, and data-informed marketing."
+msgstr ""
+"Ми допомагаємо продуктам знайти свою аудиторію, підвищити конверсію та "
+"зростати завдяки стратегії, позиціонуванню й роботі з даними."
+
+#: pages/templates/pages/includes/services.html:80
+msgid "Explore Marketing Solutions"
+msgstr "Переглянути маркетингові рішення"
+
+#: pages/templates/pages/includes/services.html:101
+msgid ""
+"We turn data into actionable insights that support smarter decisions, "
+"clearer strategy, and measurable product growth."
+msgstr ""
+"Ми перетворюємо дані на практичні інсайти, які допомагають ухвалювати кращі "
+"рішення, формувати чітку стратегію та забезпечувати зростання продукту."
+
+#: pages/templates/pages/includes/services.html:104
+msgid "See Analytics Capabilities"
+msgstr "Можливості аналітики"
+
+#: pages/templates/pages/includes/services.html:120
+msgid "Core Expertise Areas"
+msgstr "Ключові напрями експертизи"
+
+#: pages/templates/pages/includes/services.html:126
+msgid "Level Approach"
+msgstr "Експертний підхід"
+
+#: pages/templates/pages/includes/services.html:132
+msgid "Market Focus"
+msgstr "Фокус на ринки Європи та США"
+
+#: pages/templates/pages/includes/services.html:138
+msgid "Product Mindset"
+msgstr "Орієнтація на продукт і бізнес"
+
+#: pages/templates/pages/includes/team.html:6
+msgid "Our Team"
+msgstr "Познайомитися з командою"
+
+#: pages/templates/pages/includes/team.html:8
+msgid "A small senior core team supported by trusted specialists when needed"
+msgstr ""
+"Невелика senior-команда з досвідчених фахівців, за потреби підсилена "
+"перевіреними спеціалістами."
+
+#: pages/templates/pages/includes/team.html:53
+msgid "Serhii Korobko"
+msgstr "Сергій Коробко"
+
+#: pages/templates/pages/includes/team.html:54
+msgid "Founder · Product &amp; Business"
+msgstr "Засновник · Product &amp; Business"
+
+#: pages/templates/pages/includes/team.html:56
+msgid "Leads product vision, business strategy, and client communication."
+msgstr ""
+"Відповідає за стратегію продукту, бізнес-логіку та загальний напрям розвитку "
+"Neverland Labs. Поєднує технічний бекграунд із розумінням маркетингу та "
+"потреб бізнесу."
+
+#: pages/templates/pages/includes/team.html:104
+msgid "Oleksii Tolstonoh"
+msgstr "Олексій Товстоніг"
+
+#: pages/templates/pages/includes/team.html:105
+msgid "Co-Founder · Tech Lead"
+msgstr "Співзасновник · Tech Lead"
+
+#: pages/templates/pages/includes/team.html:107
+msgid "Responsible for architecture, code quality, and technical decisions."
+msgstr ""
+"Відповідає за технічну архітектуру, якість коду та масштабованість рішень. "
+"Забезпечує надійну реалізацію продуктів з фокусом на довгострокову підтримку."
+
+#: pages/templates/pages/includes/testimonials.html:10
+msgid "Client Feedback"
+msgstr "Відгук клієнта"
+
+#: pages/templates/pages/includes/testimonials.html:11
+msgid "Real collaboration, real experience"
+msgstr "Реальна співпраця — реальний досвід"
+
+#: pages/templates/pages/includes/testimonials.html:23
+msgid ""
+"We are working with Neverland Labs on a custom web application. The team "
+"quickly understood our marketing and business goals, proposed a well-thought-"
+"out architecture, and works in a highly structured way. Communication is "
+"transparent, and decisions are made with a strong focus on the long-term "
+"growth of the product."
+msgstr ""
+"Ми співпрацюємо з Neverland Labs над розробкою кастомного вебзастосунку. "
+"Команда швидко зрозуміла наші маркетингові та бізнес цілі, запропонувала "
+"продуману архітектуру й працює дуже структуровано. Комунікація прозора, а "
+"всі рішення ухвалюються з фокусом на довгостроковий розвиток продукту."
+
+#: pages/templates/pages/includes/testimonials.html:30
+msgid "Oksana"
+msgstr "Оксана Яцук"
+
+#: pages/templates/pages/includes/testimonials.html:31
+msgid "Head of Marketing, StrikeShop"
+msgstr "Керівниця відділу маркетингу, StrikeShop"
+
+#: pages/templates/pages/includes/testimonials.html:32
+msgid "Ongoing project"
+msgstr "Проєкт у роботі"
+
+#: pages/templates/pages/includes/workprocess.html:8
+msgid "Expertise Working as One"
+msgstr "Система, що працює як одне ціле"
+
+#: pages/templates/pages/includes/workprocess.html:10
+msgid ""
+"We combine development, marketing, and data analytics to solve real business "
+"challenges and build scalable digital products."
+msgstr ""
+"Ми поєднуємо розробку, маркетинг і аналітику даних, щоб вирішувати реальні "
+"бізнес-задачі та створювати масштабовані цифрові продукти."
+
+#: pages/templates/pages/includes/workprocess.html:25
+msgid ""
+"Building scalable and maintainable digital products with a strong "
+"engineering foundation."
+msgstr ""
+"Створення масштабованих і зручних у підтримці цифрових продуктів із надійною "
+"інженерною основою."
+
+#: pages/templates/pages/includes/workprocess.html:36
+msgid ""
+"Driving business growth through strategy, positioning, and conversion-"
+"focused execution."
+msgstr "Зростання бізнесу через стратегію та ефективну реалізацію"
+
+#: pages/templates/pages/includes/workprocess.html:47
+msgid ""
+"Turning data into actionable insights that guide smarter product and "
+"business decisions."
+msgstr ""
+"Перетворення даних на практичні інсайти для кращих продуктових і бізнес-"
+"рішень."
+
+#: pages/templates/pages/marketing.html:10
+#: pages/templates/pages/marketing.html:145 templates/base.html:275
+msgid "Marketing Strategy for Digital Products"
+msgstr "Маркетингова стратегія для цифрових продуктів"
+
+#: pages/templates/pages/marketing.html:11
+msgid ""
+"We help digital products grow through clear positioning, measurable "
+"acquisition strategies, and close alignment between marketing, product, and "
+"technology."
+msgstr ""
+"Ми допомагаємо цифровим продуктам зростати завдяки чіткому позиціонуванню, "
+"вимірюваним стратегіям залучення та тісній синергії між маркетингом, "
+"продуктом і технологіями."
+
+#: pages/templates/pages/marketing.html:47 templates/base.html:328
+msgid "Digital Marketing Strategy &amp; Implementation"
+msgstr "Маркетингова стратегія та впровадження для цифрових продуктів"
+
+#: pages/templates/pages/marketing.html:48
+msgid ""
+"We design and execute marketing strategies tailored specifically for digital "
+"products — SaaS platforms, web applications, and online services. Our "
+"approach combines market research, product analytics, and technical "
+"implementation to ensure every marketing decision supports real business "
+"growth."
+msgstr ""
+"Ми проєктуємо та реалізуємо маркетингові стратегії спеціально для цифрових "
+"продуктів — SaaS-платформ, вебзастосунків і онлайн-сервісів. Наш підхід "
+"поєднує дослідження ринку, продуктову аналітику та технічне впровадження, "
+"щоб кожне маркетингове рішення сприяло реальному зростанню бізнесу."
+
+#: pages/templates/pages/marketing.html:60
+msgid "Product &amp; Market Analysis"
+msgstr "Аналіз продукту та ринку"
+
+#: pages/templates/pages/marketing.html:61
+msgid ""
+"Deep analysis of your product, target audience, competitors, and product-"
+"market fit signals to identify real growth opportunities."
+msgstr ""
+"Глибокий аналіз вашого продукту, цільової аудиторії, конкурентів і сигналів "
+"product-market fit для виявлення реальних можливостей зростання."
+
+#: pages/templates/pages/marketing.html:71
+msgid "Audience &amp; Positioning Strategy"
+msgstr "Стратегія аудиторії та позиціонування"
+
+#: pages/templates/pages/marketing.html:72
+msgid ""
+"Clear definition of your ideal customers, value propositions, and messaging "
+"that resonates with real user needs across acquisition, onboarding, and "
+"retention."
+msgstr ""
+"Чітке визначення ідеальних клієнтів, ціннісних пропозицій і повідомлень, які "
+"резонують із реальними потребами користувачів на етапах залучення, "
+"онбордингу та утримання."
+
+#: pages/templates/pages/marketing.html:82
+msgid "Acquisition Channels Strategy"
+msgstr "Стратегія каналів залучення"
+
+#: pages/templates/pages/marketing.html:83
+msgid ""
+"Selection, validation, and prioritization of acquisition channels — paid, "
+"content, SEO, partnerships, or outbound — based on product stage and unit "
+"economics."
+msgstr ""
+"Вибір, перевірка та пріоритизація каналів залучення — платна реклама, "
+"контент, SEO, партнерства або outbound — з урахуванням стадії продукту та "
+"unit-економіки."
+
+#: pages/templates/pages/marketing.html:93
+msgid "Growth &amp; Funnel Optimization"
+msgstr "Зростання та оптимізація воронок"
+
+#: pages/templates/pages/marketing.html:94
+msgid ""
+"Systematic improvement of conversion funnels, onboarding flows, and key "
+"product metrics to maximize ROI, retention, and lifetime value."
+msgstr ""
+"Системна оптимізація конверсійних воронок, онбординг-процесів і ключових "
+"продуктових метрик для максимізації ROI, утримання та довічної цінності "
+"клієнта."
+
+#: pages/templates/pages/marketing.html:107
+msgid "Discovery &amp; Product Understanding"
+msgstr "Дослідження та розуміння продукту"
+
+#: pages/templates/pages/marketing.html:108
+msgid ""
+"We start by understanding your product, business goals, users, and "
+"constraints. No assumptions — only real context, data, and constraints."
+msgstr ""
+"Ми починаємо з глибокого розуміння вашого продукту, бізнес-цілей, "
+"користувачів і обмежень. Жодних припущень — лише реальний контекст, дані та "
+"факти."
+
+#: pages/templates/pages/marketing.html:114
+msgid "Strategy &amp; Hypothesis Design"
+msgstr "Формування стратегії та гіпотез"
+
+#: pages/templates/pages/marketing.html:115
+msgid ""
+"We build a clear marketing strategy with validated hypotheses, KPIs, and "
+"measurable success criteria."
+msgstr ""
+"Ми формуємо чітку маркетингову стратегію з перевіреними гіпотезами, KPI та "
+"вимірюваними критеріями успіху."
+
+#: pages/templates/pages/marketing.html:122
+msgid ""
+"Strategy is translated into concrete actions: tracking setup, landing pages, "
+"campaigns, messaging, and technical integrations with your product and "
+"analytics stack."
+msgstr ""
+"Стратегія трансформується в конкретні дії: налаштування трекінгу, лендінги, "
+"кампанії, повідомлення та технічні інтеграції з вашим продуктом і "
+"аналітичною інфраструктурою."
+
+#: pages/templates/pages/marketing.html:128
+msgid "Monitoring &amp; Iteration"
+msgstr "Моніторинг та ітерації"
+
+#: pages/templates/pages/marketing.html:129
+msgid ""
+"We measure results, refine tactics, and adapt the strategy based on real "
+"data — not vanity metrics."
+msgstr ""
+"Ми вимірюємо результати, вдосконалюємо тактики та адаптуємо стратегію на "
+"основі реальних даних — а не vanity-метрик."
+
+#: pages/templates/pages/marketing.html:149 templates/base.html:282
+msgid "Go-To-Market &amp; Launch Strategy"
+msgstr "Go-to-market та стратегія запуску"
+
+#: pages/templates/pages/marketing.html:153
+msgid "Performance &amp; Growth Marketing"
+msgstr "Performance- та growth-маркетинг"
+
+#: pages/templates/pages/marketing.html:157 templates/base.html:289
+msgid "SEO &amp; Demand Capture"
+msgstr "SEO та залучення попиту"
+
+#: pages/templates/pages/marketing.html:161 templates/base.html:302
+msgid "Lifecycle &amp; Email Marketing"
+msgstr "Lifecycle- та email-маркетинг"
+
+#: pages/templates/pages/marketing.html:165 templates/base.html:309
+msgid "Brand Strategy &amp; Digital Presence"
+msgstr "Бренд-стратегія та цифрова присутність"
+
+#: pages/templates/pages/marketing.html:169 templates/base.html:316
+msgid "Analytics &amp; Dashboards"
+msgstr "Аналітика та дашборди"
+
+#: pages/templates/pages/marketing.html:179
+msgid "2–4 months (strategy phase)"
+msgstr "2–4 місяці (стратегічна фаза)"
+
+#: pages/templates/pages/marketing.html:183
+msgid "2–4 core specialists"
+msgstr "2–4 ключові спеціалісти"
+
+#: pages/templates/pages/marketing.html:187
+msgid "Strategy roadmap + execution plan"
+msgstr "Дорожня карта та план дій"
+
+#: pages/templates/pages/marketing.html:191
+msgid "Ongoing consulting &amp; optimization"
+msgstr "Супровід та оптимізація"
+
+#: pages/templates/pages/marketing.html:199
+msgid ""
+"Not sure where to start or which channels make sense for your product? Let’s "
+"discuss your goals and define a strategy that actually works."
+msgstr ""
+"Не впевнені, з чого почати або які канали підходять саме для вашого "
+"продукту? Обговоримо ваші цілі та сформуємо стратегію, яка справді працює."
+
+#: pages/templates/pages/marketing.html:211
+msgid "Download Marketing Services PDF"
+msgstr "Завантажити Marketing Services PDF"
+
+#: pages/templates/pages/portfolio/action.html:22
+msgid "Web Application / Platform"
+msgstr "Веб-платформа"
+
+#: pages/templates/pages/portfolio/action.html:31
+msgid "Portfolio details"
+msgstr "Детальніше"
+
+#: pages/templates/pages/portfolio/action.html:52
+msgid "Airsoft Events Platform"
+msgstr "платформа для страйкбольних івентів"
+
+#: pages/templates/pages/portfolio/action.html:56
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr "Лютий"
+
+#: pages/templates/pages/portfolio/action.html:74
+msgid "Technologies Used"
+msgstr "Технології"
+
+#: pages/templates/pages/portfolio/action.html:123
+msgid "Project Overview"
+msgstr "Огляд проєкту"
+
+#: pages/templates/pages/portfolio/action.html:124
+msgid ""
+"StrikeShop Action is a full-scale web platform designed to organize, manage, "
+"and participate in airsoft events across Ukraine."
+msgstr ""
+"StrikeShop Action — це повнофункціональна веб-платформа для створення, "
+"організації та проведення страйкбольних ігор по всій Україні."
+
+#: pages/templates/pages/portfolio/action.html:125
+msgid ""
+"The platform connects players, teams, and organizers in a single ecosystem — "
+"enabling event creation, team management, registrations, and communication. "
+"It supports both public and private games and scales from small local events "
+"to large multi-team operations.<br>The project was built as a modular system "
+"consisting of three independent applications, ensuring flexibility, "
+"performance, and long-term scalability."
+msgstr ""
+"Платформа обʼєднує гравців, команди та організаторів в єдину екосистему, "
+"дозволяючи керувати івентами, реєстраціями, командами та комунікацією. "
+"Система підтримує як відкриті, так і приватні ігри та масштабується від "
+"локальних матчів до великих багатокомандних подій. Проєкт реалізовано як "
+"модульну систему з чітким розділенням відповідальностей, що забезпечує "
+"стабільність, продуктивність і готовність до подальшого розвитку."
+
+#: pages/templates/pages/portfolio/action.html:132
+msgid "3 Applications"
+msgstr "3 застосунки"
+
+#: pages/templates/pages/portfolio/action.html:133
+msgid "Admin Panel, Public Website, Backend API"
+msgstr "публічний сайт, адмін-панель, backend API"
+
+#: pages/templates/pages/portfolio/action.html:136
+msgid "6 Months Development"
+msgstr "6 місяців розробки"
+
+#: pages/templates/pages/portfolio/action.html:137
+msgid "From concept to production-ready system"
+msgstr "від ідеї до production-рішення"
+
+#: pages/templates/pages/portfolio/action.html:140
+msgid "API-first Architecture"
+msgstr "API-first архітектура"
+
+#: pages/templates/pages/portfolio/action.html:141
+msgid "Ready for future integrations"
+msgstr "готовність до масштабування"
+
+#: pages/templates/pages/portfolio/action.html:144
+msgid "Multi-channel Communication"
+msgstr "Автоматизована комунікація"
+
+#: pages/templates/pages/portfolio/action.html:145
+msgid "Email &amp; SMS automation"
+msgstr "email та SMS-сповіщення"
+
+#: pages/templates/pages/portfolio/action.html:157
+msgid "The Challenge"
+msgstr "Виклик"
+
+#: pages/templates/pages/portfolio/action.html:158
+msgid ""
+"Organizing airsoft events traditionally relies on fragmented tools — "
+"messengers, spreadsheets, manual registrations, and ad-hoc communication."
+msgstr ""
+"Організація страйкбольних івентів зазвичай відбувається через розрізнені "
+"інструменти: месенджери, таблиці, ручні списки та хаотичну комунікацію."
+
+#: pages/templates/pages/portfolio/action.html:159
+msgid "This creates several challenges:"
+msgstr "Це створює низку проблем:"
+
+#: pages/templates/pages/portfolio/action.html:161
+msgid "No centralized event management"
+msgstr "Відсутність централізованого управління іграми"
+
+#: pages/templates/pages/portfolio/action.html:162
+msgid "Poor visibility of upcoming games and locations"
+msgstr "Складність пошуку подій та локацій"
+
+#: pages/templates/pages/portfolio/action.html:163
+msgid "Manual team coordination and confirmations"
+msgstr "Ручне керування командами та підтвердженнями"
+
+#: pages/templates/pages/portfolio/action.html:164
+msgid "Lack of automated notifications and updates"
+msgstr "Неефективна комунікація з учасниками"
+
+#: pages/templates/pages/portfolio/action.html:165
+msgid "Difficult scaling for organizers"
+msgstr "Обмежені можливості масштабування"
+
+#: pages/templates/pages/portfolio/action.html:167
+msgid ""
+"The client needed a single digital platform that could handle logistics, "
+"communication, and growth — without sacrificing performance or usability."
+msgstr ""
+"Клієнту була потрібна єдина цифрова платформа, яка вирішує ці задачі та "
+"зростає разом зі спільнотою."
+
+#: pages/templates/pages/portfolio/action.html:176
+msgid "The Solution"
+msgstr "Рішення"
+
+#: pages/templates/pages/portfolio/action.html:177
+msgid ""
+"We designed and built a modular, high-performance platform tailored "
+"specifically for airsoft communities."
+msgstr ""
+"Ми спроєктували та реалізували масштабовану платформу, спеціально адаптовану "
+"під потреби страйкбольної спільноти."
+
+#: pages/templates/pages/portfolio/action.html:178
+msgid "Core Solution Highlights:"
+msgstr "Ключові елементи рішення:"
+
+#: pages/templates/pages/portfolio/action.html:180
+msgid "Public website for discovering events, locations, and rules"
+msgstr "Публічний веб-сайт для перегляду ігор, локацій і правил"
+
+#: pages/templates/pages/portfolio/action.html:181
+msgid "Admin panel for organizers to manage games, teams, and participants"
+msgstr "Адмін-панель для керування івентами, командами та учасниками"
+
+#: pages/templates/pages/portfolio/action.html:182
+msgid "Backend API handling business logic, permissions, and integrations"
+msgstr "Backend API з бізнес-логікою та контролем доступів"
+
+#: pages/templates/pages/portfolio/action.html:183
+msgid "Automated email &amp; SMS notifications via SendPulse"
+msgstr "Email та SMS-сповіщення через інтеграцію з SendPulse"
+
+#: pages/templates/pages/portfolio/action.html:184
+msgid ""
+"Flexible data storage using PostgreSQL and MongoDB for different workloads"
+msgstr "Гібридне зберігання даних (PostgreSQL + MongoDB)"
+
+#: pages/templates/pages/portfolio/action.html:217
+msgid "Platform Architecture"
+msgstr "Архітектура платформи"
+
+#: pages/templates/pages/portfolio/action.html:218
+msgid "StrikeShop Action consists of three applications:"
+msgstr "StrikeShop Action складається з трьох незалежних застосунків:"
+
+#: pages/templates/pages/portfolio/action.html:223
+msgid "Public Web Application"
+msgstr "Публічний веб-застосунок"
+
+#: pages/templates/pages/portfolio/action.html:225
+msgid "Event listings and detailed pages"
+msgstr "список ігор та детальні сторінки"
+
+#: pages/templates/pages/portfolio/action.html:226
+msgid "Team and player registration"
+msgstr "реєстрація гравців і команд"
+
+#: pages/templates/pages/portfolio/action.html:227
+msgid "Location maps and schedules"
+msgstr "карти доступних локацій"
+
+#: pages/templates/pages/portfolio/action.html:228
+msgid "Responsive, mobile-first UI"
+msgstr "адаптивний, mobile-first інтерфейс"
+
+#: pages/templates/pages/portfolio/action.html:235
+msgid "Admin Panel"
+msgstr "Адмін-панель"
+
+#: pages/templates/pages/portfolio/action.html:237
+msgid "Event and team management"
+msgstr "керування івентами та командами"
+
+#: pages/templates/pages/portfolio/action.html:238
+msgid "Operational control for organizers"
+msgstr "операційний контроль для організаторів"
+
+#: pages/templates/pages/portfolio/action.html:239
+msgid "Registration approvals and tracking"
+msgstr "контроль реєстрацій і підтверджень"
+
+#: pages/templates/pages/portfolio/action.html:240
+msgid "Communication triggers (email &amp; SMS)"
+msgstr "запуск email та SMS-кампаній"
+
+#: pages/templates/pages/portfolio/action.html:247
+msgid "Backend API (NestJS)"
+msgstr "Backend API (NestJS)"
+
+#: pages/templates/pages/portfolio/action.html:249
+msgid "Authentication &amp; authorization"
+msgstr "автентифікація та ролі користувачів"
+
+#: pages/templates/pages/portfolio/action.html:250
+msgid "Business logic and validations"
+msgstr "бізнес-логіка та валідації"
+
+#: pages/templates/pages/portfolio/action.html:251
+msgid "Scalable API-first architecture"
+msgstr "масштабована API-first архітектура"
+
+#: pages/templates/pages/portfolio/action.html:252
+msgid "Integrations with external services"
+msgstr "інтеграції зі сторонніми сервісами"
+
+#: pages/templates/pages/portfolio/action.html:261
+msgid "Integrations"
+msgstr "Інтеграції"
+
+#: pages/templates/pages/portfolio/action.html:262
+msgid ""
+"This significantly reduced manual communication and improved participant "
+"engagement."
+msgstr ""
+"Це значно скоротило ручну роботу організаторів та покращило залучення "
+"учасників."
+
+#: pages/templates/pages/portfolio/action.html:264
+msgid "Automated email and SMS notifications for"
+msgstr "Автоматизовані email та SMS-повідомлення для:"
+
+#: pages/templates/pages/portfolio/action.html:266
+msgid "Event confirmations"
+msgstr "підтвердження участі"
+
+#: pages/templates/pages/portfolio/action.html:267
+msgid "Schedule updates"
+msgstr "змін у розкладі ігор"
+
+#: pages/templates/pages/portfolio/action.html:268
+msgid "Important announcements"
+msgstr "важливих анонсів та оновлень"
+
+#: pages/templates/pages/privacy.html:9
+msgid ""
+"How we collect, use, and protect your information when you work with "
+"Neverland Labs."
+msgstr ""
+"Як Neverland Labs збирає, використовує та захищає вашу інформацію під час "
+"співпраці."
+
+#: pages/templates/pages/privacy.html:16
+msgid "Privacy"
+msgstr "Політика конфіденційності"
+
+#: pages/templates/pages/privacy.html:36 pages/templates/pages/terms.html:34
+msgid "Effective Date: February 3, 2025"
+msgstr "Дата набрання чинності: 3 лютого 2025 року"
+
+#: pages/templates/pages/privacy.html:37
+msgid "Privacy Policy"
+msgstr "Політика конфіденційності"
+
+#: pages/templates/pages/privacy.html:38
+msgid ""
+"This Privacy Policy explains how Neverland Labs (“we”, “our”, or “us”) "
+"collects, uses, and protects personal information when you visit our website "
+"or work with us on digital products and services. We are committed to "
+"handling your information responsibly and transparently."
+msgstr ""
+"Ця Політика конфіденційності описує, як ми збираємо, використовуємо, "
+"обробляємо та розкриваємо вашу інформацію, включно з персональними даними, у "
+"зв’язку з доступом до наших сервісів та їх використанням."
+
+#: pages/templates/pages/privacy.html:46
+msgid "Introduction"
+msgstr "Вступ"
+
+#: pages/templates/pages/privacy.html:47
+msgid ""
+"When you interact with Neverland Labs, you trust us with your information. "
+"We take this responsibility seriously and aim to collect only the data "
+"necessary to provide our services and communicate effectively."
+msgstr ""
+"Користуючись нашими сервісами, ви довіряєте нам свою інформацію. Ми "
+"усвідомлюємо рівень цієї відповідальності та докладаємо максимум зусиль для "
+"захисту ваших даних і збереження вашого контролю над ними."
+
+#: pages/templates/pages/privacy.html:48
+msgid ""
+"This Privacy Policy is intended to help you understand what information we "
+"collect, why we collect it, and how it is used."
+msgstr ""
+"Ця Політика конфіденційності покликана допомогти вам зрозуміти, яку "
+"інформацію ми збираємо, з якою метою, а також як ви можете керувати, "
+"оновлювати або видаляти свої дані."
+
+#: pages/templates/pages/privacy.html:53
+msgid "Information We Collect"
+msgstr "Яку інформацію ми збираємо"
+
+#: pages/templates/pages/privacy.html:54
+msgid ""
+"We collect limited information to operate our website and work with clients "
+"effectively."
+msgstr ""
+"Ми збираємо інформацію з метою надання якісних та ефективних сервісів. Типи "
+"інформації, які ми можемо збирати, включають:"
+
+#: pages/templates/pages/privacy.html:56
+msgid "Information You Provide"
+msgstr "Інформація, яку ви надаєте"
+
+#: pages/templates/pages/privacy.html:57
+msgid "You may voluntarily provide personal information when you:"
+msgstr ""
+"Під час взаємодії з нашими сервісами ви можете надавати нам персональні "
+"дані, зокрема:"
+
+#: pages/templates/pages/privacy.html:59
+msgid "contact us through forms or email"
+msgstr "зв’язуєтеся з нами через форми на сайті або електронну пошту"
+
+#: pages/templates/pages/privacy.html:60
+msgid "discuss a project or collaboration"
+msgstr "обговорюєте проєкт або можливу співпрацю"
+
+#: pages/templates/pages/privacy.html:61
+msgid "communicate with us during ongoing work"
+msgstr "спілкуєтеся з нами під час виконання поточних робіт"
+
+#: pages/templates/pages/privacy.html:63
+msgid "This information may include:"
+msgstr "Ця інформація може включати:"
+
+#: pages/templates/pages/privacy.html:65
+msgid "your name"
+msgstr "ваше ім’я"
+
+#: pages/templates/pages/privacy.html:66
+msgid "email address"
+msgstr "адресу електронної пошти"
+
+#: pages/templates/pages/privacy.html:67
+msgid "company name"
+msgstr "назву компанії"
+
+#: pages/templates/pages/privacy.html:68
+msgid "project-related details you choose to share"
+msgstr "деталі проєкту, які ви вирішите надати"
+
+#: pages/templates/pages/privacy.html:70
+msgid "We do not require account creation on our website."
+msgstr "Ми не вимагаємо створення облікового запису на нашому сайті."
+
+#: pages/templates/pages/privacy.html:72
+msgid "Automatically Collected Information"
+msgstr "Інформація, що збирається автоматично"
+
+#: pages/templates/pages/privacy.html:73
+msgid ""
+"When you visit our website, we may automatically collect basic technical "
+"information such as:"
+msgstr ""
+"Під час відвідування нашого вебсайту ми можемо автоматично збирати базову "
+"технічну інформацію, зокрема:"
+
+#: pages/templates/pages/privacy.html:75
+msgid "browser type"
+msgstr "тип браузера"
+
+#: pages/templates/pages/privacy.html:76
+msgid "device type"
+msgstr "тип пристрою"
+
+#: pages/templates/pages/privacy.html:77
+msgid "approximate location (country or region)"
+msgstr "приблизне місцезнаходження (країна або регіон)"
+
+#: pages/templates/pages/privacy.html:78
+msgid "pages visited and usage statistics"
+msgstr "відвідані сторінки та статистику використання"
+
+#: pages/templates/pages/privacy.html:80
+msgid ""
+"This data is collected in an aggregated form and is used solely to improve "
+"website performance and user experience."
+msgstr ""
+"Ці дані збираються в узагальненому вигляді та використовуються виключно для "
+"покращення роботи сайту та користувацького досвіду."
+
+#: pages/templates/pages/privacy.html:85
+msgid "How We Use Your Information"
+msgstr "Як ми використовуємо вашу інформацію"
+
+#: pages/templates/pages/privacy.html:86
+msgid "We use collected information to:"
+msgstr "Ми використовуємо зібрану інформацію для:"
+
+#: pages/templates/pages/privacy.html:88
+msgid "respond to inquiries and requests"
+msgstr "відповіді на запити та звернення"
+
+#: pages/templates/pages/privacy.html:89
+msgid "communicate about projects and services"
+msgstr "комунікації щодо проєктів та сервісів"
+
+#: pages/templates/pages/privacy.html:90
+msgid "deliver and maintain our services"
+msgstr "надання та підтримки наших сервісів"
+
+#: pages/templates/pages/privacy.html:91
+msgid "improve our website and workflows"
+msgstr "покращення нашого вебсайту та робочих процесів"
+
+#: pages/templates/pages/privacy.html:92
+msgid "ensure security and prevent misuse"
+msgstr "забезпечення безпеки та запобігання зловживанням"
+
+#: pages/templates/pages/privacy.html:94
+msgid ""
+"We do not use your information for automated decision-making or profiling."
+msgstr ""
+"Ми не використовуємо вашу інформацію для автоматизованого прийняття рішень "
+"або профілювання."
+
+#: pages/templates/pages/privacy.html:99
+msgid "Information Sharing"
+msgstr "Передача інформації"
+
+#: pages/templates/pages/privacy.html:100
+msgid ""
+"We do not sell, rent, or trade your personal information. We may share "
+"information only:"
+msgstr ""
+"Ми не продаємо, не передаємо в оренду та не обмінюємо вашу персональну "
+"інформацію. Передача можлива лише:"
+
+#: pages/templates/pages/privacy.html:102
+msgid "with trusted service providers when necessary to deliver our services"
+msgstr ""
+"з надійними сервісними партнерами, коли це необхідно для надання наших послуг"
+
+#: pages/templates/pages/privacy.html:103
+msgid "when required by law or legal obligations"
+msgstr "у випадках, передбачених законодавством або юридичними зобов’язаннями"
+
+#: pages/templates/pages/privacy.html:109
+msgid "Data Security"
+msgstr "Захист даних"
+
+#: pages/templates/pages/privacy.html:110
+msgid ""
+"We take reasonable technical and organizational measures to protect personal "
+"information from unauthorized access, loss, or misuse."
+msgstr ""
+"Ми вживаємо обґрунтованих технічних та організаційних заходів для захисту "
+"персональної інформації від несанкціонованого доступу, втрати або зловживань."
+
+#: pages/templates/pages/privacy.html:111
+msgid ""
+"Access to personal information is limited to team members who need it to "
+"perform their work."
+msgstr ""
+"Доступ до персональної інформації мають лише члени команди, яким вона "
+"необхідна для виконання робочих обов’язків."
+
+#: pages/templates/pages/privacy.html:116
+msgid "Your Rights"
+msgstr "Ваші права"
+
+#: pages/templates/pages/privacy.html:117
+msgid "Depending on your location, you may have the right to:"
+msgstr "Залежно від вашого місцезнаходження, ви можете мати право:"
+
+#: pages/templates/pages/privacy.html:119
+msgid "request access to your personal data"
+msgstr "запросити доступ до своїх персональних даних"
+
+#: pages/templates/pages/privacy.html:120
+msgid "request correction of inaccurate data"
+msgstr "вимагати виправлення неточних даних"
+
+#: pages/templates/pages/privacy.html:121
+msgid "request deletion of your data"
+msgstr "вимагати видалення своїх даних"
+
+#: pages/templates/pages/privacy.html:122
+msgid "withdraw consent at any time"
+msgstr "відкликати свою згоду в будь-який момент"
+
+#: pages/templates/pages/privacy.html:124
+msgid "To exercise these rights, please contact us."
+msgstr "Для реалізації цих прав, будь ласка, зв’яжіться з нами."
+
+#: pages/templates/pages/privacy.html:129
+msgid "Changes to This Policy"
+msgstr "Зміни до цієї Політики"
+
+#: pages/templates/pages/privacy.html:130
+msgid ""
+"We may update this Privacy Policy from time to time. Any changes will be "
+"posted on this page with an updated effective date."
+msgstr ""
+"Ми можемо час від часу оновлювати цю Політику конфіденційності. Усі зміни "
+"публікуються на цій сторінці з оновленою датою набрання чинності."
+
+#: pages/templates/pages/privacy.html:131
+msgid ""
+"Your continued use of our website or services after changes are published "
+"constitutes acceptance of the updated policy."
+msgstr ""
+"Подальше використання вебсайту або сервісів після публікації змін означає "
+"вашу згоду з оновленою Політикою."
+
+#: pages/templates/pages/privacy.html:137 templates/base.html:497
+#: templates/base_simple.html:111
+msgid "Contact Us"
+msgstr "Зв’язатися з нами"
+
+#: pages/templates/pages/privacy.html:138
+msgid ""
+"If you have any questions about this Privacy Policy or how we handle your "
+"information, you can contact us at:"
+msgstr ""
+"Якщо у вас виникли питання щодо цієї Політики конфіденційності або обробки "
+"ваших даних, ви можете зв’язатися з нами за адресою:"
+
+#: pages/templates/pages/terms.html:9
+msgid ""
+"An overview of the terms that ensure transparency and fairness in our "
+"collaboration."
+msgstr ""
+"Огляд умов, що забезпечують прозорість та справедливі правила нашої "
+"співпраці."
+
+#: pages/templates/pages/terms.html:16
+msgid "Terms"
+msgstr "Умови"
+
+#: pages/templates/pages/terms.html:35
+msgid "Terms of Service"
+msgstr "Умови надання послуг"
+
+#: pages/templates/pages/terms.html:36
+msgid ""
+"Please read these Terms of Service carefully before using our website or "
+"services."
+msgstr ""
+"Будь ласка, уважно ознайомтеся з цими Умовами надання послуг перед "
+"використанням нашого вебсайту або сервісів."
+
+#: pages/templates/pages/terms.html:43
+msgid "Agreement to Terms"
+msgstr "Згода з умовами"
+
+#: pages/templates/pages/terms.html:44
+msgid ""
+"By accessing or using the Neverland Labs website and services, you agree to "
+"be bound by these Terms of Service and all applicable laws and regulations. "
+"If you do not agree with these Terms, you should not use our website or "
+"services."
+msgstr ""
+"Користуючись вебсайтом та сервісами Neverland Labs, ви погоджуєтеся "
+"дотримуватися цих Умов надання послуг, а також чинного законодавства та "
+"нормативних вимог. Якщо ви не погоджуєтеся з цими умовами, будь ласка, "
+"утримайтеся від використання нашого сайту або сервісів."
+
+#: pages/templates/pages/terms.html:47
+msgid ""
+"These Terms apply to all visitors, clients, and others who access or use our "
+"services."
+msgstr ""
+"Ці Умови застосовуються до всіх відвідувачів, клієнтів та інших осіб, які "
+"отримують доступ до наших сервісів або користуються ними."
+
+#: pages/templates/pages/terms.html:53
+msgid "Scope of Services"
+msgstr "Обсяг послуг"
+
+#: pages/templates/pages/terms.html:54
+msgid ""
+"Neverland Labs provides digital product services, including but not limited "
+"to web development, technical consulting, and related services."
+msgstr ""
+"Neverland Labs надає послуги з розробки цифрових продуктів, зокрема "
+"веброзробку, технічний консалтинг та супутні сервіси."
+
+#: pages/templates/pages/terms.html:55
+msgid ""
+"Information published on this website is provided for general informational "
+"purposes only and does not constitute a binding offer unless explicitly "
+"stated."
+msgstr ""
+"Інформація, розміщена на цьому вебсайті, має виключно інформаційний характер "
+"і не є публічною або обов’язковою офертою, якщо інше прямо не зазначено."
+
+#: pages/templates/pages/terms.html:60
+msgid "Intellectual Property Rights"
+msgstr "Права інтелектуальної власності"
+
+#: pages/templates/pages/terms.html:61
+msgid ""
+"All content on this website, including text, graphics, logos, visuals, and "
+"code samples, is the property of Neverland Labs or its licensors and is "
+"protected by applicable intellectual property laws."
+msgstr ""
+"Увесь контент на цьому вебсайті, включно з текстами, графікою, логотипами, "
+"візуальними матеріалами та прикладами коду, є власністю Neverland Labs або "
+"її ліцензіарів і захищений відповідним законодавством у сфері "
+"інтелектуальної власності."
+
+#: pages/templates/pages/terms.html:62
+msgid "You may not:"
+msgstr "Забороняється:"
+
+#: pages/templates/pages/terms.html:64
+msgid "copy, reproduce, or distribute content without prior written permission"
+msgstr ""
+"копіювати, відтворювати або поширювати контент без попереднього письмового "
+"дозволу"
+
+#: pages/templates/pages/terms.html:65
+msgid "modify or create derivative works based on our content"
+msgstr "змінювати або створювати похідні матеріали на основі нашого контенту"
+
+#: pages/templates/pages/terms.html:66
+msgid "use our name, branding, or trademarks without authorization"
+msgstr ""
+"використовувати нашу назву, елементи бренду або торговельні марки без "
+"відповідного дозволу"
+
+#: pages/templates/pages/terms.html:68
+msgid ""
+"Content on this website is provided for informational and non-commercial use "
+"only."
+msgstr ""
+"Контент на цьому вебсайті призначений виключно для інформаційного та "
+"некомерційного використання."
+
+#: pages/templates/pages/terms.html:73
+msgid "User Conduct"
+msgstr "Правила поведінки користувачів"
+
+#: pages/templates/pages/terms.html:74
+msgid ""
+"You agree not to use the website or services in any way that could harm, "
+"disrupt, or interfere with their proper operation."
+msgstr ""
+"Ви погоджуєтеся не використовувати вебсайт або сервіси будь-яким чином, що "
+"може завдати шкоди, порушити або перешкодити їхній належній роботі."
+
+#: pages/templates/pages/terms.html:78
+msgid "Prohibited activities include, but are not limited to:"
+msgstr "Заборонені дії включають, але не обмежуються:"
+
+#: pages/templates/pages/terms.html:80
+msgid "attempting to gain unauthorized access to systems or data"
+msgstr "впровадження шкідливого коду або небезпечного контенту"
+
+#: pages/templates/pages/terms.html:81
+msgid "introducing malicious code or harmful content"
+msgstr "впровадження шкідливого коду або небезпечного контенту"
+
+#: pages/templates/pages/terms.html:82
+msgid "scraping or systematically extracting content"
+msgstr "скрейпінг або систематичне автоматизоване збирання контенту"
+
+#: pages/templates/pages/terms.html:83
+msgid "misrepresenting your identity or affiliation"
+msgstr "введення в оману щодо своєї особи або приналежності"
+
+#: pages/templates/pages/terms.html:91
+msgid "Third-Party Links"
+msgstr "Посилання на сторонні ресурси"
+
+#: pages/templates/pages/terms.html:92
+msgid ""
+"Our website may contain links to third-party websites or services. We are "
+"not responsible for the content, policies, or practices of any third-party "
+"websites."
+msgstr ""
+"Наш вебсайт може містити посилання на сторонні вебресурси або сервіси. Ми не "
+"несемо відповідальності за контент, політики або практики будь-яких "
+"сторонніх сайтів."
+
+#: pages/templates/pages/terms.html:96
+msgid "Accessing third-party services is done at your own risk."
+msgstr "Доступ до сторонніх сервісів здійснюється на ваш власний ризик."
+
+#: pages/templates/pages/terms.html:103
+msgid "Disclaimers"
+msgstr "Застереження"
+
+#: pages/templates/pages/terms.html:104
+msgid ""
+"Our website and services are provided on an “as is” and “as available” basis."
+msgstr "Наш вебсайт та сервіси надаються на умовах «як є» та «за наявності»."
+
+#: pages/templates/pages/terms.html:106
+msgid "We make no warranties or guarantees that:"
+msgstr "Ми не надаємо жодних гарантій або запевнень щодо того, що:"
+
+#: pages/templates/pages/terms.html:108
+msgid "the website will be uninterrupted or error-free"
+msgstr "робота вебсайту буде безперервною або без помилок"
+
+#: pages/templates/pages/terms.html:109
+msgid "information provided will be accurate or up to date"
+msgstr "надана інформація буде точною або актуальною"
+
+#: pages/templates/pages/terms.html:110
+msgid "the services will meet specific requirements"
+msgstr "сервіси відповідатимуть конкретним вимогам або очікуванням"
+
+#: pages/templates/pages/terms.html:115
+msgid "Use of our website and services is at your own discretion and risk."
+msgstr ""
+"Використання нашого вебсайту та сервісів здійснюється на ваш власний розсуд "
+"і ризик."
+
+#: pages/templates/pages/terms.html:123
+msgid "Limitation of Liability"
+msgstr "Обмеження відповідальності"
+
+#: pages/templates/pages/terms.html:124
+msgid ""
+"To the fullest extent permitted by law, Neverland Labs shall not be liable "
+"for any indirect, incidental, special, consequential, or punitive damages "
+"arising out of or related to your use of the website or services."
+msgstr ""
+"У межах, дозволених чинним законодавством, Neverland Labs не несе "
+"відповідальності за будь-які непрямі, випадкові, спеціальні, побічні або "
+"штрафні збитки, що виникають у зв’язку з використанням вебсайту або сервісів."
+
+#: pages/templates/pages/terms.html:129
+msgid "Indemnification"
+msgstr "Відшкодування збитків"
+
+#: pages/templates/pages/terms.html:130
+msgid ""
+"You agree to indemnify and hold harmless Neverland Labs, its founders, team "
+"members, and partners from any claims, liabilities, damages, or expenses "
+"arising from your misuse of the website or violation of these Terms."
+msgstr ""
+"Ви погоджуєтеся відшкодовувати та звільняти від відповідальності Neverland "
+"Labs, її засновників, членів команди та партнерів у разі будь-яких "
+"претензій, зобов’язань, збитків або витрат, що виникають унаслідок порушення "
+"цих Умов або неправомірного використання вебсайту."
+
+#: pages/templates/pages/terms.html:135
+msgid "Termination"
+msgstr "Припинення доступу"
+
+#: pages/templates/pages/terms.html:136
+msgid ""
+"We reserve the right to suspend or terminate access to our website or "
+"services at any time, without prior notice, if these Terms are violated or "
+"if necessary to protect our operations."
+msgstr ""
+"Ми залишаємо за собою право призупинити або припинити доступ до вебсайту або "
+"сервісів у будь-який час без попереднього повідомлення у разі порушення цих "
+"Умов або за необхідності захисту нашої діяльності."
+
+#: pages/templates/pages/terms.html:141
+msgid "Governing Law"
+msgstr "Регулююче право"
+
+#: pages/templates/pages/terms.html:142
+msgid ""
+"These Terms shall be governed by and construed in accordance with the laws "
+"of Ukraine, without regard to conflict of law provisions."
+msgstr ""
+"Ці Умови регулюються та тлумачаться відповідно до законодавства України без "
+"урахування норм колізійного права."
+
+#: pages/templates/pages/terms.html:147
+msgid "Changes to Terms"
+msgstr "Зміни до Умов"
+
+#: pages/templates/pages/terms.html:148
+msgid ""
+"We may update these Terms of Service from time to time. Any changes will be "
+"posted on this page with an updated effective date."
+msgstr ""
+"Ми можемо періодично оновлювати ці Умови обслуговування. Усі зміни "
+"публікуватимуться на цій сторінці з оновленою датою набрання чинності."
+
+#: pages/templates/pages/terms.html:151
+msgid ""
+"By continuing to use our website or services after changes become effective, "
+"you agree to the revised Terms."
+msgstr ""
+"Продовжуючи користуватися нашим вебсайтом або сервісами після набрання "
+"змінами чинності, ви погоджуєтеся з оновленими Умовами."
+
+#: pages/templates/pages/terms.html:164
+msgid ""
+"If you have any questions regarding these Terms of Service, please contact "
+"us:"
+msgstr ""
+"Якщо у вас виникли запитання щодо цих Умов обслуговування, будь ласка, "
+"зв’яжіться з нами:"
+
+#: pages/templates/pages/ux.html:11
+msgid "UX &amp; UI Design for Digital Products"
+msgstr "UX та UI дизайн для цифрових продуктів"
+
+#: pages/templates/pages/ux.html:12 templates/base.html:259
+msgid ""
+"We design user experiences and interfaces that are clear, intuitive, and "
+"aligned with real business goals — not just visual trends."
+msgstr ""
+"Ми проєктуємо зрозумілі та інтуїтивні інтерфейси, узгоджені з бізнес-цілями."
+
+#: pages/templates/pages/ux.html:48 templates/base.html:258
+msgid "Product-Focused UX &amp; UI Design"
+msgstr "UX та UI дизайн, орієнтований на продукт"
+
+#: pages/templates/pages/ux.html:49
+msgid ""
+"We help digital products communicate value, reduce friction, and convert "
+"users through thoughtful UX strategy and clean UI design. Our design process "
+"is grounded in user behavior, product logic, and close collaboration with "
+"development and analytics."
+msgstr ""
+"Ми допомагаємо цифровим продуктам чітко доносити цінність, зменшувати тертя "
+"та підвищувати конверсію завдяки продуманій UX-стратегії та чистому UI-"
+"дизайну. Наш процес базується на поведінці користувачів, логіці продукту та "
+"тісній співпраці з розробкою й аналітикою."
+
+#: pages/templates/pages/ux.html:61 pages/templates/pages/ux.html:158
+#: templates/base.html:205
+msgid "UX Research &amp; Product Discovery"
+msgstr "UX-дослідження та продуктовий аналіз"
+
+#: pages/templates/pages/ux.html:62
+msgid ""
+"Understanding users, business goals, and product constraints through "
+"research, interviews, and analysis."
+msgstr ""
+"Розуміння користувачів, бізнес-цілей та обмежень продукту через дослідження, "
+"інтерв’ю та аналітику."
+
+#: pages/templates/pages/ux.html:72
+msgid "Information Architecture &amp; User Flows"
+msgstr "Інформаційна архітектура та користувацькі сценарії"
+
+#: pages/templates/pages/ux.html:73
+msgid ""
+"Clear structure and navigation that make complex products easy to understand "
+"and use."
+msgstr ""
+"Чітка структура та навігація, які роблять складні продукти зрозумілими та "
+"зручними у використанні."
+
+#: pages/templates/pages/ux.html:84 pages/templates/pages/ux.html:170
+#: templates/base.html:232
+msgid "UI Design &amp; Design Systems"
+msgstr "UI-дизайн та дизайн-системи"
+
+#: pages/templates/pages/ux.html:85
+msgid ""
+"Clean, consistent, and scalable interface design aligned with your brand and "
+"product vision."
+msgstr ""
+"Чистий, послідовний та масштабований дизайн інтерфейсів, узгоджений з "
+"брендом та продуктовим баченням."
+
+#: pages/templates/pages/ux.html:95
+msgid "UX Validation &amp; Iteration"
+msgstr "UX-валидація та ітерації"
+
+#: pages/templates/pages/ux.html:96
+msgid ""
+"Usability testing and iteration based on real feedback — not assumptions."
+msgstr ""
+"Тестування зручності та ітерації на основі реального фідбеку, а не припущень."
+
+#: pages/templates/pages/ux.html:106
+msgid "Wireframes &amp; UX Prototypes"
+msgstr "Wireframes та UX-прототипи"
+
+#: pages/templates/pages/ux.html:107
+msgid ""
+"Low- and mid-fidelity prototypes to validate ideas before visual design and "
+"development."
+msgstr ""
+"Прототипи низької та середньої деталізації для перевірки ідей до візуального "
+"дизайну та розробки."
+
+#: pages/templates/pages/ux.html:120
+msgid "Discovery &amp; UX Audit"
+msgstr "Discovery та UX-аудит"
+
+#: pages/templates/pages/ux.html:121
+msgid ""
+"We study your product, users, competitors, and existing interfaces to "
+"identify friction and opportunities."
+msgstr ""
+"Ми аналізуємо продукт, користувачів, конкурентів та існуючі інтерфейси, щоб "
+"виявити точки тертя та можливості для покращення."
+
+#: pages/templates/pages/ux.html:127
+msgid "UX Strategy &amp; Structure"
+msgstr "UX-стратегія та структура"
+
+#: pages/templates/pages/ux.html:128
+msgid ""
+"We define user flows, information architecture, and UX principles aligned "
+"with business goals."
+msgstr ""
+"Ми формуємо користувацькі сценарії, інформаційну архітектуру та UX-принципи, "
+"узгоджені з бізнес-цілями."
+
+#: pages/templates/pages/ux.html:134
+msgid "Design &amp; Prototyping"
+msgstr "Дизайн та прототипування"
+
+#: pages/templates/pages/ux.html:135
+msgid ""
+"Wireframes and UI designs are created iteratively with regular reviews and "
+"alignment with development."
+msgstr ""
+"Wireframes та UI-дизайн створюються ітеративно з регулярними рев’ю та "
+"узгодженням із командою розробки."
+
+#: pages/templates/pages/ux.html:141
+msgid "Validation &amp; Handoff"
+msgstr "Валідація та передача в розробку"
+
+#: pages/templates/pages/ux.html:142
+msgid ""
+"We test designs, refine details, and prepare everything for smooth "
+"development handoff."
+msgstr ""
+"Ми тестуємо дизайн, допрацьовуємо деталі та готуємо все необхідне для "
+"безшовної передачі в розробку."
+
+#: pages/templates/pages/ux.html:162 templates/base.html:212
+msgid "User Flows &amp; Information Architecture"
+msgstr "Користувацькі сценарії та інформаційна архітектура"
+
+#: pages/templates/pages/ux.html:166 templates/base.html:219
+msgid "Wireframing &amp; Prototyping"
+msgstr "Wireframing та прототипування"
+
+#: pages/templates/pages/ux.html:174 templates/base.html:239
+msgid "Usability Testing"
+msgstr "Тестування зручності використання"
+
+#: pages/templates/pages/ux.html:178 templates/base.html:246
+msgid "Design Support for Development"
+msgstr "Дизайн-супровід для розробки"
+
+#: pages/templates/pages/ux.html:188
+msgid "4–8 weeks"
+msgstr "4–8 тижнів"
+
+#: pages/templates/pages/ux.html:192
+msgid "1–2 designers"
+msgstr "1–2 дизайнери"
+
+#: pages/templates/pages/ux.html:196
+msgid "UX/UI designs &amp; Figma prototypes"
+msgstr "UX/UI-дизайн та прототипи у Figma"
+
+#: pages/templates/pages/ux.html:200
+msgid "Design support &amp; iteration"
+msgstr "Дизайн-супровід та ітерації"
+
+#: pages/templates/pages/ux.html:208
+msgid ""
+"Not sure why users drop off or how to improve usability? Let’s design an "
+"experience that users actually enjoy — and businesses benefit from."
+msgstr ""
+"Не впевнені, чому користувачі залишають продукт або як покращити зручність? "
+"Давайте створимо досвід, який користувачам дійсно подобається, а бізнесу "
+"приносить результат."
+
+#: pages/templates/pages/ux.html:220
+msgid "Download UX/UI Design Overview (PDF)"
+msgstr "Завантажити UX/UI Design Overview (PDF)"
+
+#: templates/404.html:8
+msgid "The page you are looking for doesn’t exist or has been moved."
+msgstr "Сторінка, яку ви шукаєте, не існує або була переміщена."
+
+#: templates/404.html:42
+msgid "Oops, sorry! Page Not Found"
+msgstr ""
+
+#: templates/404.html:45
+#, fuzzy
+#| msgid ""
+#| "The page you are looking for might have been removed, it or is "
+#| "temporarily unavailable."
+msgid ""
+"The page you are looking for might have been removed, or it is temporarily "
+"unavailable."
+msgstr ""
+"Можливо, сторінку, яку ви шукаєте, було видалено або вона тимчасово "
+"недоступна"
+
+#: templates/404.html:49 templates/500.html:49
+msgid "Back to Main Page"
+msgstr "Назад на головну сторінку"
+
+#: templates/500.html:8
+msgid "Server Error"
+msgstr ""
+
+#: templates/500.html:42
+msgid "Something went wrong"
+msgstr ""
+
+#: templates/500.html:45
+msgid ""
+"We’re already looking into it. Please try again later or return to the "
+"homepage."
+msgstr ""
+
+#: templates/base.html:68
+msgid "About"
+msgstr "О Нас"
+
+#: templates/base.html:70
+msgid "Portfolio"
+msgstr "Портфоліо"
+
+#: templates/base.html:71
+msgid "Team"
+msgstr "Команда"
+
+#: templates/base.html:81 templates/base.html:106
+msgid "Digital Marketing"
+msgstr "Цифровий маркетинг"
+
+#: templates/base.html:94
+msgid "Product Engineering"
+msgstr "Веб-розробка"
+
+#: templates/base.html:118
+msgid "Resources"
+msgstr "Ресурси"
+
+#: templates/base.html:136
+msgid ""
+"Design and development of scalable SaaS platforms and custom business "
+"systems."
+msgstr ""
+"Проєктування та розробка масштабованих SaaS-платформ і кастомних бізнес-"
+"систем."
+
+#: templates/base.html:143
+msgid "High-performance, SEO-friendly interfaces focused on user experience."
+msgstr ""
+"Високопродуктивні, SEO-оптимізовані інтерфейси з фокусом на користувацький "
+"досвід."
+
+#: templates/base.html:150
+msgid "Secure, scalable backend systems with clean architecture and APIs."
+msgstr "Безпечні та масштабовані бекенд-системи з чистою архітектурою та API."
+
+#: templates/base.html:163
+msgid "Automation of business processes, notifications, and integrations."
+msgstr "Автоматизація бізнес-процесів, сповіщень та інтеграцій."
+
+#: templates/base.html:170
+msgid "Reliable API design and integration with third-party services."
+msgstr "Надійне проєктування API та інтеграція зі сторонніми сервісами."
+
+#: templates/base.html:177
+msgid "Efficient data models, performance tuning, and data integrity."
+msgstr "Оптимізація даних"
+
+#: templates/base.html:190 templates/base.html:260 templates/base.html:330
+#: templates/base.html:400
+msgid "More Details"
+msgstr "Детальніше"
+
+#: templates/base.html:206
+msgid "User research and product discovery to clearly define user needs."
+msgstr "Дослідження користувачів і формування продуктового бачення."
+
+#: templates/base.html:213
+msgid ""
+"Designing clear user flows that make complex products easy to understand."
+msgstr ""
+"Проєктування зрозумілих користувацьких сценаріїв для спрощення складних "
+"продуктів."
+
+#: templates/base.html:220
+msgid "Wireframes and prototypes for early validation."
+msgstr "Вайрфрейми та прототипи для ранньої перевірки рішень."
+
+#: templates/base.html:233
+msgid "Clean, scalable UI and design systems."
+msgstr "Чисті, масштабовані UI та дизайн-системи."
+
+#: templates/base.html:240
+msgid "Tested with users."
+msgstr "Перевірено на реальних користувачах."
+
+#: templates/base.html:247
+msgid ""
+"Close collaboration with developers, documentation, and ongoing design "
+"support."
+msgstr "Співпраця з розробниками, документація та дизайн-підтримка."
+
+#: templates/base.html:276
+msgid "Product positioning and growth strategy aligned with business goals."
+msgstr ""
+"Позиціонування продукту та стратегія зростання, узгоджені з бізнес-цілями."
+
+#: templates/base.html:283
+msgid "Launch planning, messaging, and acquisition strategy for new products."
+msgstr ""
+"Планування запуску, комунікація та стратегія залучення для нових продуктів."
+
+#: templates/base.html:290
+msgid "Organic growth through SEO, content, and intent-driven demand capture."
+msgstr ""
+"Органічне зростання через SEO, контент та роботу з користувацьким наміром."
+
+#: templates/base.html:303
+msgid ""
+"User onboarding, retention, and lifecycle automation via email &amp; "
+"messaging."
+msgstr "Онбординг, утримання та автоматизація через email і месенджери."
+
+#: templates/base.html:310
+msgid ""
+"Clear brand positioning across web, product, and communication channels."
+msgstr ""
+"Чітке позиціонування бренду у вебі, продукті та комунікаційних каналах."
+
+#: templates/base.html:317
+msgid ""
+"Actionable metrics, funnels, and dashboards focused on growth decisions."
+msgstr "Практичні метрики та дашборди для рішень щодо зростання."
+
+#: templates/base.html:329
+msgid "We grow digital products with clear strategy and measurable results."
+msgstr ""
+"Ми розвиваємо цифрові продукти з чіткою стратегією та вимірюваними "
+"результатами."
+
+#: templates/base.html:346
+msgid "Analytics strategy aligned with product and business goals."
+msgstr "Аналітична стратегія, узгоджена з цілями продукту та бізнесу."
+
+#: templates/base.html:353
+msgid "Metrics and insights to track growth, activation, and retention."
+msgstr "Метрики та інсайти для відстеження зростання, активації та утримання."
+
+#: templates/base.html:360
+msgid "Clear dashboards and reports for fast, informed decisions."
+msgstr "Зрозумілі дашборди та звіти для швидких і зважених рішень."
+
+#: templates/base.html:373
+msgid "Event tracking, funnels, and analytics tool setup."
+msgstr "Налаштування трекінгу подій, воронок та аналітичних інструментів."
+
+#: templates/base.html:380
+msgid "Advanced analysis and forecasting for product and revenue planning."
+msgstr "Поглиблений аналіз і прогнозування для планування продукту та доходів."
+
+#: templates/base.html:387
+msgid "Data validation, monitoring, and reliability controls."
+msgstr "Валідація даних, моніторинг та контроль надійності."
+
+#: templates/base.html:399
+msgid "We turn raw data into clear insights and data-driven decisions."
+msgstr "Перетворюємо дані на зрозумілі інсайти та обґрунтовані рішення."
+
+#: templates/base.html:468 templates/base_simple.html:82
+msgid "We build, market and optimize digital products using data."
+msgstr ""
+"Ми створюємо, просуваємо на ринку та оптимізуємо цифрові продукти, "
+"використовуючи дані."
+
+#: templates/base.html:478 templates/base_simple.html:92
+msgid "Useful Links"
+msgstr "Корисні посилання"
+
+#: templates/base.html:481 templates/base_simple.html:95
+msgid "Terms of service"
+msgstr "Умови надання послуг"
+
+#: templates/base.html:482 templates/base_simple.html:96
+msgid "Privacy policy"
+msgstr "Політика конфіденційності"
+
+#: templates/base.html:498 templates/base_simple.html:112
+msgid "Ukraine"
+msgstr "Україна"
+
+#: templates/base.html:499 templates/base_simple.html:113
+msgid "Phone"
+msgstr "Телефон"
+
+#: templates/base.html:507 templates/base_simple.html:121
+msgid "Copyright"
+msgstr "Авторське право"
+
+#: templates/base.html:507 templates/base_simple.html:121
+msgid "All Rights Reserved"
+msgstr "Усі права захищено"
+
+#: venv/lib/python3.11/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:153
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:775
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:200
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:211
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.11/site-packages/django/core/validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:309
+#: venv/lib/python3.11/site-packages/django/core/validators.py:318
+#: venv/lib/python3.11/site-packages/django/core/validators.py:332
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:311
+msgid "IPv4"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:320
+#: venv/lib/python3.11/site-packages/django/utils/ipv6.py:43
+msgid "IPv6"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:334
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:514
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:366
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:405
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:659
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/base.py:1600
+#: venv/lib/python3.11/site-packages/django/forms/models.py:908
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/base.py:1602
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1163
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1165
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1215
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1217
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1326
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1427
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1431
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1566
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1435
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1562
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1570
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1575
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1702
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1704
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1868
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1920
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1945
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2025
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2067
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2180
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2188
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2219
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2310
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2364
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2379
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2394
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2446
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2534
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2642
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2666
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2733
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:979
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:982
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1276
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1333
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1335
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1383
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.11/site-packages/django/forms/boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:315
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:486
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1267
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:509
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1268
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:536
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:570
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:571
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:640
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:641
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:642
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:644
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:649
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:717
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:889
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:975
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:977
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1096
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1590
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1097
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1339
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1369
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.11/site-packages/django/forms/forms.py:97
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:922
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:527
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:528
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:529
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:866
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:867
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:868
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:903
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/text.py:287
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.11/site-packages/django/utils/text.py:306
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:353
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:68
+#: venv/lib/python3.11/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.11/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#~ msgid "Product Analytics"
+#~ msgstr "Аналітика продукту"
+
+#~ msgid "Customer Insights"
+#~ msgstr "Статистика клієнтів"
+
+#~ msgid "Market Research"
+#~ msgstr "Дослідження ринку"
+
+#~ msgid "Enterprise Software"
+#~ msgstr "Програмне забезпечення"
+
+#~ msgid "CRM Solutions"
+#~ msgstr "CRM Рішення"
+
+#~ msgid "ERP Systems"
+#~ msgstr "ERP Системи"
+
+#~ msgid "Workflow Automation"
+#~ msgstr "Автоматизація робочого процесу"
+
+#~ msgid "Document Management"
+#~ msgstr "Управління документами"
+
+#~ msgid "Business Intelligence"
+#~ msgstr "Бізнес-аналітика"
+
+#~ msgid "Documentation"
+#~ msgstr "Документація"
+
+#~ msgid "Tutorials"
+#~ msgstr "Консультації"
+
+#~ msgid "Community"
+#~ msgstr "Спільнота"
+
+#~ msgid "Blog Posts"
+#~ msgstr "Блог"
+
+#~ msgid "Core Solutions"
+#~ msgstr "Основні рішення"
+
+#~ msgid "Manage customer relationships effectively"
+#~ msgstr "Ефективно керуйте відносинами з клієнтами"
+
+#~ msgid "Integrate all business processes"
+#~ msgstr "Інтегруйте всі бізнес-процеси"
+
+#~ msgid "Streamline repetitive tasks"
+#~ msgstr "Оптимізуйте повторювані завдання"
+
+#~ msgid "Organize and secure documents"
+#~ msgstr "Організація та захист документів"
+
+#~ msgid "Make data-driven decisions"
+#~ msgstr "Рішення, керовані потребами бізнесу"
+
+#~ msgid "Connect all your systems"
+#~ msgstr "Підключіть усі ваші системи"
+
+#, fuzzy
+#~| msgid "Enterprise Software"
+#~ msgid "Enterprise Package"
+#~ msgstr "Програмне забезпечення"
+
+#, fuzzy
+#~| msgid "About"
+#~ msgid "About us"
+#~ msgstr "О Нас"
+
+#~ msgid "Web Design"
+#~ msgstr "Веб-дизайн"
+
+#~ msgid "Graphic Design"
+#~ msgstr "Графічний дизайн"
+
+#, fuzzy
+#~| msgid "Data &amp; Analytics"
+#~ msgid "Data & Analytics"
+#~ msgstr "Дані та аналітика"
+
+#, fuzzy
+#~| msgid "Product Strategy & Consulting"
+#~ msgid "Product Strategy &amp; Consulting"
+#~ msgstr "Стратегія та консалтинг"
+
+#~ msgid ""
+#~ "A senior-level perspective to align technology, marketing, and data with "
+#~ "real business objectives."
+#~ msgstr ""
+#~ "Експертний погляд, що допомагає узгодити технології, маркетинг і дані з "
+#~ "реальними бізнес-цілями."
+
+#~ msgid "Talk to Us"
+#~ msgstr "Зв’язатися з нами"
+
+#~ msgid "Get Proposal"
+#~ msgstr "Отримати пропозицію"
+
+#~ msgid "Get Quote"
+#~ msgstr "Отримати пропозицію"
+
+#~ msgid "Call"
+#~ msgstr "Зателефонувати"
+
+#~ msgid "Оксана Яцук"
+#~ msgstr "Оксана Яцук"
+
+#~ msgid ""
+#~ "We are working with Neverland Labs on a custom web application. The team "
+#~ "quickly understood our marketing and product goals, предложили продуману "
+#~ "архітектуру та працюють дуже структуровано. Комунікація прозора, рішення "
+#~ "— з фокусом на довгостроковий розвиток продукту."
+#~ msgstr ""
+#~ "Ми співпрацюємо з Neverland Labs над розробкою кастомного вебзастосунку. "
+#~ "Команда швидко зрозуміла наші маркетингові та продуктові цілі, "
+#~ "запропонувала продуману архітектуру й працює дуже структуровано. "
+#~ "Комунікація прозора, а всі рішення ухвалюються з фокусом на "
+#~ "довгостроковий розвиток продукту."

@@ -1,0 +1,42 @@
+{% load static %}
+{% load i18n %}
+
+<section id="testimonials" class="testimonials section light-background">
+
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="section-title">
+      <h2>{% trans "Client Feedback" %}</h2>
+      <p>{% trans "Real collaboration, real experience" %}</p>
+    </div>
+
+    <div class="testimonial-single">
+
+      <div class="testimonial-card">
+
+        <div class="testimonial-quote">
+          <i class="bi bi-quote"></i>
+        </div>
+
+        <p class="testimonial-text">
+          {% trans "We are working with Neverland Labs on a custom web application. The team quickly understood our marketing and business goals, proposed a well-thought-out architecture, and works in a highly structured way. Communication is transparent, and decisions are made with a strong focus on the long-term growth of the product." %}
+        </p>
+
+        <div class="testimonial-author">
+          <img src="{% static 'assets/img/person/oksana.png' %}" alt="Oksana Yatsuk" class="testimonial-avatar">
+
+          <div class="author-info">
+            <h4>{% trans "Oksana" %}</h4>
+            <span>{% trans "Head of Marketing, StrikeShop" %}</span>
+            <small class="project-status">{% trans "Ongoing project" %}</small>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>

@@ -1,0 +1,146 @@
+{% load static %} {% load i18n %}
+
+<section id="team" class="team section">
+  <!-- Section Title -->
+  <div class="container section-title">
+    <h2>{% trans "Our Team" %}</h2>
+    <p>
+      {% trans "A small senior core team supported by trusted specialists when needed" %}
+    </p>
+  </div>
+  <!-- End Section Title -->
+  <div class="container">
+    <div class="team-slider swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 0,
+          "autoplay": { "delay": 5000 },
+          "slidesPerView": 1,
+          "spaceBetween": 30,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "navigation": {
+            "nextEl": ".swiper-button-next",
+            "prevEl": ".swiper-button-prev"
+          },
+          "breakpoints": {
+            "576": { "slidesPerView": 2 },
+            "992": { "slidesPerView": 3 },
+            "1200": { "slidesPerView": 4 }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="team-card">
+            <div class="team-image">
+              <img src="{% static "assets/img/person/person-m-3.webp" %}"
+              class="img-fluid" alt="" loading="lazy">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-content">
+              <h3>{% trans "Serhii Korobko" %}</h3>
+              <span>{% trans "Founder · Product &amp; Business" %}</span>
+              <p>
+                {% trans "Leads product vision, business strategy, and client communication." %}
+              </p>
+            </div>
+          </div>
+          <!-- End Team Card -->
+        </div>
+        <!-- End slide item -->
+        <div class="swiper-slide">
+          <div class="team-card">
+            <div class="team-image">
+              <img src="{% static "assets/img/person/person-f-5.webp" %}"
+              class="img-fluid" alt="" loading="lazy">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-content">
+              <h3>Sophia Reynolds</h3>
+              <span>Product Designer</span>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+          </div>
+          <!-- End Team Card -->
+        </div>
+        <!-- End slide item -->
+        <div class="swiper-slide">
+          <div class="team-card">
+            <div class="team-image">
+              <img src="{% static "assets/img/person/person-m-8.webp" %}"
+              class="img-fluid" alt="" loading="lazy">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-content">
+              <h3>{% trans "Oleksii Tolstonoh" %}</h3>
+              <span>{% trans "Co-Founder · Tech Lead" %}</span>
+              <p>
+                {% trans "Responsible for architecture, code quality, and technical decisions." %}
+              </p>
+            </div>
+          </div>
+          <!-- End Team Card -->
+        </div>
+        <!-- End slide item -->
+        <div class="swiper-slide">
+          <div class="team-card">
+            <div class="team-image">
+              <img src="{% static "assets/img/person/person-f-9.webp" %}"
+              class="img-fluid" alt="" loading="lazy">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-content">
+              <h3>Olivia Thompson</h3>
+              <span>Lead Developer</span>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium.
+              </p>
+            </div>
+          </div>
+          <!-- End Team Card -->
+        </div>
+        <!-- End slide item -->
+      </div>
+      <div class="swiper-pagination d-none"></div>
+      <div class="swiper-button-prev d-none"></div>
+      <div class="swiper-button-next d-none"></div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,111 @@
+{% load static %}
+{% load i18n %}
+    
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>{% trans "Contact" %}</h2>
+        <p>{% trans "Let’s discuss your product and how we can help you move forward." %}</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="contact-main-wrapper">
+          <div class="map-wrapper">
+           <div class="contact-visual">
+  <svg viewBox="0 0 600 520" class="contact-abstract" aria-hidden="true">
+    <!-- Outer triangle -->
+    <polygon points="300,40 560,460 40,460"
+             class="triangle triangle-main"/>
+
+    <!-- Inner triangles -->
+    <polygon points="300,110 490,430 110,430"
+             class="triangle triangle-mid"/>
+
+    <polygon points="300,180 420,420 180,420"
+             class="triangle triangle-inner"/>
+
+    <!-- Nodes -->
+    <circle cx="300" cy="40" r="6" class="node"/>
+    <circle cx="560" cy="460" r="6" class="node"/>
+    <circle cx="40" cy="460" r="6" class="node"/>
+
+    <circle cx="300" cy="300" r="6" class="node accent"/>
+  </svg>
+
+  <div class="contact-visual-text">
+    <span>Development</span>
+    <span>Marketing</span>
+    <span>Data & Analytics</span>
+  </div>
+</div>
+
+          </div>
+
+          <div class="contact-content">
+            <div class="contact-cards-container">
+              <div class="contact-card">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <p>info@examplecompany.com</p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="icon-box">
+                  <i class="bi bi-telegram"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>{% trans "Telegram" %}</h4>
+                  <p>+1 (212) 555-7890</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-container">
+              <h3>{% trans "Tell Us About Your Idea" %}</h3>
+              <p>{% trans "Tell us about your idea, product, or challenge — we’ll get back to you shortly." %}</p>
+
+              <form action="{% url 'pages:contact_send' %}" method="post" class="php-email-form">
+                {% csrf_token %}
+
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="{% trans "Name" %}" required="">
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required="">
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="{% trans "Subject" %}" required="">
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="{% trans "Message" %}" required=""></textarea>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">{% trans "All set! We’ll be in touch shortly." %}</div>
+                </div>
+
+                <div class="form-submit">
+                  <button type="submit">{% trans "Send Message" %}</button>
+                  <div class="social-links">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+

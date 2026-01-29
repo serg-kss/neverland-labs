@@ -1,0 +1,228 @@
+{% extends "base_simple.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<!-- Page Title -->
+<div class="page-title dark-background hero-background">
+  <div class="container position-relative">
+    <h2>{% trans "Web Development for Digital Products" %}</h2>
+    <p>{% trans "We build scalable, high-performance web applications using modern full-stack technologies — from product design to production-ready systems." %}</p>
+
+    <nav class="breadcrumbs" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
+      <ol>
+        <li>
+          <a href="{% url 'pages:index' %}">{% trans "Home" %}</a>
+        </li>
+        <li class="current">{% trans "Web Development" %}</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Decorative layers -->
+  <span class="hero-orb orb-1"></span>
+  <span class="hero-orb orb-2"></span>
+  <span class="hero-orb orb-3"></span>
+</div>
+<!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8">
+            <div class="service-hero">
+              <img src="{% static "assets/img/services/development.png" %}" alt="web-development" class="img-fluid">
+            </div>
+
+            <div class="service-content">
+              <div class="service-header">
+                <h2>{% trans "Full-Stack Web Development &amp; Implementation" %}</h2>
+                <p class="service-intro">{% trans "We design and develop modern web applications for startups and digital businesses — SaaS platforms, internal tools, marketplaces, and custom systems. Our approach combines product thinking, clean architecture, and reliable technologies to build solutions that scale with your business." %}</p>
+              </div>
+
+              <div class="service-features">
+                <h4>{% trans "What You'll Get" %}</h4>
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-bullseye"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Product-Driven Development" %}</h5>
+                        <p>{% trans "We start from business goals and user needs, not just technical requirements — ensuring the product solves real problems." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-window"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Modern Frontend Applications" %}</h5>
+                        <p>{% trans "High-quality interfaces built with React and Next.js — fast, accessible, and optimized for performance and SEO." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-hdd-stack"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Robust Backend Systems" %}</h5>
+                        <p>{% trans "Secure and scalable backends using Node.js (NestJS) and Python (Django) with clean architecture and API-first design." %}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <div class="feature-icon">
+                        <i class="bi bi-database-gear"></i>
+                      </div>
+                      <div class="feature-content">
+                        <h5>{% trans "Databases &amp; Integrations" %}</h5>
+                        <p>{% trans "Design and implementation of relational and non-relational databases, third-party integrations, and automation workflows." %}</p><br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="service-process">
+                <h4>{% trans "Our Process" %}</h4>
+                <div class="process-steps">
+                  <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                      <h5>{% trans "Discovery &amp; Technical Planning" %}</h5>
+                      <p>{% trans "We analyze your product idea, requirements, constraints, and future growth to define the right technical approach." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                      <h5>{% trans "Architecture &amp; Design" %}</h5>
+                      <p>{% trans "We design system architecture, APIs, database schemas, and UX/UI prototypes in Figma before writing production code." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                      <h5>{% trans "Development &amp; Integration" %}</h5>
+                      <p>{% trans "Frontend, backend, and integrations are implemented in parallel with regular demos and transparent progress updates." %}</p>
+                    </div>
+                  </div>
+                  <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                      <h5>{% trans "Testing, Launch &amp; Support" %}</h5>
+                      <p>{% trans "We test, deploy, monitor, and support your product — ensuring stability, performance, and long-term maintainability." %}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-sidebar">
+
+              <div class="service-menu">
+                <h4>{% trans "Our Services" %}</h4>
+                <div class="menu-list">
+                  <a href="#" class="menu-item active">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Custom Web Application Development" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "SaaS &amp; Platform Development" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Frontend Development (React, Next.js)" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Backend Development (NestJS, Django)" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "UI/UX Design (Figma)" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Bots &amp; Automation Systems" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "API Development &amp; Integrations" %}</span>
+                  </a>
+                  <a href="#" class="menu-item">
+                    <i class="bi bi-arrow-right"></i>
+                    <span>{% trans "Database Design &amp; Optimization" %}</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="service-info">
+                <h4>{% trans "Service Details" %}</h4>
+                <div class="info-list">
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Duration:" %}</span>
+                    <span class="info-value">{% trans "2–6 months (depending on scope)" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Team Size:" %}</span>
+                    <span class="info-value">{% trans "2–5 core specialists" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Delivery:" %}</span>
+                    <span class="info-value">{% trans "Production-ready application" %}</span>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-label">{% trans "Support:" %}</span>
+                    <span class="info-value">{% trans "Ongoing maintenance &amp; improvements" %}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-content">
+                  <h4>{% trans "Need Help?" %}</h4>
+                  <p>{% trans "Not sure how to turn your idea into a real product? Let’s discuss your requirements and build a solution that fits your business — not just your tech stack." %}</p>
+                  <div class="contact-info">
+                    <div class="contact-item">
+                      <i class="bi bi-telephone"></i>
+                      <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                      <i class="bi bi-envelope"></i>
+                      <span>info@example.com</span>
+                    </div>
+                  </div>
+                  <p>{% trans "commercial offer" %}</p>
+                  <a href="{% url 'pages:download_dev_pdf' %}" class="btn btn-success">{% trans "Download Web Development PDF" %}</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+{% endblock content %}

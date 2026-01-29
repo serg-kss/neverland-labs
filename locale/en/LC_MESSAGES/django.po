@@ -1,0 +1,3270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-28 15:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: nlab/settings.py:122
+msgid "English"
+msgstr ""
+
+#: nlab/settings.py:123
+msgid "Ukrainian"
+msgstr ""
+
+#: pages/templates/pages/data.html:10
+msgid "Data &amp; Analytics for Digital Products"
+msgstr ""
+
+#: pages/templates/pages/data.html:11
+msgid ""
+"We help companies turn raw data into clear insights, dashboards, and data-"
+"driven decisions — aligning analytics, product, and business goals."
+msgstr ""
+
+#: pages/templates/pages/data.html:19 pages/templates/pages/development.html:19
+#: pages/templates/pages/marketing.html:19
+#: pages/templates/pages/portfolio/action.html:29
+#: pages/templates/pages/privacy.html:14 pages/templates/pages/terms.html:14
+#: pages/templates/pages/ux.html:20 templates/404.html:16 templates/500.html:16
+#: templates/base.html:67 templates/base.html:480 templates/base_simple.html:94
+msgid "Home"
+msgstr ""
+
+#: pages/templates/pages/data.html:21
+#: pages/templates/pages/includes/about.html:33
+#: pages/templates/pages/includes/services.html:97
+#: pages/templates/pages/includes/workprocess.html:45
+#: pages/templates/pages/ux.html:22 templates/base.html:82
+#: templates/base.html:112 templates/base.html:157 templates/base.html:492
+#: templates/base_simple.html:106
+msgid "Data &amp; Analytics"
+msgstr ""
+
+#: pages/templates/pages/data.html:47 templates/base.html:398
+msgid "Data &amp; Analytics Strategy &amp; Implementation"
+msgstr ""
+
+#: pages/templates/pages/data.html:48
+msgid ""
+"We design and implement scalable data and analytics solutions for digital "
+"products — from data collection and pipelines to dashboards, "
+"experimentation, and predictive models. Our focus is on actionable insights, "
+"reliable infrastructure, and measurable business impact."
+msgstr ""
+
+#: pages/templates/pages/data.html:52 pages/templates/pages/development.html:52
+#: pages/templates/pages/marketing.html:52 pages/templates/pages/ux.html:53
+msgid "What You'll Get"
+msgstr ""
+
+#: pages/templates/pages/data.html:60
+msgid "Data Collection &amp; Tracking Setup"
+msgstr ""
+
+#: pages/templates/pages/data.html:61
+msgid ""
+"Design and implementation of reliable event tracking, data schemas, and "
+"analytics foundations across web, backend, and third-party tools."
+msgstr ""
+
+#: pages/templates/pages/data.html:71 pages/templates/pages/data.html:179
+msgid "Data Pipelines &amp; Warehousing"
+msgstr ""
+
+#: pages/templates/pages/data.html:72
+msgid ""
+"Building scalable pipelines to collect, transform, and store data from "
+"multiple sources in a single source of truth."
+msgstr ""
+
+#: pages/templates/pages/data.html:82
+msgid "Analytics &amp; BI Dashboards"
+msgstr ""
+
+#: pages/templates/pages/data.html:83
+msgid ""
+"Clear, decision-oriented dashboards tailored for founders, product teams, "
+"and marketing — no vanity metrics."
+msgstr ""
+
+#: pages/templates/pages/data.html:93 pages/templates/pages/data.html:171
+#: templates/base.html:352
+msgid "Product &amp; Growth Analytics"
+msgstr ""
+
+#: pages/templates/pages/data.html:94
+msgid ""
+"Analysis of user behavior, funnels, cohorts, retention, and conversion to "
+"identify growth opportunities and bottlenecks."
+msgstr ""
+
+#: pages/templates/pages/data.html:104 pages/templates/pages/data.html:187
+#: templates/base.html:379
+msgid "Advanced Analytics &amp; Forecasting"
+msgstr ""
+
+#: pages/templates/pages/data.html:105
+msgid ""
+"Predictive models and advanced analysis to support planning, optimization, "
+"and strategic decisions."
+msgstr ""
+
+#: pages/templates/pages/data.html:115
+msgid "Data Quality &amp; Governance"
+msgstr ""
+
+#: pages/templates/pages/data.html:116
+msgid ""
+"Monitoring, validation, and documentation to ensure data accuracy, "
+"consistency, and long-term reliability."
+msgstr ""
+
+#: pages/templates/pages/data.html:124
+#: pages/templates/pages/development.html:102
+#: pages/templates/pages/marketing.html:102 pages/templates/pages/ux.html:115
+msgid "Our Process"
+msgstr ""
+
+#: pages/templates/pages/data.html:129
+msgid "Discovery &amp; Data Audit"
+msgstr ""
+
+#: pages/templates/pages/data.html:130
+msgid ""
+"We analyze your product, business goals, existing data, tools, and gaps to "
+"understand what matters and what’s missing."
+msgstr ""
+
+#: pages/templates/pages/data.html:136
+msgid "Data Strategy &amp; Architecture"
+msgstr ""
+
+#: pages/templates/pages/data.html:137
+msgid ""
+"We design the data architecture, metrics framework, and analytics roadmap "
+"aligned with your business and product strategy."
+msgstr ""
+
+#: pages/templates/pages/data.html:143 pages/templates/pages/marketing.html:121
+msgid "Implementation &amp; Integration"
+msgstr ""
+
+#: pages/templates/pages/data.html:144
+msgid ""
+"Tracking, pipelines, dashboards, and models are implemented with clear "
+"documentation and regular checkpoints."
+msgstr ""
+
+#: pages/templates/pages/data.html:150
+msgid "Insights, Optimization &amp; Support"
+msgstr ""
+
+#: pages/templates/pages/data.html:151
+msgid ""
+"We turn data into insights, iterate on dashboards, and support continuous "
+"optimization as your product grows."
+msgstr ""
+
+#: pages/templates/pages/data.html:163
+#: pages/templates/pages/development.html:141
+#: pages/templates/pages/marketing.html:141 pages/templates/pages/ux.html:154
+#: templates/base.html:130 templates/base.html:200 templates/base.html:270
+#: templates/base.html:340 templates/base.html:487
+#: templates/base_simple.html:101
+msgid "Our Services"
+msgstr ""
+
+#: pages/templates/pages/data.html:167 templates/base.html:345
+msgid "Data &amp; Analytics Strategy"
+msgstr ""
+
+#: pages/templates/pages/data.html:175 templates/base.html:359
+msgid "BI Dashboards &amp; Reporting"
+msgstr ""
+
+#: pages/templates/pages/data.html:183 templates/base.html:372
+msgid "Tracking &amp; Analytics Setup"
+msgstr ""
+
+#: pages/templates/pages/data.html:191 templates/base.html:386
+msgid "Data Quality &amp; Monitoring"
+msgstr ""
+
+#: pages/templates/pages/data.html:197
+#: pages/templates/pages/development.html:179
+#: pages/templates/pages/marketing.html:175 pages/templates/pages/ux.html:184
+msgid "Service Details"
+msgstr ""
+
+#: pages/templates/pages/data.html:200
+#: pages/templates/pages/development.html:182
+#: pages/templates/pages/marketing.html:178 pages/templates/pages/ux.html:187
+msgid "Duration:"
+msgstr ""
+
+#: pages/templates/pages/data.html:201
+msgid "2–4 months (initial setup)"
+msgstr ""
+
+#: pages/templates/pages/data.html:204
+#: pages/templates/pages/development.html:186
+#: pages/templates/pages/marketing.html:182 pages/templates/pages/ux.html:191
+msgid "Team Size:"
+msgstr ""
+
+#: pages/templates/pages/data.html:205
+msgid "1–3 data specialists"
+msgstr ""
+
+#: pages/templates/pages/data.html:208
+#: pages/templates/pages/development.html:190
+#: pages/templates/pages/marketing.html:186 pages/templates/pages/ux.html:195
+msgid "Delivery:"
+msgstr ""
+
+#: pages/templates/pages/data.html:209
+msgid "Analytics platform &amp; dashboards"
+msgstr ""
+
+#: pages/templates/pages/data.html:212
+#: pages/templates/pages/development.html:194
+#: pages/templates/pages/marketing.html:190 pages/templates/pages/ux.html:199
+msgid "Support:"
+msgstr ""
+
+#: pages/templates/pages/data.html:213
+msgid "Ongoing analytics &amp; optimization"
+msgstr ""
+
+#: pages/templates/pages/data.html:220
+#: pages/templates/pages/development.html:202
+#: pages/templates/pages/marketing.html:198 pages/templates/pages/ux.html:207
+msgid "Need Help?"
+msgstr ""
+
+#: pages/templates/pages/data.html:221
+msgid ""
+"Not sure what data you should track or how to turn numbers into decisions? "
+"Let’s design an analytics system that actually supports your product and "
+"business growth."
+msgstr ""
+
+#: pages/templates/pages/data.html:232
+#: pages/templates/pages/development.html:214
+#: pages/templates/pages/marketing.html:210 pages/templates/pages/ux.html:219
+msgid "commercial offer"
+msgstr ""
+
+#: pages/templates/pages/data.html:233
+msgid "Download Data &amp; Analytics PDF"
+msgstr ""
+
+#: pages/templates/pages/development.html:10
+msgid "Web Development for Digital Products"
+msgstr ""
+
+#: pages/templates/pages/development.html:11 templates/base.html:189
+msgid ""
+"We build scalable, high-performance web applications using modern full-stack "
+"technologies — from product design to production-ready systems."
+msgstr ""
+
+#: pages/templates/pages/development.html:21 templates/base.html:79
+msgid "Web Development"
+msgstr ""
+
+#: pages/templates/pages/development.html:47
+msgid "Full-Stack Web Development &amp; Implementation"
+msgstr ""
+
+#: pages/templates/pages/development.html:48
+msgid ""
+"We design and develop modern web applications for startups and digital "
+"businesses — SaaS platforms, internal tools, marketplaces, and custom "
+"systems. Our approach combines product thinking, clean architecture, and "
+"reliable technologies to build solutions that scale with your business."
+msgstr ""
+
+#: pages/templates/pages/development.html:60
+msgid "Product-Driven Development"
+msgstr ""
+
+#: pages/templates/pages/development.html:61
+msgid ""
+"We start from business goals and user needs, not just technical requirements "
+"— ensuring the product solves real problems."
+msgstr ""
+
+#: pages/templates/pages/development.html:71
+msgid "Modern Frontend Applications"
+msgstr ""
+
+#: pages/templates/pages/development.html:72
+msgid ""
+"High-quality interfaces built with React and Next.js — fast, accessible, and "
+"optimized for performance and SEO."
+msgstr ""
+
+#: pages/templates/pages/development.html:82
+msgid "Robust Backend Systems"
+msgstr ""
+
+#: pages/templates/pages/development.html:83
+msgid ""
+"Secure and scalable backends using Node.js (NestJS) and Python (Django) with "
+"clean architecture and API-first design."
+msgstr ""
+
+#: pages/templates/pages/development.html:93
+msgid "Databases &amp; Integrations"
+msgstr ""
+
+#: pages/templates/pages/development.html:94
+msgid ""
+"Design and implementation of relational and non-relational databases, third-"
+"party integrations, and automation workflows."
+msgstr ""
+
+#: pages/templates/pages/development.html:107
+msgid "Discovery &amp; Technical Planning"
+msgstr ""
+
+#: pages/templates/pages/development.html:108
+msgid ""
+"We analyze your product idea, requirements, constraints, and future growth "
+"to define the right technical approach."
+msgstr ""
+
+#: pages/templates/pages/development.html:114
+msgid "Architecture &amp; Design"
+msgstr ""
+
+#: pages/templates/pages/development.html:115
+msgid ""
+"We design system architecture, APIs, database schemas, and UX/UI prototypes "
+"in Figma before writing production code."
+msgstr ""
+
+#: pages/templates/pages/development.html:121
+msgid "Development &amp; Integration"
+msgstr ""
+
+#: pages/templates/pages/development.html:122
+msgid ""
+"Frontend, backend, and integrations are implemented in parallel with regular "
+"demos and transparent progress updates."
+msgstr ""
+
+#: pages/templates/pages/development.html:128
+msgid "Testing, Launch &amp; Support"
+msgstr ""
+
+#: pages/templates/pages/development.html:129
+msgid ""
+"We test, deploy, monitor, and support your product — ensuring stability, "
+"performance, and long-term maintainability."
+msgstr ""
+
+#: pages/templates/pages/development.html:145
+msgid "Custom Web Application Development"
+msgstr ""
+
+#: pages/templates/pages/development.html:149 templates/base.html:135
+msgid "SaaS &amp; Platform Development"
+msgstr ""
+
+#: pages/templates/pages/development.html:153 templates/base.html:142
+msgid "Frontend Development (React, Next.js)"
+msgstr ""
+
+#: pages/templates/pages/development.html:157 templates/base.html:149
+msgid "Backend Development (NestJS, Django)"
+msgstr ""
+
+#: pages/templates/pages/development.html:161
+msgid "UI/UX Design (Figma)"
+msgstr ""
+
+#: pages/templates/pages/development.html:165 templates/base.html:162
+msgid "Bots &amp; Automation Systems"
+msgstr ""
+
+#: pages/templates/pages/development.html:169 templates/base.html:169
+msgid "API Development &amp; Integrations"
+msgstr ""
+
+#: pages/templates/pages/development.html:173 templates/base.html:176
+msgid "Database Design &amp; Optimization"
+msgstr ""
+
+#: pages/templates/pages/development.html:183
+msgid "2–6 months (depending on scope)"
+msgstr ""
+
+#: pages/templates/pages/development.html:187
+msgid "2–5 core specialists"
+msgstr ""
+
+#: pages/templates/pages/development.html:191
+msgid "Production-ready application"
+msgstr ""
+
+#: pages/templates/pages/development.html:195
+msgid "Ongoing maintenance &amp; improvements"
+msgstr ""
+
+#: pages/templates/pages/development.html:203
+msgid ""
+"Not sure how to turn your idea into a real product? Let’s discuss your "
+"requirements and build a solution that fits your business — not just your "
+"tech stack."
+msgstr ""
+
+#: pages/templates/pages/development.html:215
+msgid "Download Web Development PDF"
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:9
+msgid "A Thoughtful Approach to Digital Product Development"
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:10
+msgid ""
+"We are a focused digital studio helping businesses design, build, and scale "
+"digital products."
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:11
+msgid ""
+"Our approach is built around clarity, clean engineering, and business-driven "
+"decisions. We don’t chase trends — we focus on creating reliable, scalable "
+"solutions that solve real problems and deliver long-term value."
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:12
+msgid ""
+"By combining web development, data-driven insights, and a senior-level "
+"mindset, we help companies move faster, make smarter decisions, and grow "
+"with confidence."
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:17
+#: pages/templates/pages/includes/portfolio.html:29
+#: pages/templates/pages/includes/workprocess.html:23
+msgid "Development"
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:19
+msgid "Building reliable digital products"
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:25
+#: pages/templates/pages/includes/portfolio.html:32
+#: pages/templates/pages/includes/workprocess.html:34
+#: pages/templates/pages/marketing.html:21
+msgid "Marketing"
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:27
+msgid "Driving growth through strategy and execution"
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:35
+msgid "Turning data into actionable insights"
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:42
+msgid "Discover Our Work"
+msgstr ""
+
+#: pages/templates/pages/includes/about.html:43
+msgid "Meet Our Team"
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:7
+#: pages/templates/pages/terms.html:163 templates/base.html:444
+msgid "Contact"
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:8
+msgid "Let’s discuss your product and how we can help you move forward."
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:61
+msgid "Telegram"
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:68
+msgid "Tell Us About Your Idea"
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:69
+msgid ""
+"Tell us about your idea, product, or challenge — we’ll get back to you "
+"shortly."
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:76
+msgid "Name"
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:83
+msgid "Subject"
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:86
+msgid "Message"
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:92
+msgid "All set! We’ll be in touch shortly."
+msgstr ""
+
+#: pages/templates/pages/includes/contact.html:96
+msgid "Send Message"
+msgstr ""
+
+#: pages/templates/pages/includes/faq.html:8
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: pages/templates/pages/includes/faq.html:9
+msgid "Everything you need to know before starting a project with us."
+msgstr ""
+
+#: pages/templates/pages/includes/faq.html:24
+msgid "What kind of projects do you work on?"
+msgstr ""
+
+#: pages/templates/pages/includes/faq.html:32
+msgid ""
+"We work on digital products of different complexity — from MVPs and early-"
+"stage startups to scalable, production-ready platforms for growing "
+"businesses."
+msgstr ""
+
+#: pages/templates/pages/includes/faq.html:42
+msgid "What does your development process look like?"
+msgstr ""
+
+#: pages/templates/pages/includes/faq.html:50
+msgid ""
+"We start with understanding business goals and user needs, then move through "
+"UX, design, development, and integrations. Our focus is on clean "
+"architecture, scalability, and long-term maintainability."
+msgstr ""
+
+#: pages/templates/pages/includes/faq.html:60
+msgid "How can we start working together?"
+msgstr ""
+
+#: pages/templates/pages/includes/faq.html:68
+msgid ""
+"Simply contact us via the form or email. We’ll schedule a short call, "
+"discuss your goals, and suggest the best next steps for your project."
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:12
+msgid "Technology That Solves Business Problems"
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:13
+msgid "Building Digital Products That Drive Real Growth"
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:14
+msgid ""
+"We help companies design, build, and scale digital products that drive "
+"measurable growth. From modern web platforms to data-driven insights, we "
+"turn ideas into reliable solutions that perform, convert, and evolve with "
+"your business."
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:16
+msgid "Our Capabilities"
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:19
+msgid "Watch Demo"
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:31
+msgid "Clean &amp; Maintainable Code"
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:36
+msgid "Senior-Level Approach"
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:43
+msgid "Built for Performance"
+msgstr ""
+
+#: pages/templates/pages/includes/hero.html:48
+msgid "Business-Driven Decisions"
+msgstr ""
+
+#: pages/templates/pages/includes/portfolio.html:16
+msgid "Real projects. Clear decisions. Measurable outcomes."
+msgstr ""
+
+#: pages/templates/pages/includes/portfolio.html:17
+msgid ""
+"Each project reflects our product mindset, technical depth, and focus on "
+"business impact."
+msgstr ""
+
+#: pages/templates/pages/includes/portfolio.html:28
+msgid "All"
+msgstr ""
+
+#: pages/templates/pages/includes/portfolio.html:30
+msgid "Design"
+msgstr ""
+
+#: pages/templates/pages/includes/portfolio.html:31
+msgid "Data"
+msgstr ""
+
+#: pages/templates/pages/includes/portfolio.html:44
+msgid "Web Application"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:8 templates/base.html:69
+msgid "Services"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:9
+msgid "What we do best — and how it supports real business growth"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:25 templates/base.html:188
+#: templates/base.html:489 templates/base_simple.html:103
+msgid "Digital Product Development"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:29
+msgid ""
+"We design and build scalable web platforms, internal tools, and digital "
+"products with clean architecture and long-term maintainability in mind."
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:32
+msgid "View Development Services"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:49 templates/base.html:80
+#: templates/base.html:100 templates/base.html:490
+#: templates/base_simple.html:104
+msgid "UX Design"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:53
+msgid ""
+"We create clear, user-centered interfaces and product experiences that "
+"support usability, conversion, and business goals."
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:56
+msgid "Learn More"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:73 templates/base.html:491
+#: templates/base_simple.html:105
+msgid "Growth &amp; Digital Marketing"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:77
+msgid ""
+"We help products find their market, improve conversion, and grow through "
+"strategy, positioning, and data-informed marketing."
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:80
+msgid "Explore Marketing Solutions"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:101
+msgid ""
+"We turn data into actionable insights that support smarter decisions, "
+"clearer strategy, and measurable product growth."
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:104
+msgid "See Analytics Capabilities"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:120
+msgid "Core Expertise Areas"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:126
+msgid "Level Approach"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:132
+msgid "Market Focus"
+msgstr ""
+
+#: pages/templates/pages/includes/services.html:138
+msgid "Product Mindset"
+msgstr ""
+
+#: pages/templates/pages/includes/team.html:6
+msgid "Our Team"
+msgstr ""
+
+#: pages/templates/pages/includes/team.html:8
+msgid "A small senior core team supported by trusted specialists when needed"
+msgstr ""
+
+#: pages/templates/pages/includes/team.html:53
+msgid "Serhii Korobko"
+msgstr ""
+
+#: pages/templates/pages/includes/team.html:54
+msgid "Founder · Product &amp; Business"
+msgstr ""
+
+#: pages/templates/pages/includes/team.html:56
+msgid "Leads product vision, business strategy, and client communication."
+msgstr ""
+
+#: pages/templates/pages/includes/team.html:104
+msgid "Oleksii Tolstonoh"
+msgstr ""
+
+#: pages/templates/pages/includes/team.html:105
+msgid "Co-Founder · Tech Lead"
+msgstr ""
+
+#: pages/templates/pages/includes/team.html:107
+msgid "Responsible for architecture, code quality, and technical decisions."
+msgstr ""
+
+#: pages/templates/pages/includes/testimonials.html:10
+msgid "Client Feedback"
+msgstr ""
+
+#: pages/templates/pages/includes/testimonials.html:11
+msgid "Real collaboration, real experience"
+msgstr ""
+
+#: pages/templates/pages/includes/testimonials.html:23
+msgid ""
+"We are working with Neverland Labs on a custom web application. The team "
+"quickly understood our marketing and business goals, proposed a well-thought-"
+"out architecture, and works in a highly structured way. Communication is "
+"transparent, and decisions are made with a strong focus on the long-term "
+"growth of the product."
+msgstr ""
+
+#: pages/templates/pages/includes/testimonials.html:30
+msgid "Oksana"
+msgstr ""
+
+#: pages/templates/pages/includes/testimonials.html:31
+msgid "Head of Marketing, StrikeShop"
+msgstr ""
+
+#: pages/templates/pages/includes/testimonials.html:32
+msgid "Ongoing project"
+msgstr ""
+
+#: pages/templates/pages/includes/workprocess.html:8
+msgid "Expertise Working as One"
+msgstr ""
+
+#: pages/templates/pages/includes/workprocess.html:10
+msgid ""
+"We combine development, marketing, and data analytics to solve real business "
+"challenges and build scalable digital products."
+msgstr ""
+
+#: pages/templates/pages/includes/workprocess.html:25
+msgid ""
+"Building scalable and maintainable digital products with a strong "
+"engineering foundation."
+msgstr ""
+
+#: pages/templates/pages/includes/workprocess.html:36
+msgid ""
+"Driving business growth through strategy, positioning, and conversion-"
+"focused execution."
+msgstr ""
+
+#: pages/templates/pages/includes/workprocess.html:47
+msgid ""
+"Turning data into actionable insights that guide smarter product and "
+"business decisions."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:10
+#: pages/templates/pages/marketing.html:145 templates/base.html:275
+msgid "Marketing Strategy for Digital Products"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:11
+msgid ""
+"We help digital products grow through clear positioning, measurable "
+"acquisition strategies, and close alignment between marketing, product, and "
+"technology."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:47 templates/base.html:328
+msgid "Digital Marketing Strategy &amp; Implementation"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:48
+msgid ""
+"We design and execute marketing strategies tailored specifically for digital "
+"products — SaaS platforms, web applications, and online services. Our "
+"approach combines market research, product analytics, and technical "
+"implementation to ensure every marketing decision supports real business "
+"growth."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:60
+msgid "Product &amp; Market Analysis"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:61
+msgid ""
+"Deep analysis of your product, target audience, competitors, and product-"
+"market fit signals to identify real growth opportunities."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:71
+msgid "Audience &amp; Positioning Strategy"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:72
+msgid ""
+"Clear definition of your ideal customers, value propositions, and messaging "
+"that resonates with real user needs across acquisition, onboarding, and "
+"retention."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:82
+msgid "Acquisition Channels Strategy"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:83
+msgid ""
+"Selection, validation, and prioritization of acquisition channels — paid, "
+"content, SEO, partnerships, or outbound — based on product stage and unit "
+"economics."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:93
+msgid "Growth &amp; Funnel Optimization"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:94
+msgid ""
+"Systematic improvement of conversion funnels, onboarding flows, and key "
+"product metrics to maximize ROI, retention, and lifetime value."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:107
+msgid "Discovery &amp; Product Understanding"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:108
+msgid ""
+"We start by understanding your product, business goals, users, and "
+"constraints. No assumptions — only real context, data, and constraints."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:114
+msgid "Strategy &amp; Hypothesis Design"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:115
+msgid ""
+"We build a clear marketing strategy with validated hypotheses, KPIs, and "
+"measurable success criteria."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:122
+msgid ""
+"Strategy is translated into concrete actions: tracking setup, landing pages, "
+"campaigns, messaging, and technical integrations with your product and "
+"analytics stack."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:128
+msgid "Monitoring &amp; Iteration"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:129
+msgid ""
+"We measure results, refine tactics, and adapt the strategy based on real "
+"data — not vanity metrics."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:149 templates/base.html:282
+msgid "Go-To-Market &amp; Launch Strategy"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:153
+msgid "Performance &amp; Growth Marketing"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:157 templates/base.html:289
+msgid "SEO &amp; Demand Capture"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:161 templates/base.html:302
+msgid "Lifecycle &amp; Email Marketing"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:165 templates/base.html:309
+msgid "Brand Strategy &amp; Digital Presence"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:169 templates/base.html:316
+msgid "Analytics &amp; Dashboards"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:179
+msgid "2–4 months (strategy phase)"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:183
+msgid "2–4 core specialists"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:187
+msgid "Strategy roadmap + execution plan"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:191
+msgid "Ongoing consulting &amp; optimization"
+msgstr ""
+
+#: pages/templates/pages/marketing.html:199
+msgid ""
+"Not sure where to start or which channels make sense for your product? Let’s "
+"discuss your goals and define a strategy that actually works."
+msgstr ""
+
+#: pages/templates/pages/marketing.html:211
+msgid "Download Marketing Services PDF"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:22
+msgid "Web Application / Platform"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:31
+msgid "Portfolio details"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:52
+msgid "Airsoft Events Platform"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:56
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:74
+msgid "Technologies Used"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:123
+msgid "Project Overview"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:124
+msgid ""
+"StrikeShop Action is a full-scale web platform designed to organize, manage, "
+"and participate in airsoft events across Ukraine."
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:125
+msgid ""
+"The platform connects players, teams, and organizers in a single ecosystem — "
+"enabling event creation, team management, registrations, and communication. "
+"It supports both public and private games and scales from small local events "
+"to large multi-team operations.<br>The project was built as a modular system "
+"consisting of three independent applications, ensuring flexibility, "
+"performance, and long-term scalability."
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:132
+msgid "3 Applications"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:133
+msgid "Admin Panel, Public Website, Backend API"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:136
+msgid "6 Months Development"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:137
+msgid "From concept to production-ready system"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:140
+msgid "API-first Architecture"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:141
+msgid "Ready for future integrations"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:144
+msgid "Multi-channel Communication"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:145
+msgid "Email &amp; SMS automation"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:157
+msgid "The Challenge"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:158
+msgid ""
+"Organizing airsoft events traditionally relies on fragmented tools — "
+"messengers, spreadsheets, manual registrations, and ad-hoc communication."
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:159
+msgid "This creates several challenges:"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:161
+msgid "No centralized event management"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:162
+msgid "Poor visibility of upcoming games and locations"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:163
+msgid "Manual team coordination and confirmations"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:164
+msgid "Lack of automated notifications and updates"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:165
+msgid "Difficult scaling for organizers"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:167
+msgid ""
+"The client needed a single digital platform that could handle logistics, "
+"communication, and growth — without sacrificing performance or usability."
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:176
+msgid "The Solution"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:177
+msgid ""
+"We designed and built a modular, high-performance platform tailored "
+"specifically for airsoft communities."
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:178
+msgid "Core Solution Highlights:"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:180
+msgid "Public website for discovering events, locations, and rules"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:181
+msgid "Admin panel for organizers to manage games, teams, and participants"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:182
+msgid "Backend API handling business logic, permissions, and integrations"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:183
+msgid "Automated email &amp; SMS notifications via SendPulse"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:184
+msgid ""
+"Flexible data storage using PostgreSQL and MongoDB for different workloads"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:217
+msgid "Platform Architecture"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:218
+msgid "StrikeShop Action consists of three applications:"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:223
+msgid "Public Web Application"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:225
+msgid "Event listings and detailed pages"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:226
+msgid "Team and player registration"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:227
+msgid "Location maps and schedules"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:228
+msgid "Responsive, mobile-first UI"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:235
+msgid "Admin Panel"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:237
+msgid "Event and team management"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:238
+msgid "Operational control for organizers"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:239
+msgid "Registration approvals and tracking"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:240
+msgid "Communication triggers (email &amp; SMS)"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:247
+msgid "Backend API (NestJS)"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:249
+msgid "Authentication &amp; authorization"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:250
+msgid "Business logic and validations"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:251
+msgid "Scalable API-first architecture"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:252
+msgid "Integrations with external services"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:261
+msgid "Integrations"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:262
+msgid ""
+"This significantly reduced manual communication and improved participant "
+"engagement."
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:264
+msgid "Automated email and SMS notifications for"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:266
+msgid "Event confirmations"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:267
+msgid "Schedule updates"
+msgstr ""
+
+#: pages/templates/pages/portfolio/action.html:268
+msgid "Important announcements"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:9
+msgid ""
+"How we collect, use, and protect your information when you work with "
+"Neverland Labs."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:16
+msgid "Privacy"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:36 pages/templates/pages/terms.html:34
+msgid "Effective Date: February 3, 2025"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:37
+msgid "Privacy Policy"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:38
+msgid ""
+"This Privacy Policy explains how Neverland Labs (“we”, “our”, or “us”) "
+"collects, uses, and protects personal information when you visit our website "
+"or work with us on digital products and services. We are committed to "
+"handling your information responsibly and transparently."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:46
+msgid "Introduction"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:47
+msgid ""
+"When you interact with Neverland Labs, you trust us with your information. "
+"We take this responsibility seriously and aim to collect only the data "
+"necessary to provide our services and communicate effectively."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:48
+msgid ""
+"This Privacy Policy is intended to help you understand what information we "
+"collect, why we collect it, and how it is used."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:53
+msgid "Information We Collect"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:54
+msgid ""
+"We collect limited information to operate our website and work with clients "
+"effectively."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:56
+msgid "Information You Provide"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:57
+msgid "You may voluntarily provide personal information when you:"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:59
+msgid "contact us through forms or email"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:60
+msgid "discuss a project or collaboration"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:61
+msgid "communicate with us during ongoing work"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:63
+msgid "This information may include:"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:65
+msgid "your name"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:66
+msgid "email address"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:67
+msgid "company name"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:68
+msgid "project-related details you choose to share"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:70
+msgid "We do not require account creation on our website."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:72
+msgid "Automatically Collected Information"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:73
+msgid ""
+"When you visit our website, we may automatically collect basic technical "
+"information such as:"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:75
+msgid "browser type"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:76
+msgid "device type"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:77
+msgid "approximate location (country or region)"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:78
+msgid "pages visited and usage statistics"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:80
+msgid ""
+"This data is collected in an aggregated form and is used solely to improve "
+"website performance and user experience."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:85
+msgid "How We Use Your Information"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:86
+msgid "We use collected information to:"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:88
+msgid "respond to inquiries and requests"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:89
+msgid "communicate about projects and services"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:90
+msgid "deliver and maintain our services"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:91
+msgid "improve our website and workflows"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:92
+msgid "ensure security and prevent misuse"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:94
+msgid ""
+"We do not use your information for automated decision-making or profiling."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:99
+msgid "Information Sharing"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:100
+msgid ""
+"We do not sell, rent, or trade your personal information. We may share "
+"information only:"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:102
+msgid "with trusted service providers when necessary to deliver our services"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:103
+msgid "when required by law or legal obligations"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:109
+msgid "Data Security"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:110
+msgid ""
+"We take reasonable technical and organizational measures to protect personal "
+"information from unauthorized access, loss, or misuse."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:111
+msgid ""
+"Access to personal information is limited to team members who need it to "
+"perform their work."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:116
+msgid "Your Rights"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:117
+msgid "Depending on your location, you may have the right to:"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:119
+msgid "request access to your personal data"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:120
+msgid "request correction of inaccurate data"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:121
+msgid "request deletion of your data"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:122
+msgid "withdraw consent at any time"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:124
+msgid "To exercise these rights, please contact us."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:129
+msgid "Changes to This Policy"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:130
+msgid ""
+"We may update this Privacy Policy from time to time. Any changes will be "
+"posted on this page with an updated effective date."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:131
+msgid ""
+"Your continued use of our website or services after changes are published "
+"constitutes acceptance of the updated policy."
+msgstr ""
+
+#: pages/templates/pages/privacy.html:137 templates/base.html:497
+#: templates/base_simple.html:111
+msgid "Contact Us"
+msgstr ""
+
+#: pages/templates/pages/privacy.html:138
+msgid ""
+"If you have any questions about this Privacy Policy or how we handle your "
+"information, you can contact us at:"
+msgstr ""
+
+#: pages/templates/pages/terms.html:9
+msgid ""
+"An overview of the terms that ensure transparency and fairness in our "
+"collaboration."
+msgstr ""
+
+#: pages/templates/pages/terms.html:16
+msgid "Terms"
+msgstr ""
+
+#: pages/templates/pages/terms.html:35
+msgid "Terms of Service"
+msgstr ""
+
+#: pages/templates/pages/terms.html:36
+msgid ""
+"Please read these Terms of Service carefully before using our website or "
+"services."
+msgstr ""
+
+#: pages/templates/pages/terms.html:43
+msgid "Agreement to Terms"
+msgstr ""
+
+#: pages/templates/pages/terms.html:44
+msgid ""
+"By accessing or using the Neverland Labs website and services, you agree to "
+"be bound by these Terms of Service and all applicable laws and regulations. "
+"If you do not agree with these Terms, you should not use our website or "
+"services."
+msgstr ""
+
+#: pages/templates/pages/terms.html:47
+msgid ""
+"These Terms apply to all visitors, clients, and others who access or use our "
+"services."
+msgstr ""
+
+#: pages/templates/pages/terms.html:53
+msgid "Scope of Services"
+msgstr ""
+
+#: pages/templates/pages/terms.html:54
+msgid ""
+"Neverland Labs provides digital product services, including but not limited "
+"to web development, technical consulting, and related services."
+msgstr ""
+
+#: pages/templates/pages/terms.html:55
+msgid ""
+"Information published on this website is provided for general informational "
+"purposes only and does not constitute a binding offer unless explicitly "
+"stated."
+msgstr ""
+
+#: pages/templates/pages/terms.html:60
+msgid "Intellectual Property Rights"
+msgstr ""
+
+#: pages/templates/pages/terms.html:61
+msgid ""
+"All content on this website, including text, graphics, logos, visuals, and "
+"code samples, is the property of Neverland Labs or its licensors and is "
+"protected by applicable intellectual property laws."
+msgstr ""
+
+#: pages/templates/pages/terms.html:62
+msgid "You may not:"
+msgstr ""
+
+#: pages/templates/pages/terms.html:64
+msgid "copy, reproduce, or distribute content without prior written permission"
+msgstr ""
+
+#: pages/templates/pages/terms.html:65
+msgid "modify or create derivative works based on our content"
+msgstr ""
+
+#: pages/templates/pages/terms.html:66
+msgid "use our name, branding, or trademarks without authorization"
+msgstr ""
+
+#: pages/templates/pages/terms.html:68
+msgid ""
+"Content on this website is provided for informational and non-commercial use "
+"only."
+msgstr ""
+
+#: pages/templates/pages/terms.html:73
+msgid "User Conduct"
+msgstr ""
+
+#: pages/templates/pages/terms.html:74
+msgid ""
+"You agree not to use the website or services in any way that could harm, "
+"disrupt, or interfere with their proper operation."
+msgstr ""
+
+#: pages/templates/pages/terms.html:78
+msgid "Prohibited activities include, but are not limited to:"
+msgstr ""
+
+#: pages/templates/pages/terms.html:80
+msgid "attempting to gain unauthorized access to systems or data"
+msgstr ""
+
+#: pages/templates/pages/terms.html:81
+msgid "introducing malicious code or harmful content"
+msgstr ""
+
+#: pages/templates/pages/terms.html:82
+msgid "scraping or systematically extracting content"
+msgstr ""
+
+#: pages/templates/pages/terms.html:83
+msgid "misrepresenting your identity or affiliation"
+msgstr ""
+
+#: pages/templates/pages/terms.html:91
+msgid "Third-Party Links"
+msgstr ""
+
+#: pages/templates/pages/terms.html:92
+msgid ""
+"Our website may contain links to third-party websites or services. We are "
+"not responsible for the content, policies, or practices of any third-party "
+"websites."
+msgstr ""
+
+#: pages/templates/pages/terms.html:96
+msgid "Accessing third-party services is done at your own risk."
+msgstr ""
+
+#: pages/templates/pages/terms.html:103
+msgid "Disclaimers"
+msgstr ""
+
+#: pages/templates/pages/terms.html:104
+msgid ""
+"Our website and services are provided on an “as is” and “as available” basis."
+msgstr ""
+
+#: pages/templates/pages/terms.html:106
+msgid "We make no warranties or guarantees that:"
+msgstr ""
+
+#: pages/templates/pages/terms.html:108
+msgid "the website will be uninterrupted or error-free"
+msgstr ""
+
+#: pages/templates/pages/terms.html:109
+msgid "information provided will be accurate or up to date"
+msgstr ""
+
+#: pages/templates/pages/terms.html:110
+msgid "the services will meet specific requirements"
+msgstr ""
+
+#: pages/templates/pages/terms.html:115
+msgid "Use of our website and services is at your own discretion and risk."
+msgstr ""
+
+#: pages/templates/pages/terms.html:123
+msgid "Limitation of Liability"
+msgstr ""
+
+#: pages/templates/pages/terms.html:124
+msgid ""
+"To the fullest extent permitted by law, Neverland Labs shall not be liable "
+"for any indirect, incidental, special, consequential, or punitive damages "
+"arising out of or related to your use of the website or services."
+msgstr ""
+
+#: pages/templates/pages/terms.html:129
+msgid "Indemnification"
+msgstr ""
+
+#: pages/templates/pages/terms.html:130
+msgid ""
+"You agree to indemnify and hold harmless Neverland Labs, its founders, team "
+"members, and partners from any claims, liabilities, damages, or expenses "
+"arising from your misuse of the website or violation of these Terms."
+msgstr ""
+
+#: pages/templates/pages/terms.html:135
+msgid "Termination"
+msgstr ""
+
+#: pages/templates/pages/terms.html:136
+msgid ""
+"We reserve the right to suspend or terminate access to our website or "
+"services at any time, without prior notice, if these Terms are violated or "
+"if necessary to protect our operations."
+msgstr ""
+
+#: pages/templates/pages/terms.html:141
+msgid "Governing Law"
+msgstr ""
+
+#: pages/templates/pages/terms.html:142
+msgid ""
+"These Terms shall be governed by and construed in accordance with the laws "
+"of Ukraine, without regard to conflict of law provisions."
+msgstr ""
+
+#: pages/templates/pages/terms.html:147
+msgid "Changes to Terms"
+msgstr ""
+
+#: pages/templates/pages/terms.html:148
+msgid ""
+"We may update these Terms of Service from time to time. Any changes will be "
+"posted on this page with an updated effective date."
+msgstr ""
+
+#: pages/templates/pages/terms.html:151
+msgid ""
+"By continuing to use our website or services after changes become effective, "
+"you agree to the revised Terms."
+msgstr ""
+
+#: pages/templates/pages/terms.html:164
+msgid ""
+"If you have any questions regarding these Terms of Service, please contact "
+"us:"
+msgstr ""
+
+#: pages/templates/pages/ux.html:11
+msgid "UX &amp; UI Design for Digital Products"
+msgstr ""
+
+#: pages/templates/pages/ux.html:12 templates/base.html:259
+msgid ""
+"We design user experiences and interfaces that are clear, intuitive, and "
+"aligned with real business goals — not just visual trends."
+msgstr ""
+
+#: pages/templates/pages/ux.html:48 templates/base.html:258
+msgid "Product-Focused UX &amp; UI Design"
+msgstr ""
+
+#: pages/templates/pages/ux.html:49
+msgid ""
+"We help digital products communicate value, reduce friction, and convert "
+"users through thoughtful UX strategy and clean UI design. Our design process "
+"is grounded in user behavior, product logic, and close collaboration with "
+"development and analytics."
+msgstr ""
+
+#: pages/templates/pages/ux.html:61 pages/templates/pages/ux.html:158
+#: templates/base.html:205
+msgid "UX Research &amp; Product Discovery"
+msgstr ""
+
+#: pages/templates/pages/ux.html:62
+msgid ""
+"Understanding users, business goals, and product constraints through "
+"research, interviews, and analysis."
+msgstr ""
+
+#: pages/templates/pages/ux.html:72
+msgid "Information Architecture &amp; User Flows"
+msgstr ""
+
+#: pages/templates/pages/ux.html:73
+msgid ""
+"Clear structure and navigation that make complex products easy to understand "
+"and use."
+msgstr ""
+
+#: pages/templates/pages/ux.html:84 pages/templates/pages/ux.html:170
+#: templates/base.html:232
+msgid "UI Design &amp; Design Systems"
+msgstr ""
+
+#: pages/templates/pages/ux.html:85
+msgid ""
+"Clean, consistent, and scalable interface design aligned with your brand and "
+"product vision."
+msgstr ""
+
+#: pages/templates/pages/ux.html:95
+msgid "UX Validation &amp; Iteration"
+msgstr ""
+
+#: pages/templates/pages/ux.html:96
+msgid ""
+"Usability testing and iteration based on real feedback — not assumptions."
+msgstr ""
+
+#: pages/templates/pages/ux.html:106
+msgid "Wireframes &amp; UX Prototypes"
+msgstr ""
+
+#: pages/templates/pages/ux.html:107
+msgid ""
+"Low- and mid-fidelity prototypes to validate ideas before visual design and "
+"development."
+msgstr ""
+
+#: pages/templates/pages/ux.html:120
+msgid "Discovery &amp; UX Audit"
+msgstr ""
+
+#: pages/templates/pages/ux.html:121
+msgid ""
+"We study your product, users, competitors, and existing interfaces to "
+"identify friction and opportunities."
+msgstr ""
+
+#: pages/templates/pages/ux.html:127
+msgid "UX Strategy &amp; Structure"
+msgstr ""
+
+#: pages/templates/pages/ux.html:128
+msgid ""
+"We define user flows, information architecture, and UX principles aligned "
+"with business goals."
+msgstr ""
+
+#: pages/templates/pages/ux.html:134
+msgid "Design &amp; Prototyping"
+msgstr ""
+
+#: pages/templates/pages/ux.html:135
+msgid ""
+"Wireframes and UI designs are created iteratively with regular reviews and "
+"alignment with development."
+msgstr ""
+
+#: pages/templates/pages/ux.html:141
+msgid "Validation &amp; Handoff"
+msgstr ""
+
+#: pages/templates/pages/ux.html:142
+msgid ""
+"We test designs, refine details, and prepare everything for smooth "
+"development handoff."
+msgstr ""
+
+#: pages/templates/pages/ux.html:162 templates/base.html:212
+msgid "User Flows &amp; Information Architecture"
+msgstr ""
+
+#: pages/templates/pages/ux.html:166 templates/base.html:219
+msgid "Wireframing &amp; Prototyping"
+msgstr ""
+
+#: pages/templates/pages/ux.html:174 templates/base.html:239
+msgid "Usability Testing"
+msgstr ""
+
+#: pages/templates/pages/ux.html:178 templates/base.html:246
+msgid "Design Support for Development"
+msgstr ""
+
+#: pages/templates/pages/ux.html:188
+msgid "4–8 weeks"
+msgstr ""
+
+#: pages/templates/pages/ux.html:192
+msgid "1–2 designers"
+msgstr ""
+
+#: pages/templates/pages/ux.html:196
+msgid "UX/UI designs &amp; Figma prototypes"
+msgstr ""
+
+#: pages/templates/pages/ux.html:200
+msgid "Design support &amp; iteration"
+msgstr ""
+
+#: pages/templates/pages/ux.html:208
+msgid ""
+"Not sure why users drop off or how to improve usability? Let’s design an "
+"experience that users actually enjoy — and businesses benefit from."
+msgstr ""
+
+#: pages/templates/pages/ux.html:220
+msgid "Download UX/UI Design Overview (PDF)"
+msgstr ""
+
+#: templates/404.html:8
+msgid "The page you are looking for doesn’t exist or has been moved."
+msgstr ""
+
+#: templates/404.html:42
+msgid "Oops, sorry! Page Not Found"
+msgstr ""
+
+#: templates/404.html:45
+msgid ""
+"The page you are looking for might have been removed, or it is temporarily "
+"unavailable."
+msgstr ""
+
+#: templates/404.html:49 templates/500.html:49
+msgid "Back to Main Page"
+msgstr ""
+
+#: templates/500.html:8
+msgid "Server Error"
+msgstr ""
+
+#: templates/500.html:42
+msgid "Something went wrong"
+msgstr ""
+
+#: templates/500.html:45
+msgid ""
+"We’re already looking into it. Please try again later or return to the "
+"homepage."
+msgstr ""
+
+#: templates/base.html:68
+msgid "About"
+msgstr ""
+
+#: templates/base.html:70
+msgid "Portfolio"
+msgstr ""
+
+#: templates/base.html:71
+msgid "Team"
+msgstr ""
+
+#: templates/base.html:81 templates/base.html:106
+msgid "Digital Marketing"
+msgstr ""
+
+#: templates/base.html:94
+msgid "Product Engineering"
+msgstr ""
+
+#: templates/base.html:118
+msgid "Resources"
+msgstr ""
+
+#: templates/base.html:136
+msgid ""
+"Design and development of scalable SaaS platforms and custom business "
+"systems."
+msgstr ""
+
+#: templates/base.html:143
+msgid "High-performance, SEO-friendly interfaces focused on user experience."
+msgstr ""
+
+#: templates/base.html:150
+msgid "Secure, scalable backend systems with clean architecture and APIs."
+msgstr ""
+
+#: templates/base.html:163
+msgid "Automation of business processes, notifications, and integrations."
+msgstr ""
+
+#: templates/base.html:170
+msgid "Reliable API design and integration with third-party services."
+msgstr ""
+
+#: templates/base.html:177
+msgid "Efficient data models, performance tuning, and data integrity."
+msgstr ""
+
+#: templates/base.html:190 templates/base.html:260 templates/base.html:330
+#: templates/base.html:400
+msgid "More Details"
+msgstr ""
+
+#: templates/base.html:206
+msgid "User research and product discovery to clearly define user needs."
+msgstr ""
+
+#: templates/base.html:213
+msgid ""
+"Designing clear user flows that make complex products easy to understand."
+msgstr ""
+
+#: templates/base.html:220
+msgid "Wireframes and prototypes for early validation."
+msgstr ""
+
+#: templates/base.html:233
+msgid "Clean, scalable UI and design systems."
+msgstr ""
+
+#: templates/base.html:240
+msgid "Tested with users."
+msgstr ""
+
+#: templates/base.html:247
+msgid ""
+"Close collaboration with developers, documentation, and ongoing design "
+"support."
+msgstr ""
+
+#: templates/base.html:276
+msgid "Product positioning and growth strategy aligned with business goals."
+msgstr ""
+
+#: templates/base.html:283
+msgid "Launch planning, messaging, and acquisition strategy for new products."
+msgstr ""
+
+#: templates/base.html:290
+msgid "Organic growth through SEO, content, and intent-driven demand capture."
+msgstr ""
+
+#: templates/base.html:303
+msgid ""
+"User onboarding, retention, and lifecycle automation via email &amp; "
+"messaging."
+msgstr ""
+
+#: templates/base.html:310
+msgid ""
+"Clear brand positioning across web, product, and communication channels."
+msgstr ""
+
+#: templates/base.html:317
+msgid ""
+"Actionable metrics, funnels, and dashboards focused on growth decisions."
+msgstr ""
+
+#: templates/base.html:329
+msgid "We grow digital products with clear strategy and measurable results."
+msgstr ""
+
+#: templates/base.html:346
+msgid "Analytics strategy aligned with product and business goals."
+msgstr ""
+
+#: templates/base.html:353
+msgid "Metrics and insights to track growth, activation, and retention."
+msgstr ""
+
+#: templates/base.html:360
+msgid "Clear dashboards and reports for fast, informed decisions."
+msgstr ""
+
+#: templates/base.html:373
+msgid "Event tracking, funnels, and analytics tool setup."
+msgstr ""
+
+#: templates/base.html:380
+msgid "Advanced analysis and forecasting for product and revenue planning."
+msgstr ""
+
+#: templates/base.html:387
+msgid "Data validation, monitoring, and reliability controls."
+msgstr ""
+
+#: templates/base.html:399
+msgid "We turn raw data into clear insights and data-driven decisions."
+msgstr ""
+
+#: templates/base.html:468 templates/base_simple.html:82
+msgid "We build, market and optimize digital products using data."
+msgstr ""
+
+#: templates/base.html:478 templates/base_simple.html:92
+msgid "Useful Links"
+msgstr ""
+
+#: templates/base.html:481 templates/base_simple.html:95
+msgid "Terms of service"
+msgstr ""
+
+#: templates/base.html:482 templates/base_simple.html:96
+msgid "Privacy policy"
+msgstr ""
+
+#: templates/base.html:498 templates/base_simple.html:112
+msgid "Ukraine"
+msgstr ""
+
+#: templates/base.html:499 templates/base_simple.html:113
+msgid "Phone"
+msgstr ""
+
+#: templates/base.html:507 templates/base_simple.html:121
+msgid "Copyright"
+msgstr ""
+
+#: templates/base.html:507 templates/base_simple.html:121
+msgid "All Rights Reserved"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:153
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:775
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:200
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:211
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.11/site-packages/django/core/validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:309
+#: venv/lib/python3.11/site-packages/django/core/validators.py:318
+#: venv/lib/python3.11/site-packages/django/core/validators.py:332
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:311
+msgid "IPv4"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:320
+#: venv/lib/python3.11/site-packages/django/utils/ipv6.py:43
+msgid "IPv6"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:334
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:514
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:366
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:405
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/core/validators.py:659
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/base.py:1600
+#: venv/lib/python3.11/site-packages/django/forms/models.py:908
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/base.py:1602
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1163
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1165
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1215
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1217
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1326
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1427
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1431
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1566
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1435
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1562
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1570
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1575
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1702
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1704
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1868
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1920
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1945
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2025
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2067
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2180
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2188
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2219
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2310
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2364
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2379
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2394
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2446
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2534
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2642
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2666
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:2733
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:979
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:982
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1276
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1333
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1335
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/db/models/fields/related.py:1383
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.11/site-packages/django/forms/boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:315
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:486
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1267
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:509
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1268
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:536
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:570
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:571
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:640
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:641
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:642
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:644
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:649
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:717
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:889
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:975
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:977
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1096
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1590
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1097
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1339
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/fields.py:1369
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.11/site-packages/django/forms/forms.py:97
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:922
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:527
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:528
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:529
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:866
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:867
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/forms/widgets.py:868
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:903
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/template/defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/text.py:287
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.11/site-packages/django/utils/text.py:306
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:353
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/generic/list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/static.py:68
+#: venv/lib/python3.11/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.11/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.11/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""

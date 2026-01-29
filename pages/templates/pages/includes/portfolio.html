@@ -1,0 +1,129 @@
+{% load i18n static %}
+
+{% get_current_language as LANGUAGE_CODE %}
+
+{% if LANGUAGE_CODE == "uk" %}
+  {% static "assets/img/portfolio/s-action_uk.png" as s_action_img %}
+{% else %}
+  {% static "assets/img/portfolio/s-action_en.png" as s_action_img %}
+{% endif %}
+
+
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>{% trans "Real projects. Clear decisions. Measurable outcomes." %}</h2>
+        <p>{% trans "Each project reflects our product mindset, technical depth, and focus on business impact." %}</p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center mt-4">
+              <ul class="portfolio-filters isotope-filters">
+                <li data-filter="*" class="filter-active">{% trans "All" %}</li>
+                <li data-filter=".filter-photography">{% trans "Development" %}</li>
+                <li data-filter=".filter-design">{% trans "Design" %}</li>
+                <li data-filter=".filter-automotive">{% trans "Data" %}</li>
+                <li data-filter=".filter-nature">{% trans "Marketing" %}</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row gy-4 portfolio-container isotope-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
+              <div class="portfolio-wrap">
+                <img src="{{s_action_img}}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="portfolio-info">
+                  <h4><a href="{% url "pages:strikeshopaction" %}">StrikeShop Action</a></h4>
+                  <p>{% trans "Web Application" %}</p>
+                  <div class="portfolio-links">
+                    <a href="{{s_action_img}}" class="glightbox"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://strikeshopaction.org.ua/" title="Go to StrikeShop Action web"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-wrap">
+                <img src="{% static "assets/img/portfolio/portfolio-2.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="portfolio-info">
+                  <h4>Woodcraft Design</h4>
+                  <p>Web Design</p>
+                  <div class="portfolio-links">
+                    <a href="{% static "assets/img/portfolio/portfolio-2.webp" %}" class="glightbox" title="Woodcraft Design"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-automotive">
+              <div class="portfolio-wrap">
+                <img src="{% static "assets/img/portfolio/portfolio-portrait-2.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="portfolio-info">
+                  <h4>Classic Beauty</h4>
+                  <p>Automotive</p>
+                  <div class="portfolio-links">
+                    <a href="{% static "assets/img/portfolio/portfolio-portrait-2.webp" %}" class="glightbox" title="Classic Beauty"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-nature">
+              <div class="portfolio-wrap">
+                <img src="{% static "assets/img/portfolio/portfolio-portrait-4.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="portfolio-info">
+                  <h4>Natural Growth</h4>
+                  <p>Nature</p>
+                  <div class="portfolio-links">
+                    <a href="{% static "assets/img/portfolio/portfolio-portrait-4.webp" %}" class="glightbox" title="Natural Growth"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
+              <div class="portfolio-wrap">
+                <img src="{% static "assets/img/portfolio/portfolio-5.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="portfolio-info">
+                  <h4>Urban Stories</h4>
+                  <p>Photography</p>
+                  <div class="portfolio-links">
+                    <a href="{% static "assets/img/portfolio/portfolio-5.webp" %}" class="glightbox" title="Urban Stories"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-wrap">
+                <img src="{% static "assets/img/portfolio/portfolio-6.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="portfolio-info">
+                  <h4>Digital Experience</h4>
+                  <p>Web Design</p>
+                  <div class="portfolio-links">
+                    <a href="{% static "assets/img/portfolio/portfolio-6.webp" %}" class="glightbox" title="Digital Experience"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
