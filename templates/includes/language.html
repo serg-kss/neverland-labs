@@ -1,6 +1,5 @@
 {% load i18n static %}
-{% get_current_language as CURRENT_LANGUAGE %}
-
+{% get_current_language as CURRENT_LANG %}
 
 <style>
 .lang-switcher-topbar {
@@ -60,7 +59,7 @@
 <div class="lang-switcher-topbar">
 
   <button class="lang-current" type="button">
-    {% if LANGUAGE_CODE == "uk" %}
+    {% if CURRENT_LANG == "uk" %}
       <img src="{% static 'assets/img/flags/uk.png' %}" alt="UA">
     {% else %}
       <img src="{% static 'assets/img/flags/en.png' %}" alt="EN">
@@ -74,7 +73,7 @@
       {% csrf_token %}
       <input type="hidden" name="language" value="en">
       <input type="hidden" name="next" value="/">
-      <button type="submit" class="{% if LANGUAGE_CODE == 'en' %}active{% endif %}">
+      <button type="submit" class="{% if CURRENT_LANG == 'en' %}active{% endif %}">
         <img src="{% static 'assets/img/flags/en.png' %}" alt="EN">
         English
       </button>
@@ -84,7 +83,7 @@
       {% csrf_token %}
       <input type="hidden" name="language" value="uk">
       <input type="hidden" name="next" value="/">
-      <button type="submit" class="{% if LANGUAGE_CODE == 'uk' %}active{% endif %}">
+      <button type="submit" class="{% if CURRENT_LANG == 'uk' %}active{% endif %}">
         <img src="{% static 'assets/img/flags/uk.png' %}" alt="UA">
         Українська
       </button>
