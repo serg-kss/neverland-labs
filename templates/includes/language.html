@@ -60,7 +60,7 @@
 <div class="lang-switcher-topbar">
 
   <button class="lang-current" type="button">
-    {% if CURRENT_LANGUAGE == "uk" %}
+    {% if LANGUAGE_CODE == "uk" %}
       <img src="{% static 'assets/img/flags/uk.png' %}" alt="UA">
     {% else %}
       <img src="{% static 'assets/img/flags/en.png' %}" alt="EN">
@@ -73,9 +73,9 @@
     <form action="{% url 'set_language' %}" method="post">
       {% csrf_token %}
       <input type="hidden" name="language" value="en">
-      <input type="hidden" name="next" value="{{ request.path }}">
-      <button type="submit">
-        <img src="{% static 'assets/img/flags/en.png' %}">
+      <input type="hidden" name="next" value="/">
+      <button type="submit" class="{% if LANGUAGE_CODE == 'en' %}active{% endif %}">
+        <img src="{% static 'assets/img/flags/en.png' %}" alt="EN">
         English
       </button>
     </form>
@@ -83,12 +83,13 @@
     <form action="{% url 'set_language' %}" method="post">
       {% csrf_token %}
       <input type="hidden" name="language" value="uk">
-      <input type="hidden" name="next" value="{{ request.path }}">
-      <button type="submit">
-        <img src="{% static 'assets/img/flags/uk.png' %}">
+      <input type="hidden" name="next" value="/">
+      <button type="submit" class="{% if LANGUAGE_CODE == 'uk' %}active{% endif %}">
+        <img src="{% static 'assets/img/flags/uk.png' %}" alt="UA">
         Українська
       </button>
     </form>
 
   </div>
 </div>
+
