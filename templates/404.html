@@ -1,57 +1,79 @@
-{% extends "base_simple.html" %}
+{% extends "base_tech.html" %}
 {% load i18n static %}
+
+{# --- HEAD BLOCKS --- #}
+{% block title %}
+404 — {% trans "Page Not Found" %} | Neverland Labs
+{% endblock %}
+
+{% block meta_description %}
+{% trans "The requested page was not found on this server." %}
+{% endblock %}
+
+{% block og_title %}
+404 — {% trans "Page Not Found" %}
+{% endblock %}
+
+{% block og_description %}
+{% trans "The page you are looking for doesn’t exist or has been moved." %}
+{% endblock %}
+
+{# --- CONTENT --- #}
 {% block content %}
+
 <!-- Page Title -->
 <div class="page-title dark-background hero-background">
-  <div class="container position-relative">
-    <h2>404</h2>
-    <p>{% trans "The page you are looking for doesn’t exist or has been moved." %}</p>
+  <div class="container position-relative text-center">
+    <h1 class="error-code">404</h1>
+    <p class="lead">
+      {% trans "The page you are looking for doesn’t exist or has been moved." %}
+    </p>
 
-    <nav class="breadcrumbs" data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">
+    <nav class="breadcrumbs" aria-label="breadcrumb">
       <ol>
         <li>
-          <a href="{% url 'pages:index' %}">{% trans "Home" %}</a>
+          <a href="{% url 'pages:index' %}">
+            {% trans "Home" %}
+          </a>
         </li>
-        <li class="current">404</li>
+        <li class="current" aria-current="page">
+          404
+        </li>
       </ol>
     </nav>
   </div>
 
-  <!-- Decorative layers -->
   <span class="hero-orb orb-1"></span>
   <span class="hero-orb orb-2"></span>
   <span class="hero-orb orb-3"></span>
 </div>
-<!-- End Page Title -->
 
-    <!-- Error 404 Section -->
-    <section id="error-404" class="error-404 section">
+<!-- Error 404 Section -->
+<section id="error-404" class="error-404 section">
+  <div class="container">
+    <div class="text-center">
 
-      <div class="container">
-
-        <div class="text-center">
-          <div class="error-icon mb-4">
-            <i class="bi bi-exclamation-circle"></i>
-          </div>
-
-          <h1 class="error-code mb-4">404</h1>
-
-          <h2 class="error-title mb-3">{% trans "Oops, sorry! Page Not Found" %}</h2>
-
-          <p class="error-text mb-4">
-            {% trans "The page you are looking for might have been removed, or it is temporarily unavailable." %}
-          </p>
-
-          <div class="error-action">
-            <a href="{% url 'pages:index' %}" class="btn btn-primary">{% trans "Back to Main Page" %}</a>
-          </div>
-        </div>
-
+      <div class="error-icon mb-4">
+        <i class="bi bi-exclamation-circle"></i>
       </div>
 
-    </section><!-- /Error 404 Section -->
+      <h2 class="error-title mb-3">
+        {% trans "Oops, sorry! Page Not Found" %}
+      </h2>
 
-    {% endblock content %}
+      <p class="error-text mb-4">
+        {% trans "The page you are looking for might have been removed, renamed, or is temporarily unavailable." %}
+      </p>
+
+      <div class="error-action">
+        <a href="{% url 'pages:index' %}"
+           class="btn btn-primary">
+          {% trans "Back to Main Page" %}
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

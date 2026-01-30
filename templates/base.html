@@ -1,23 +1,46 @@
 {% load static %}
 {% load i18n %}
+{% get_current_language as CURRENT_LANG %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info_list for LANGUAGES as languages %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ CURRENT_LANG }}">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>{{title}}</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="{{ description|default:'Digital product development, marketing &amp; analytics.' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Neverland Labs">
+  <meta property="og:title" content="{{ og_title|default:title }}">
+  <meta property="og:description" content="{{ og_description|default:'' }}">
+  <meta property="og:url"
+        content="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}">
+  <meta property="og:image"
+        content="{{ request.scheme }}://{{ request.get_host }}{% static 'assets/img/nl.png' %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title|default:title }}">
+  <meta name="twitter:description" content="{{ og_description|default:description }}">
+  <meta name="twitter:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'assets/img/nl.png' %}">
 
+  <title>{{ title|default:"Neverland Labs" }}</title>
   <!-- Favicons -->
-<link rel="icon" type="image/png"
-      href="{% static 'assets/img/favicon.png' %}?v=2">
+  <link rel="icon" type="image/png" href="{% static 'assets/img/favicon.png' %}?v=2">
+  <link rel="apple-touch-icon" href="{% static 'assets/img/apple-touch-icon.png' %}?v=2">
 
-<link rel="apple-touch-icon"
-      href="{% static 'assets/img/apple-touch-icon.png' %}?v=2">
+  {% for lang in languages %}
+  <link rel="alternate"
+        hreflang="{{ lang.code }}"
+        href="{{ request.scheme }}://{{ request.get_host }}/{{ lang.code }}{{ request.path|slice:'3:' }}">
+  {% endfor %}
 
+  <link rel="alternate"
+      hreflang="x-default"
+      href="{{ request.scheme }}://{{ request.get_host }}/en{{ request.path|slice:'3:' }}">
+
+  <link rel="canonical"
+      href="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -34,30 +57,33 @@
   <!-- Main CSS File -->
   <link href="{% static "assets/css/main.css" %}" rel="stylesheet">
 
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Neverland Labs",
+      "url": "{{ request.scheme }}://{{ request.get_host }}",
+      "logo": "{{ request.scheme }}://{{ request.get_host }}{% static 'assets/img/nl.png' %}",
+      "sameAs": [
+        "https://www.linkedin.com/",
+        "https://twitter.com/",
+        "https://github.com/"
+      ],
+      "description": "{{ description }}",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Ukraine"
+      }
+    }
+  </script>
+
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header fixed-top">
 
-    <div class="topbar d-flex align-items-center dark-background">
-      <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="contact-info d-flex align-items-center" data-aos="fade-down" data-aos-delay="700">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">neverlandLabs@gmail.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-          <div class="d-block d-md-none">
-            {% include "includes/language.html" %}
-          </div>
-        </div>
-        <div class="social-links d-none d-md-flex align-items-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          {% include "includes/language.html" %}
-        </div>
-      </div>
-    </div><!-- End Top Bar -->
+    {% include "includes/topbar.html" %}
 
     <div class="branding d-flex align-items-cente">
 
@@ -461,57 +487,7 @@
     {% block content %}{% endblock content %}
   </main>
 
-  <footer id="footer" class="footer position-relative dark-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="{% url 'pages:index' %}" class="logo d-flex align-items-center">
-            <img src="{% static "assets/img/nl.png" %}" alt="neverlandLabs">
-          </a>
-          <p>{% trans "We build, market and optimize digital products using data." %}</p>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>{% trans "Useful Links" %}</h4>
-          <ul>
-            <li><a href="{% url 'pages:index' %}">{% trans "Home" %}</a></li>
-            <li><a href="{% url 'pages:terms' %}">{% trans "Terms of service" %}</a></li>
-            <li><a href="{% url 'pages:privacy' %}">{% trans "Privacy policy" %}</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>{% trans "Our Services" %}</h4>
-          <ul>
-            <li><a href="{% url "pages:development" %}">{% trans "Digital Product Development" %}</a></li>
-            <li><a href="{% url "pages:ux" %}">{% trans "UX Design" %}</a></li>
-            <li><a href="{% url "pages:marketing" %}">{% trans "Growth &amp; Digital Marketing" %}</a></li>
-            <li><a href="{% url "pages:data" %}">{% trans "Data &amp; Analytics" %}</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>{% trans "Contact Us" %}</h4>
-          <p>{% trans "Ukraine" %}</p>
-          <p class="mt-4"><strong>{% trans "Phone" %}:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>neverlandLabs@gmail.com</span></p>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>{% trans "Copyright" %}</span> <strong class="px-1 sitename">Neverland Labs</strong> <span>{% trans "All Rights Reserved" %}</span></p>
-    </div>
-
-  </footer>
+  {% include "includes/footer.html" %}
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

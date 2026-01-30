@@ -8,70 +8,82 @@ from django.http import FileResponse
 from django.utils.translation import get_language
 from django.http import HttpResponse
 from django.views.decorators.http import require_POST
+from django.urls import reverse
+from django.template.loader import render_to_string
+from django.utils.translation import gettext as _
 
 
 def index(request):
-
-    context ={
-        'title': "Neverland Labs",
-    }
-    return render(request, 'pages/index.html', context)
+    return render(request, 'pages/index.html', {
+        'title': _("Digital Product Development, Marketing & Analytics | Neverland Labs"),
+        'description': _("We design, build, and grow digital products using web development, UX design, marketing strategy, and data analytics."),
+        'og_title': _("Neverland Labs — Digital Product Development & Growth"),
+        'og_description': _("We build, market, and scale digital products using engineering, UX, marketing, and data analytics."),
+    })
 
 
 def privacy(request):
-
-    context ={
-        'title': "Neverland Labs: privacy",
-    }
-    return render(request, 'pages/privacy.html', context)
+    return render(request, 'pages/privacy.html', {
+        'title': _("Privacy Policy | Neverland Labs"),
+        'description': _("Learn how Neverland Labs collects, uses, and protects your personal data."),
+        'og_title': _("Privacy Policy — Neverland Labs"),
+        'og_description': _("Information about how we collect, store, and protect user data."),
+    })
 
 
 def terms(request):
-
-    context ={
-        'title': "Neverland Labs: terms of service",
-    }
-    return render(request, 'pages/terms.html', context)
+    return render(request, 'pages/terms.html', {
+        'title': _("Terms of Service | Neverland Labs"),
+        'description': _("Terms and conditions governing the use of Neverland Labs website and services."),
+        'og_title': _("Terms of Service — Neverland Labs"),
+        'og_description': _("Rules and conditions for using Neverland Labs services and website."),
+    })
 
 
 def development(request):
-
-    context ={
-        'title': "Neverland Labs: web development",
-    }
-    return render(request, 'pages/development.html', context)
+    return render(request, 'pages/development.html', {
+        'title': _("Custom Web & SaaS Development Services | Neverland Labs"),
+        'description': _("Custom web and SaaS development services focused on scalable architecture, performance, and business goals."),
+        'og_title': _("Web & SaaS Development — Neverland Labs"),
+        'og_description': _("We build scalable web platforms and SaaS products with modern technologies."),
+    })
 
 
 def marketing(request):
-
-    context ={
-        'title': "Neverland Labs: marketing",
-    }
-    return render(request, 'pages/marketing.html', context)
+    return render(request, 'pages/marketing.html', {
+        'title': _("Digital Marketing Strategy for SaaS & Startups | Neverland Labs"),
+        'description': _("Digital marketing strategies for SaaS and digital platforms focused on growth, acquisition, and retention."),
+        'og_title': _("Digital Marketing Strategy — Neverland Labs"),
+        'og_description': _("Growth-focused marketing strategies for SaaS, startups, and digital products."),
+    })
 
 
 def data(request):
-
-    context ={
-        'title': "Neverland Labs: data",
-    }
-    return render(request, 'pages/data.html', context)
+    return render(request, 'pages/data.html', {
+        'title': _("Data Analytics & Growth Insights for Products | Neverland Labs"),
+        'description': _("Product and business analytics to track performance, user behavior, and data-driven growth."),
+        'og_title': _("Data & Analytics — Neverland Labs"),
+        'og_description': _("Analytics, dashboards, and insights to drive product and business growth."),
+    })
 
 
 def ux(request):
-
-    context ={
-        'title': "Neverland Labs: ux-ui",
-    }
-    return render(request, 'pages/ux.html', context)
+    return render(request, 'pages/ux.html', {
+        'title': _("UX & UI Design for Digital Products | Neverland Labs"),
+        'description': _("User-centered UX and UI design for digital products, focused on usability, clarity, and conversion."),
+        'og_title': _("UX & UI Design — Neverland Labs"),
+        'og_description': _("User-centered UX/UI design focused on usability, clarity, and business impact."),
+    })
 
 
 def portfolio_action(request):
+    return render(request, 'pages/portfolio/action.html', {
+        'title': _("Airsoft Game Management System | Neverland Labs"),
+        'description': _("A custom web platform for managing airsoft games, equipment rentals, and player coordination."),
+        'og_title': _("Strike Shop Action — Case Study"),
+        'og_description': _("Case study: a platform for managing airsoft games, rentals, and player coordination."),
+    })
 
-    context ={
-        'title': "Neverland Labs: StrikeShop Action",
-    }
-    return render(request, 'pages/portfolio/action.html', context)
 
 
 @require_POST
@@ -164,3 +176,49 @@ def download_data_pdf(request):
         as_attachment=True,
         filename=filename,
     )
+
+
+def sitemap_xml(request):
+    urls = [
+        "pages:index",
+        "pages:development",
+        "pages:ux",
+        "pages:marketing",
+        "pages:data",
+        "pages:privacy",
+        "pages:terms",
+        "pages:strikeshopaction",
+    ]
+
+    languages = [lang[0] for lang in settings.LANGUAGES]
+    domain = request.scheme + "://" + request.get_host()
+
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>']
+    xml.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+
+    for lang in languages:
+        for name in urls:
+            path = reverse(name)
+            loc = f"{domain}/{lang}{path}"
+            xml.append("<url>")
+            xml.append(f"<loc>{loc}</loc>")
+            xml.append("<changefreq>monthly</changefreq>")
+            xml.append("<priority>0.8</priority>")
+            xml.append("</url>")
+
+    xml.append("</urlset>")
+
+    return HttpResponse("\n".join(xml), content_type="application/xml")
+
+
+def robots_txt(request):
+    content = render_to_string(
+        "robots.txt",
+        {
+            "sitemap_url": request.scheme
+            + "://"
+            + request.get_host()
+            + "/sitemap.xml"
+        },
+    )
+    return HttpResponse(content, content_type="text/plain")
