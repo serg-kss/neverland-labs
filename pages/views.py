@@ -88,13 +88,6 @@ def portfolio_action(request):
 
 @require_POST
 def contact_form(request):
-
-    now = int(time.time())
-    last_sent = request.session.get("contact_form_last_sent", 0)
-
-    if now - last_sent < 120:
-        return HttpResponse("OK")
-
     name = request.POST.get("name", "").strip()
     email = request.POST.get("email", "").strip()
     subject = request.POST.get("subject", "").strip()
@@ -104,11 +97,11 @@ def contact_form(request):
         return HttpResponse("Invalid input", status=400)
 
     text = (
-        "New Contact Message\n\n"
-        f"Name: {name}\n"
-        f"Email: {email}\n"
-        f"Subject: {subject}\n\n"
-        f"Message:\n{message}"
+        "📩 New Contact Message\n\n"
+        f"👤 Name: {name}\n"
+        f"📧 Email: {email}\n"
+        f"📌 Subject: {subject}\n\n"
+        f"💬 Message:\n{message}"
     )
 
     telegram_url = f"https://api.telegram.org/bot{settings.TELEGRAM_BOT_TOKEN}/sendMessage"
@@ -116,19 +109,21 @@ def contact_form(request):
     payload = {
         "chat_id": settings.TELEGRAM_CHAT_ID,
         "text": text,
+        "parse_mode": "HTML",
     }
 
     try:
-        requests.post(telegram_url, data=payload, timeout=5).raise_for_status()
-    except Exception as e:
+        response = requests.post(
+            telegram_url,
+            data=payload,
+            timeout=5
+        )
+        response.raise_for_status()
+    except requests.RequestException as e:
         print("Telegram error:", e)
         return HttpResponse("Failed", status=500)
 
-    request.session["contact_form_last_sent"] = now
-    request.session.modified = True
-
     return HttpResponse("OK")
-
 
 def download_ux_pdf(request):
     lang = get_language()
