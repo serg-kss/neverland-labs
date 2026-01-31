@@ -204,4 +204,21 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  document.addEventListener("DOMContentLoaded", () => {
+  const switcher = document.getElementById("langSwitcher");
+  if (!switcher) return;
+
+  const button = switcher.querySelector(".lang-current");
+
+  button.addEventListener("click", (e) => {
+    e.stopPropagation();
+    switcher.classList.toggle("active");
+  });
+
+  document.addEventListener("click", () => {
+    switcher.classList.remove("active");
+  });
+});
+
+
 })();

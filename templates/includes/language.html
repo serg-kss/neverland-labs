@@ -56,9 +56,9 @@
 
 </style>
 
-<div class="lang-switcher-topbar">
+<div class="lang-switcher-topbar" id="langSwitcher">
 
-  <button class="lang-current" type="button">
+  <button class="lang-current" type="button" aria-expanded="false">
     {% if CURRENT_LANG == "uk" %}
       <img src="{% static 'assets/img/flags/uk.png' %}" alt="UA">
     {% else %}
@@ -72,7 +72,7 @@
     <form action="{% url 'set_language' %}" method="post">
       {% csrf_token %}
       <input type="hidden" name="language" value="en">
-      <input type="hidden" name="next" value="{{ request.get_full_path }}">
+      <input type="hidden" name="next" value="{{ request.path }}">
       <button type="submit" class="{% if CURRENT_LANG == 'en' %}active{% endif %}">
         <img src="{% static 'assets/img/flags/en.png' %}" alt="EN">
         English
@@ -82,7 +82,7 @@
     <form action="{% url 'set_language' %}" method="post">
       {% csrf_token %}
       <input type="hidden" name="language" value="uk">
-      <input type="hidden" name="next" value="{{ request.get_full_path }}">
+      <input type="hidden" name="next" value="{{ request.path }}">
       <button type="submit" class="{% if CURRENT_LANG == 'uk' %}active{% endif %}">
         <img src="{% static 'assets/img/flags/uk.png' %}" alt="UA">
         Українська
@@ -91,5 +91,6 @@
 
   </div>
 </div>
+
 
 
