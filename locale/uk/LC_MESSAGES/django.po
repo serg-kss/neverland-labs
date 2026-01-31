@@ -1080,11 +1080,11 @@ msgstr "Аналітика та дашборди"
 
 #: pages/templates/pages/marketing.html:179
 msgid "2–4 months (strategy phase)"
-msgstr "2–4 місяці (стратегічна фаза)"
+msgstr "2–4 місяці"
 
 #: pages/templates/pages/marketing.html:183
 msgid "2–4 core specialists"
-msgstr "2–4 ключові спеціалісти"
+msgstr "2–4 спеціалісти"
 
 #: pages/templates/pages/marketing.html:187
 msgid "Strategy roadmap + execution plan"
