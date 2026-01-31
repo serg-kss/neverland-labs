@@ -3,7 +3,13 @@
 
 <li class="dropdown d-block d-sm-none">
   <a href="#">
-    <span>{% trans "Languages" %}</span>
+    <span>
+      {% if CURRENT_LANG == 'uk' %}
+        Українська
+      {% else %}
+        English
+      {% endif %}
+    </span>
     <i class="bi bi-chevron-down toggle-dropdown"></i>
   </a>
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 22:17+0200\n"
+"POT-Creation-Date: 2026-01-31 15:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,9 +40,8 @@ msgstr ""
 #: pages/templates/pages/marketing.html:19
 #: pages/templates/pages/portfolio/action.html:29
 #: pages/templates/pages/privacy.html:14 pages/templates/pages/terms.html:14
-#: pages/templates/pages/ux.html:20 templates/404.html:16 templates/500.html:16
-#: templates/base.html:89 templates/base.html:502
-#: templates/base_simple.html:114
+#: pages/templates/pages/ux.html:20 templates/404.html:36 templates/500.html:36
+#: templates/base.html:103 templates/includes/footer.html:24
 msgid "Home"
 msgstr ""
 
@@ -50,13 +49,13 @@ msgstr ""
 #: pages/templates/pages/includes/about.html:33
 #: pages/templates/pages/includes/services.html:97
 #: pages/templates/pages/includes/workprocess.html:45
-#: pages/templates/pages/ux.html:22 templates/base.html:104
-#: templates/base.html:134 templates/base.html:179 templates/base.html:514
-#: templates/base_simple.html:126
+#: pages/templates/pages/ux.html:22 templates/base.html:118
+#: templates/base.html:148 templates/base.html:193
+#: templates/includes/footer.html:36
 msgid "Data &amp; Analytics"
 msgstr ""
 
-#: pages/templates/pages/data.html:47 templates/base.html:420
+#: pages/templates/pages/data.html:47 templates/base.html:434
 msgid "Data &amp; Analytics Strategy &amp; Implementation"
 msgstr ""
 
@@ -104,7 +103,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/pages/data.html:93 pages/templates/pages/data.html:171
-#: templates/base.html:374
+#: templates/base.html:388
 msgid "Product &amp; Growth Analytics"
 msgstr ""
 
@@ -115,7 +114,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/pages/data.html:104 pages/templates/pages/data.html:187
-#: templates/base.html:401
+#: templates/base.html:415
 msgid "Advanced Analytics &amp; Forecasting"
 msgstr ""
 
@@ -184,25 +183,24 @@ msgstr ""
 #: pages/templates/pages/data.html:163
 #: pages/templates/pages/development.html:141
 #: pages/templates/pages/marketing.html:141 pages/templates/pages/ux.html:154
-#: templates/base.html:152 templates/base.html:222 templates/base.html:292
-#: templates/base.html:362 templates/base.html:509
-#: templates/base_simple.html:121
+#: templates/base.html:166 templates/base.html:236 templates/base.html:306
+#: templates/base.html:376 templates/includes/footer.html:31
 msgid "Our Services"
 msgstr ""
 
-#: pages/templates/pages/data.html:167 templates/base.html:367
+#: pages/templates/pages/data.html:167 templates/base.html:381
 msgid "Data &amp; Analytics Strategy"
 msgstr ""
 
-#: pages/templates/pages/data.html:175 templates/base.html:381
+#: pages/templates/pages/data.html:175 templates/base.html:395
 msgid "BI Dashboards &amp; Reporting"
 msgstr ""
 
-#: pages/templates/pages/data.html:183 templates/base.html:394
+#: pages/templates/pages/data.html:183 templates/base.html:408
 msgid "Tracking &amp; Analytics Setup"
 msgstr ""
 
-#: pages/templates/pages/data.html:191 templates/base.html:408
+#: pages/templates/pages/data.html:191 templates/base.html:422
 msgid "Data Quality &amp; Monitoring"
 msgstr ""
 
@@ -279,13 +277,13 @@ msgstr ""
 msgid "Web Development for Digital Products"
 msgstr ""
 
-#: pages/templates/pages/development.html:11 templates/base.html:211
+#: pages/templates/pages/development.html:11 templates/base.html:225
 msgid ""
 "We build scalable, high-performance web applications using modern full-stack "
 "technologies — from product design to production-ready systems."
 msgstr ""
 
-#: pages/templates/pages/development.html:21 templates/base.html:101
+#: pages/templates/pages/development.html:21 templates/base.html:115
 msgid "Web Development"
 msgstr ""
 
@@ -385,15 +383,15 @@ msgstr ""
 msgid "Custom Web Application Development"
 msgstr ""
 
-#: pages/templates/pages/development.html:149 templates/base.html:157
+#: pages/templates/pages/development.html:149 templates/base.html:171
 msgid "SaaS &amp; Platform Development"
 msgstr ""
 
-#: pages/templates/pages/development.html:153 templates/base.html:164
+#: pages/templates/pages/development.html:153 templates/base.html:178
 msgid "Frontend Development (React, Next.js)"
 msgstr ""
 
-#: pages/templates/pages/development.html:157 templates/base.html:171
+#: pages/templates/pages/development.html:157 templates/base.html:185
 msgid "Backend Development (NestJS, Django)"
 msgstr ""
 
@@ -401,15 +399,15 @@ msgstr ""
 msgid "UI/UX Design (Figma)"
 msgstr ""
 
-#: pages/templates/pages/development.html:165 templates/base.html:184
+#: pages/templates/pages/development.html:165 templates/base.html:198
 msgid "Bots &amp; Automation Systems"
 msgstr ""
 
-#: pages/templates/pages/development.html:169 templates/base.html:191
+#: pages/templates/pages/development.html:169 templates/base.html:205
 msgid "API Development &amp; Integrations"
 msgstr ""
 
-#: pages/templates/pages/development.html:173 templates/base.html:198
+#: pages/templates/pages/development.html:173 templates/base.html:212
 msgid "Database Design &amp; Optimization"
 msgstr ""
 
@@ -498,7 +496,7 @@ msgid "Meet Our Team"
 msgstr ""
 
 #: pages/templates/pages/includes/contact.html:7
-#: pages/templates/pages/terms.html:163 templates/base.html:466
+#: pages/templates/pages/terms.html:163 templates/base.html:480
 msgid "Contact"
 msgstr ""
 
@@ -646,7 +644,7 @@ msgstr ""
 msgid "Web Application"
 msgstr ""
 
-#: pages/templates/pages/includes/services.html:8 templates/base.html:91
+#: pages/templates/pages/includes/services.html:8 templates/base.html:105
 msgid "Services"
 msgstr ""
 
@@ -654,8 +652,8 @@ msgstr ""
 msgid "What we do best — and how it supports real business growth"
 msgstr ""
 
-#: pages/templates/pages/includes/services.html:25 templates/base.html:210
-#: templates/base.html:511 templates/base_simple.html:123
+#: pages/templates/pages/includes/services.html:25 templates/base.html:224
+#: templates/includes/footer.html:33
 msgid "Digital Product Development"
 msgstr ""
 
@@ -669,9 +667,8 @@ msgstr ""
 msgid "View Development Services"
 msgstr ""
 
-#: pages/templates/pages/includes/services.html:49 templates/base.html:102
-#: templates/base.html:122 templates/base.html:512
-#: templates/base_simple.html:124
+#: pages/templates/pages/includes/services.html:49 templates/base.html:116
+#: templates/base.html:136 templates/includes/footer.html:34
 msgid "UX Design"
 msgstr ""
 
@@ -685,8 +682,8 @@ msgstr ""
 msgid "Learn More"
 msgstr ""
 
-#: pages/templates/pages/includes/services.html:73 templates/base.html:513
-#: templates/base_simple.html:125
+#: pages/templates/pages/includes/services.html:73
+#: templates/includes/footer.html:35
 msgid "Growth &amp; Digital Marketing"
 msgstr ""
 
@@ -816,7 +813,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/pages/marketing.html:10
-#: pages/templates/pages/marketing.html:145 templates/base.html:297
+#: pages/templates/pages/marketing.html:145 templates/base.html:311
 msgid "Marketing Strategy for Digital Products"
 msgstr ""
 
@@ -827,7 +824,7 @@ msgid ""
 "technology."
 msgstr ""
 
-#: pages/templates/pages/marketing.html:47 templates/base.html:350
+#: pages/templates/pages/marketing.html:47 templates/base.html:364
 msgid "Digital Marketing Strategy &amp; Implementation"
 msgstr ""
 
@@ -919,7 +916,7 @@ msgid ""
 "data — not vanity metrics."
 msgstr ""
 
-#: pages/templates/pages/marketing.html:149 templates/base.html:304
+#: pages/templates/pages/marketing.html:149 templates/base.html:318
 msgid "Go-To-Market &amp; Launch Strategy"
 msgstr ""
 
@@ -927,19 +924,19 @@ msgstr ""
 msgid "Performance &amp; Growth Marketing"
 msgstr ""
 
-#: pages/templates/pages/marketing.html:157 templates/base.html:311
+#: pages/templates/pages/marketing.html:157 templates/base.html:325
 msgid "SEO &amp; Demand Capture"
 msgstr ""
 
-#: pages/templates/pages/marketing.html:161 templates/base.html:324
+#: pages/templates/pages/marketing.html:161 templates/base.html:338
 msgid "Lifecycle &amp; Email Marketing"
 msgstr ""
 
-#: pages/templates/pages/marketing.html:165 templates/base.html:331
+#: pages/templates/pages/marketing.html:165 templates/base.html:345
 msgid "Brand Strategy &amp; Digital Presence"
 msgstr ""
 
-#: pages/templates/pages/marketing.html:169 templates/base.html:338
+#: pages/templates/pages/marketing.html:169 templates/base.html:352
 msgid "Analytics &amp; Dashboards"
 msgstr ""
 
@@ -1451,8 +1448,7 @@ msgid ""
 "constitutes acceptance of the updated policy."
 msgstr ""
 
-#: pages/templates/pages/privacy.html:137 templates/base.html:519
-#: templates/base_simple.html:131
+#: pages/templates/pages/privacy.html:137 templates/includes/footer.html:41
 msgid "Contact Us"
 msgstr ""
 
@@ -1693,13 +1689,13 @@ msgstr ""
 msgid "UX &amp; UI Design for Digital Products"
 msgstr ""
 
-#: pages/templates/pages/ux.html:12 templates/base.html:281
+#: pages/templates/pages/ux.html:12 templates/base.html:295
 msgid ""
 "We design user experiences and interfaces that are clear, intuitive, and "
 "aligned with real business goals — not just visual trends."
 msgstr ""
 
-#: pages/templates/pages/ux.html:48 templates/base.html:280
+#: pages/templates/pages/ux.html:48 templates/base.html:294
 msgid "Product-Focused UX &amp; UI Design"
 msgstr ""
 
@@ -1712,7 +1708,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/pages/ux.html:61 pages/templates/pages/ux.html:158
-#: templates/base.html:227
+#: templates/base.html:241
 msgid "UX Research &amp; Product Discovery"
 msgstr ""
 
@@ -1733,7 +1729,7 @@ msgid ""
 msgstr ""
 
 #: pages/templates/pages/ux.html:84 pages/templates/pages/ux.html:170
-#: templates/base.html:254
+#: templates/base.html:268
 msgid "UI Design &amp; Design Systems"
 msgstr ""
 
@@ -1802,19 +1798,19 @@ msgid ""
 "development handoff."
 msgstr ""
 
-#: pages/templates/pages/ux.html:162 templates/base.html:234
+#: pages/templates/pages/ux.html:162 templates/base.html:248
 msgid "User Flows &amp; Information Architecture"
 msgstr ""
 
-#: pages/templates/pages/ux.html:166 templates/base.html:241
+#: pages/templates/pages/ux.html:166 templates/base.html:255
 msgid "Wireframing &amp; Prototyping"
 msgstr ""
 
-#: pages/templates/pages/ux.html:174 templates/base.html:261
+#: pages/templates/pages/ux.html:174 templates/base.html:275
 msgid "Usability Testing"
 msgstr ""
 
-#: pages/templates/pages/ux.html:178 templates/base.html:268
+#: pages/templates/pages/ux.html:178 templates/base.html:282
 msgid "Design Support for Development"
 msgstr ""
 
@@ -1996,210 +1992,240 @@ msgid ""
 "coordination."
 msgstr ""
 
-#: templates/404.html:8
+#: templates/404.html:6 templates/404.html:14
+msgid "Page Not Found"
+msgstr ""
+
+#: templates/404.html:10
+msgid "The requested page was not found on this server."
+msgstr ""
+
+#: templates/404.html:18 templates/404.html:29
 msgid "The page you are looking for doesn’t exist or has been moved."
 msgstr ""
 
-#: templates/404.html:42
+#: templates/404.html:61
 msgid "Oops, sorry! Page Not Found"
 msgstr ""
 
-#: templates/404.html:45
+#: templates/404.html:65
 msgid ""
-"The page you are looking for might have been removed, or it is temporarily "
-"unavailable."
+"The page you are looking for might have been removed, renamed, or is "
+"temporarily unavailable."
 msgstr ""
 
-#: templates/404.html:49 templates/500.html:49
+#: templates/404.html:71 templates/500.html:71
 msgid "Back to Main Page"
 msgstr ""
 
-#: templates/500.html:8
+#: templates/500.html:6 templates/500.html:14
 msgid "Server Error"
 msgstr ""
 
-#: templates/500.html:42
-msgid "Something went wrong"
+#: templates/500.html:10
+msgid "An internal server error occurred. Please try again later."
 msgstr ""
 
-#: templates/500.html:45
+#: templates/500.html:18
 msgid ""
-"We’re already looking into it. Please try again later or return to the "
-"homepage."
+"Something went wrong on our side. We’re already working on fixing the issue."
 msgstr ""
 
-#: templates/base.html:90
+#: templates/500.html:29
+msgid "Something went wrong on our side."
+msgstr ""
+
+#: templates/500.html:61
+msgid "Internal Server Error"
+msgstr ""
+
+#: templates/500.html:65
+msgid ""
+"We’re already looking into the problem. Please try again later or return to "
+"the homepage."
+msgstr ""
+
+#: templates/base.html:104
 msgid "About"
 msgstr ""
 
-#: templates/base.html:92
+#: templates/base.html:106
 msgid "Portfolio"
 msgstr ""
 
-#: templates/base.html:93
+#: templates/base.html:107
 msgid "Team"
 msgstr ""
 
-#: templates/base.html:103 templates/base.html:128
+#: templates/base.html:117 templates/base.html:142
 msgid "Digital Marketing"
 msgstr ""
 
-#: templates/base.html:116
+#: templates/base.html:130
 msgid "Product Engineering"
 msgstr ""
 
-#: templates/base.html:140
+#: templates/base.html:154
 msgid "Resources"
 msgstr ""
 
-#: templates/base.html:158
+#: templates/base.html:172
 msgid ""
 "Design and development of scalable SaaS platforms and custom business "
 "systems."
 msgstr ""
 
-#: templates/base.html:165
+#: templates/base.html:179
 msgid "High-performance, SEO-friendly interfaces focused on user experience."
 msgstr ""
 
-#: templates/base.html:172
+#: templates/base.html:186
 msgid "Secure, scalable backend systems with clean architecture and APIs."
 msgstr ""
 
-#: templates/base.html:185
+#: templates/base.html:199
 msgid "Automation of business processes, notifications, and integrations."
 msgstr ""
 
-#: templates/base.html:192
+#: templates/base.html:206
 msgid "Reliable API design and integration with third-party services."
 msgstr ""
 
-#: templates/base.html:199
+#: templates/base.html:213
 msgid "Efficient data models, performance tuning, and data integrity."
 msgstr ""
 
-#: templates/base.html:212 templates/base.html:282 templates/base.html:352
-#: templates/base.html:422
+#: templates/base.html:226 templates/base.html:296 templates/base.html:366
+#: templates/base.html:436
 msgid "More Details"
 msgstr ""
 
-#: templates/base.html:228
+#: templates/base.html:242
 msgid "User research and product discovery to clearly define user needs."
 msgstr ""
 
-#: templates/base.html:235
+#: templates/base.html:249
 msgid ""
 "Designing clear user flows that make complex products easy to understand."
 msgstr ""
 
-#: templates/base.html:242
+#: templates/base.html:256
 msgid "Wireframes and prototypes for early validation."
 msgstr ""
 
-#: templates/base.html:255
+#: templates/base.html:269
 msgid "Clean, scalable UI and design systems."
 msgstr ""
 
-#: templates/base.html:262
+#: templates/base.html:276
 msgid "Tested with users."
 msgstr ""
 
-#: templates/base.html:269
+#: templates/base.html:283
 msgid ""
 "Close collaboration with developers, documentation, and ongoing design "
 "support."
 msgstr ""
 
-#: templates/base.html:298
+#: templates/base.html:312
 msgid "Product positioning and growth strategy aligned with business goals."
 msgstr ""
 
-#: templates/base.html:305
+#: templates/base.html:319
 msgid "Launch planning, messaging, and acquisition strategy for new products."
 msgstr ""
 
-#: templates/base.html:312
+#: templates/base.html:326
 msgid "Organic growth through SEO, content, and intent-driven demand capture."
 msgstr ""
 
-#: templates/base.html:325
+#: templates/base.html:339
 msgid ""
 "User onboarding, retention, and lifecycle automation via email &amp; "
 "messaging."
 msgstr ""
 
-#: templates/base.html:332
+#: templates/base.html:346
 msgid ""
 "Clear brand positioning across web, product, and communication channels."
 msgstr ""
 
-#: templates/base.html:339
+#: templates/base.html:353
 msgid ""
 "Actionable metrics, funnels, and dashboards focused on growth decisions."
 msgstr ""
 
-#: templates/base.html:351
+#: templates/base.html:365
 msgid "We grow digital products with clear strategy and measurable results."
 msgstr ""
 
-#: templates/base.html:368
+#: templates/base.html:382
 msgid "Analytics strategy aligned with product and business goals."
 msgstr ""
 
-#: templates/base.html:375
+#: templates/base.html:389
 msgid "Metrics and insights to track growth, activation, and retention."
 msgstr ""
 
-#: templates/base.html:382
+#: templates/base.html:396
 msgid "Clear dashboards and reports for fast, informed decisions."
 msgstr ""
 
-#: templates/base.html:395
+#: templates/base.html:409
 msgid "Event tracking, funnels, and analytics tool setup."
 msgstr ""
 
-#: templates/base.html:402
+#: templates/base.html:416
 msgid "Advanced analysis and forecasting for product and revenue planning."
 msgstr ""
 
-#: templates/base.html:409
+#: templates/base.html:423
 msgid "Data validation, monitoring, and reliability controls."
 msgstr ""
 
-#: templates/base.html:421
+#: templates/base.html:435
 msgid "We turn raw data into clear insights and data-driven decisions."
 msgstr ""
 
-#: templates/base.html:490 templates/base_simple.html:102
+#: templates/base_tech.html:20 templates/base_tech.html:28
+#: templates/base_tech.html:38
+msgid "Technical page"
+msgstr ""
+
+#: templates/includes/footer.html:12
 msgid "We build, market and optimize digital products using data."
 msgstr ""
 
-#: templates/base.html:500 templates/base_simple.html:112
+#: templates/includes/footer.html:22
 msgid "Useful Links"
 msgstr ""
 
-#: templates/base.html:503 templates/base_simple.html:115
+#: templates/includes/footer.html:25
 msgid "Terms of service"
 msgstr ""
 
-#: templates/base.html:504 templates/base_simple.html:116
+#: templates/includes/footer.html:26
 msgid "Privacy policy"
 msgstr ""
 
-#: templates/base.html:520 templates/base_simple.html:132
+#: templates/includes/footer.html:42
 msgid "Ukraine"
 msgstr ""
 
-#: templates/base.html:521 templates/base_simple.html:133
+#: templates/includes/footer.html:43
 msgid "Phone"
 msgstr ""
 
-#: templates/base.html:529 templates/base_simple.html:141
+#: templates/includes/footer.html:51
 msgid "Copyright"
 msgstr ""
 
-#: templates/base.html:529 templates/base_simple.html:141
+#: templates/includes/footer.html:51
 msgid "All Rights Reserved"
+msgstr ""
+
+#: templates/includes/language_mob.html:6
+msgid "Languages"
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/contrib/messages/apps.py:16

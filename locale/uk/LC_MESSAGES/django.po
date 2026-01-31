@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 22:17+0200\n"
+"POT-Creation-Date: 2026-01-31 15:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,9 +46,8 @@ msgstr ""
 #: pages/templates/pages/marketing.html:19
 #: pages/templates/pages/portfolio/action.html:29
 #: pages/templates/pages/privacy.html:14 pages/templates/pages/terms.html:14
-#: pages/templates/pages/ux.html:20 templates/404.html:16 templates/500.html:16
-#: templates/base.html:89 templates/base.html:502
-#: templates/base_simple.html:114
+#: pages/templates/pages/ux.html:20 templates/404.html:36 templates/500.html:36
+#: templates/base.html:103 templates/includes/footer.html:24
 msgid "Home"
 msgstr "Головна"
 
@@ -56,13 +55,13 @@ msgstr "Головна"
 #: pages/templates/pages/includes/about.html:33
 #: pages/templates/pages/includes/services.html:97
 #: pages/templates/pages/includes/workprocess.html:45
-#: pages/templates/pages/ux.html:22 templates/base.html:104
-#: templates/base.html:134 templates/base.html:179 templates/base.html:514
-#: templates/base_simple.html:126
+#: pages/templates/pages/ux.html:22 templates/base.html:118
+#: templates/base.html:148 templates/base.html:193
+#: templates/includes/footer.html:36
 msgid "Data &amp; Analytics"
 msgstr "Дані та аналітика"
 
-#: pages/templates/pages/data.html:47 templates/base.html:420
+#: pages/templates/pages/data.html:47 templates/base.html:434
 msgid "Data &amp; Analytics Strategy &amp; Implementation"
 msgstr "Стратегія та впровадження даних і аналітики"
 
@@ -120,7 +119,7 @@ msgstr ""
 "продуктових і маркетингових команд — без vanity-метрик."
 
 #: pages/templates/pages/data.html:93 pages/templates/pages/data.html:171
-#: templates/base.html:374
+#: templates/base.html:388
 msgid "Product &amp; Growth Analytics"
 msgstr "Продуктова та growth-аналітика"
 
@@ -133,7 +132,7 @@ msgstr ""
 "виявлення точок зростання й вузьких місць."
 
 #: pages/templates/pages/data.html:104 pages/templates/pages/data.html:187
-#: templates/base.html:401
+#: templates/base.html:415
 msgid "Advanced Analytics &amp; Forecasting"
 msgstr "Розширена аналітика та прогнозування"
 
@@ -214,25 +213,24 @@ msgstr ""
 #: pages/templates/pages/data.html:163
 #: pages/templates/pages/development.html:141
 #: pages/templates/pages/marketing.html:141 pages/templates/pages/ux.html:154
-#: templates/base.html:152 templates/base.html:222 templates/base.html:292
-#: templates/base.html:362 templates/base.html:509
-#: templates/base_simple.html:121
+#: templates/base.html:166 templates/base.html:236 templates/base.html:306
+#: templates/base.html:376 templates/includes/footer.html:31
 msgid "Our Services"
 msgstr "Наші послуги"
 
-#: pages/templates/pages/data.html:167 templates/base.html:367
+#: pages/templates/pages/data.html:167 templates/base.html:381
 msgid "Data &amp; Analytics Strategy"
 msgstr "Стратегія даних та аналітики"
 
-#: pages/templates/pages/data.html:175 templates/base.html:381
+#: pages/templates/pages/data.html:175 templates/base.html:395
 msgid "BI Dashboards &amp; Reporting"
 msgstr "BI-дашборди та звітність"
 
-#: pages/templates/pages/data.html:183 templates/base.html:394
+#: pages/templates/pages/data.html:183 templates/base.html:408
 msgid "Tracking &amp; Analytics Setup"
 msgstr "Налаштування трекінгу та аналітики"
 
-#: pages/templates/pages/data.html:191 templates/base.html:408
+#: pages/templates/pages/data.html:191 templates/base.html:422
 msgid "Data Quality &amp; Monitoring"
 msgstr "Контроль якості та моніторинг даних"
 
@@ -312,7 +310,7 @@ msgstr "Завантажити Data &amp; Analytics PDF"
 msgid "Web Development for Digital Products"
 msgstr "Веб-розробка для цифрових продуктів"
 
-#: pages/templates/pages/development.html:11 templates/base.html:211
+#: pages/templates/pages/development.html:11 templates/base.html:225
 msgid ""
 "We build scalable, high-performance web applications using modern full-stack "
 "technologies — from product design to production-ready systems."
@@ -320,7 +318,7 @@ msgstr ""
 "Ми створюємо масштабовані веб-продукти — від MVP до платформ, поєднуючи "
 "інженерію, дизайн і бізнес."
 
-#: pages/templates/pages/development.html:21 templates/base.html:101
+#: pages/templates/pages/development.html:21 templates/base.html:115
 msgid "Web Development"
 msgstr "Веб-розробка"
 
@@ -439,15 +437,15 @@ msgstr ""
 msgid "Custom Web Application Development"
 msgstr "Розробка кастомних веб-застосунків"
 
-#: pages/templates/pages/development.html:149 templates/base.html:157
+#: pages/templates/pages/development.html:149 templates/base.html:171
 msgid "SaaS &amp; Platform Development"
 msgstr "Розробка SaaS та платформ"
 
-#: pages/templates/pages/development.html:153 templates/base.html:164
+#: pages/templates/pages/development.html:153 templates/base.html:178
 msgid "Frontend Development (React, Next.js)"
 msgstr "Frontend-розробка (React, Next.js)"
 
-#: pages/templates/pages/development.html:157 templates/base.html:171
+#: pages/templates/pages/development.html:157 templates/base.html:185
 msgid "Backend Development (NestJS, Django)"
 msgstr "Backend-розробка (NestJS, Django)"
 
@@ -455,15 +453,15 @@ msgstr "Backend-розробка (NestJS, Django)"
 msgid "UI/UX Design (Figma)"
 msgstr "UI/UX дизайн (Figma)"
 
-#: pages/templates/pages/development.html:165 templates/base.html:184
+#: pages/templates/pages/development.html:165 templates/base.html:198
 msgid "Bots &amp; Automation Systems"
 msgstr "Боти та системи автоматизації"
 
-#: pages/templates/pages/development.html:169 templates/base.html:191
+#: pages/templates/pages/development.html:169 templates/base.html:205
 msgid "API Development &amp; Integrations"
 msgstr "Розробка API та інтеграції"
 
-#: pages/templates/pages/development.html:173 templates/base.html:198
+#: pages/templates/pages/development.html:173 templates/base.html:212
 msgid "Database Design &amp; Optimization"
 msgstr "Проєктування та оптимізація баз даних"
 
@@ -563,7 +561,7 @@ msgid "Meet Our Team"
 msgstr "Познайомитися з командою"
 
 #: pages/templates/pages/includes/contact.html:7
-#: pages/templates/pages/terms.html:163 templates/base.html:466
+#: pages/templates/pages/terms.html:163 templates/base.html:480
 msgid "Contact"
 msgstr "Контакти"
 
@@ -730,7 +728,7 @@ msgstr "Дата"
 msgid "Web Application"
 msgstr "Розробка кастомних веб-застосунків"
 
-#: pages/templates/pages/includes/services.html:8 templates/base.html:91
+#: pages/templates/pages/includes/services.html:8 templates/base.html:105
 msgid "Services"
 msgstr "Сервіси"
 
@@ -738,8 +736,8 @@ msgstr "Сервіси"
 msgid "What we do best — and how it supports real business growth"
 msgstr "Те, що ми робимо найкраще — і як це допомагає бізнесу зростати"
 
-#: pages/templates/pages/includes/services.html:25 templates/base.html:210
-#: templates/base.html:511 templates/base_simple.html:123
+#: pages/templates/pages/includes/services.html:25 templates/base.html:224
+#: templates/includes/footer.html:33
 msgid "Digital Product Development"
 msgstr "Розробка цифрових продуктів"
 
@@ -756,9 +754,8 @@ msgstr ""
 msgid "View Development Services"
 msgstr "Детальніше про розробку"
 
-#: pages/templates/pages/includes/services.html:49 templates/base.html:102
-#: templates/base.html:122 templates/base.html:512
-#: templates/base_simple.html:124
+#: pages/templates/pages/includes/services.html:49 templates/base.html:116
+#: templates/base.html:136 templates/includes/footer.html:34
 msgid "UX Design"
 msgstr "UX-дизайн"
 
@@ -774,8 +771,8 @@ msgstr ""
 msgid "Learn More"
 msgstr "Дізнатися більше"
 
-#: pages/templates/pages/includes/services.html:73 templates/base.html:513
-#: templates/base_simple.html:125
+#: pages/templates/pages/includes/services.html:73
+#: templates/includes/footer.html:35
 msgid "Growth &amp; Digital Marketing"
 msgstr "Зростання та цифровий маркетинг"
 
@@ -926,7 +923,7 @@ msgstr ""
 "рішень."
 
 #: pages/templates/pages/marketing.html:10
-#: pages/templates/pages/marketing.html:145 templates/base.html:297
+#: pages/templates/pages/marketing.html:145 templates/base.html:311
 msgid "Marketing Strategy for Digital Products"
 msgstr "Маркетингова стратегія для цифрових продуктів"
 
@@ -940,7 +937,7 @@ msgstr ""
 "вимірюваним стратегіям залучення та тісній синергії між маркетингом, "
 "продуктом і технологіями."
 
-#: pages/templates/pages/marketing.html:47 templates/base.html:350
+#: pages/templates/pages/marketing.html:47 templates/base.html:364
 msgid "Digital Marketing Strategy &amp; Implementation"
 msgstr "Маркетингова стратегія та впровадження для цифрових продуктів"
 
@@ -1057,7 +1054,7 @@ msgstr ""
 "Ми вимірюємо результати, вдосконалюємо тактики та адаптуємо стратегію на "
 "основі реальних даних — а не vanity-метрик."
 
-#: pages/templates/pages/marketing.html:149 templates/base.html:304
+#: pages/templates/pages/marketing.html:149 templates/base.html:318
 msgid "Go-To-Market &amp; Launch Strategy"
 msgstr "Go-to-market та стратегія запуску"
 
@@ -1065,19 +1062,19 @@ msgstr "Go-to-market та стратегія запуску"
 msgid "Performance &amp; Growth Marketing"
 msgstr "Performance- та growth-маркетинг"
 
-#: pages/templates/pages/marketing.html:157 templates/base.html:311
+#: pages/templates/pages/marketing.html:157 templates/base.html:325
 msgid "SEO &amp; Demand Capture"
 msgstr "SEO та залучення попиту"
 
-#: pages/templates/pages/marketing.html:161 templates/base.html:324
+#: pages/templates/pages/marketing.html:161 templates/base.html:338
 msgid "Lifecycle &amp; Email Marketing"
 msgstr "Lifecycle- та email-маркетинг"
 
-#: pages/templates/pages/marketing.html:165 templates/base.html:331
+#: pages/templates/pages/marketing.html:165 templates/base.html:345
 msgid "Brand Strategy &amp; Digital Presence"
 msgstr "Бренд-стратегія та цифрова присутність"
 
-#: pages/templates/pages/marketing.html:169 templates/base.html:338
+#: pages/templates/pages/marketing.html:169 templates/base.html:352
 msgid "Analytics &amp; Dashboards"
 msgstr "Аналітика та дашборди"
 
@@ -1639,8 +1636,7 @@ msgstr ""
 "Подальше використання вебсайту або сервісів після публікації змін означає "
 "вашу згоду з оновленою Політикою."
 
-#: pages/templates/pages/privacy.html:137 templates/base.html:519
-#: templates/base_simple.html:131
+#: pages/templates/pages/privacy.html:137 templates/includes/footer.html:41
 msgid "Contact Us"
 msgstr "Зв’язатися з нами"
 
@@ -1932,14 +1928,14 @@ msgstr ""
 msgid "UX &amp; UI Design for Digital Products"
 msgstr "UX та UI дизайн для цифрових продуктів"
 
-#: pages/templates/pages/ux.html:12 templates/base.html:281
+#: pages/templates/pages/ux.html:12 templates/base.html:295
 msgid ""
 "We design user experiences and interfaces that are clear, intuitive, and "
 "aligned with real business goals — not just visual trends."
 msgstr ""
 "Ми проєктуємо зрозумілі та інтуїтивні інтерфейси, узгоджені з бізнес-цілями."
 
-#: pages/templates/pages/ux.html:48 templates/base.html:280
+#: pages/templates/pages/ux.html:48 templates/base.html:294
 msgid "Product-Focused UX &amp; UI Design"
 msgstr "UX та UI дизайн, орієнтований на продукт"
 
@@ -1956,7 +1952,7 @@ msgstr ""
 "тісній співпраці з розробкою й аналітикою."
 
 #: pages/templates/pages/ux.html:61 pages/templates/pages/ux.html:158
-#: templates/base.html:227
+#: templates/base.html:241
 msgid "UX Research &amp; Product Discovery"
 msgstr "UX-дослідження та продуктовий аналіз"
 
@@ -1981,7 +1977,7 @@ msgstr ""
 "зручними у використанні."
 
 #: pages/templates/pages/ux.html:84 pages/templates/pages/ux.html:170
-#: templates/base.html:254
+#: templates/base.html:268
 msgid "UI Design &amp; Design Systems"
 msgstr "UI-дизайн та дизайн-системи"
 
@@ -2063,19 +2059,19 @@ msgstr ""
 "Ми тестуємо дизайн, допрацьовуємо деталі та готуємо все необхідне для "
 "безшовної передачі в розробку."
 
-#: pages/templates/pages/ux.html:162 templates/base.html:234
+#: pages/templates/pages/ux.html:162 templates/base.html:248
 msgid "User Flows &amp; Information Architecture"
 msgstr "Користувацькі сценарії та інформаційна архітектура"
 
-#: pages/templates/pages/ux.html:166 templates/base.html:241
+#: pages/templates/pages/ux.html:166 templates/base.html:255
 msgid "Wireframing &amp; Prototyping"
 msgstr "Wireframing та прототипування"
 
-#: pages/templates/pages/ux.html:174 templates/base.html:261
+#: pages/templates/pages/ux.html:174 templates/base.html:275
 msgid "Usability Testing"
 msgstr "Тестування зручності використання"
 
-#: pages/templates/pages/ux.html:178 templates/base.html:268
+#: pages/templates/pages/ux.html:178 templates/base.html:282
 msgid "Design Support for Development"
 msgstr "Дизайн-супровід для розробки"
 
@@ -2116,7 +2112,9 @@ msgstr "Розробка цифрових продуктів, маркетинг
 msgid ""
 "We design, build, and grow digital products using web development, UX "
 "design, marketing strategy, and data analytics."
-msgstr "Ми створюємо, розвиваємо та масштабуємо цифрові продукти за допомогою веброзробки, UX-дизайну, маркетингових стратегій та аналітики даних."
+msgstr ""
+"Ми створюємо, розвиваємо та масштабуємо цифрові продукти за допомогою "
+"веброзробки, UX-дизайну, маркетингових стратегій та аналітики даних."
 
 #: pages/views.py:20
 msgid "Neverland Labs — Digital Product Development & Growth"
@@ -2126,8 +2124,9 @@ msgstr "Neverland Labs — Розробка та зростання цифров
 msgid ""
 "We build, market, and scale digital products using engineering, UX, "
 "marketing, and data analytics."
-msgstr "Ми розробляємо, просуваємо та масштабуємо цифрові продукти, поєднуючи інженерію, UX, маркетинг та аналітику даних."
-
+msgstr ""
+"Ми розробляємо, просуваємо та масштабуємо цифрові продукти, поєднуючи "
+"інженерію, UX, маркетинг та аналітику даних."
 
 #: pages/views.py:27
 msgid "Privacy Policy | Neverland Labs"
@@ -2136,7 +2135,9 @@ msgstr "Політика конфіденційності | Neverland Labs"
 #: pages/views.py:28
 msgid ""
 "Learn how Neverland Labs collects, uses, and protects your personal data."
-msgstr "Дізнайтеся, як Neverland Labs збирає, використовує та захищає ваші персональні дані."
+msgstr ""
+"Дізнайтеся, як Neverland Labs збирає, використовує та захищає ваші "
+"персональні дані."
 
 #: pages/views.py:29
 msgid "Privacy Policy — Neverland Labs"
@@ -2144,7 +2145,8 @@ msgstr "Політика конфіденційності — Neverland Labs"
 
 #: pages/views.py:30
 msgid "Information about how we collect, store, and protect user data."
-msgstr "Інформація про те, як ми збираємо, зберігаємо та захищаємо дані користувачів."
+msgstr ""
+"Інформація про те, як ми збираємо, зберігаємо та захищаємо дані користувачів."
 
 #: pages/views.py:36
 msgid "Terms of Service | Neverland Labs"
@@ -2172,7 +2174,9 @@ msgstr "Розробка вебсервісів та SaaS-продуктів | N
 msgid ""
 "Custom web and SaaS development services focused on scalable architecture, "
 "performance, and business goals."
-msgstr "Кастомна розробка вебплатформ і SaaS-рішень з фокусом на масштабованість, продуктивність та бізнес-цілі."
+msgstr ""
+"Кастомна розробка вебплатформ і SaaS-рішень з фокусом на масштабованість, "
+"продуктивність та бізнес-цілі."
 
 #: pages/views.py:47
 msgid "Web & SaaS Development — Neverland Labs"
@@ -2181,7 +2185,9 @@ msgstr "Веб та SaaS-розробка — Neverland Labs"
 #: pages/views.py:48
 msgid ""
 "We build scalable web platforms and SaaS products with modern technologies."
-msgstr "Ми створюємо масштабовані вебплатформи та SaaS-продукти з використанням сучасних технологій."
+msgstr ""
+"Ми створюємо масштабовані вебплатформи та SaaS-продукти з використанням "
+"сучасних технологій."
 
 #: pages/views.py:54
 msgid "Digital Marketing Strategy for SaaS & Startups | Neverland Labs"
@@ -2191,7 +2197,9 @@ msgstr "Цифровий маркетинг для SaaS та стартапів 
 msgid ""
 "Digital marketing strategies for SaaS and digital platforms focused on "
 "growth, acquisition, and retention."
-msgstr "Стратегії цифрового маркетингу для SaaS і цифрових платформ з фокусом на зростання, залучення та утримання користувачів."
+msgstr ""
+"Стратегії цифрового маркетингу для SaaS і цифрових платформ з фокусом на "
+"зростання, залучення та утримання користувачів."
 
 #: pages/views.py:56
 msgid "Digital Marketing Strategy — Neverland Labs"
@@ -2200,7 +2208,9 @@ msgstr "Стратегія цифрового маркетингу — Neverland
 #: pages/views.py:57
 msgid ""
 "Growth-focused marketing strategies for SaaS, startups, and digital products."
-msgstr "Маркетингові стратегії, орієнтовані на зростання SaaS, стартапів та цифрових продуктів."
+msgstr ""
+"Маркетингові стратегії, орієнтовані на зростання SaaS, стартапів та цифрових "
+"продуктів."
 
 #: pages/views.py:63
 msgid "Data Analytics & Growth Insights for Products | Neverland Labs"
@@ -2210,7 +2220,9 @@ msgstr "Аналітика даних та зростання продуктів
 msgid ""
 "Product and business analytics to track performance, user behavior, and data-"
 "driven growth."
-msgstr "Аналітика продукту та бізнесу для відстеження ефективності, поведінки користувачів і зростання на основі даних."
+msgstr ""
+"Аналітика продукту та бізнесу для відстеження ефективності, поведінки "
+"користувачів і зростання на основі даних."
 
 #: pages/views.py:65
 msgid "Data & Analytics — Neverland Labs"
@@ -2229,7 +2241,9 @@ msgstr "UX/UI дизайн цифрових продуктів | Neverland Labs"
 msgid ""
 "User-centered UX and UI design for digital products, focused on usability, "
 "clarity, and conversion."
-msgstr "UX та UI дизайн цифрових продуктів з фокусом на зручність, зрозумілість та конверсію."
+msgstr ""
+"UX та UI дизайн цифрових продуктів з фокусом на зручність, зрозумілість та "
+"конверсію."
 
 #: pages/views.py:74
 msgid "UX & UI Design — Neverland Labs"
@@ -2239,7 +2253,9 @@ msgstr "UX та UI дизайн — Neverland Labs"
 msgid ""
 "User-centered UX/UI design focused on usability, clarity, and business "
 "impact."
-msgstr "UX/UI дизайн, орієнтований на користувача, з фокусом на зручність, зрозумілість та бізнес-результат."
+msgstr ""
+"UX/UI дизайн, орієнтований на користувача, з фокусом на зручність, "
+"зрозумілість та бізнес-результат."
 
 #: pages/views.py:81
 msgid "Airsoft Game Management System | Neverland Labs"
@@ -2249,7 +2265,9 @@ msgstr "Система управління страйкбольними ігр�
 msgid ""
 "A custom web platform for managing airsoft games, equipment rentals, and "
 "player coordination."
-msgstr "Кастомна вебплатформа для управління страйкбольними іграми, орендою спорядження та координацією гравців."
+msgstr ""
+"Кастомна вебплатформа для управління страйкбольними іграми, орендою "
+"спорядження та координацією гравців."
 
 #: pages/views.py:83
 msgid "Strike Shop Action — Case Study"
@@ -2259,71 +2277,94 @@ msgstr "Strike Shop Action — Кейс проєкту"
 msgid ""
 "Case study: a platform for managing airsoft games, rentals, and player "
 "coordination."
-msgstr "Кейс: платформа для управління страйкбольними іграми, орендою спорядження та взаємодією гравців."
+msgstr ""
+"Кейс: платформа для управління страйкбольними іграми, орендою спорядження та "
+"взаємодією гравців."
 
-#: templates/404.html:8
+#: templates/404.html:6 templates/404.html:14
+msgid "Page Not Found"
+msgstr ""
+
+#: templates/404.html:10
+msgid "The requested page was not found on this server."
+msgstr ""
+
+#: templates/404.html:18 templates/404.html:29
 msgid "The page you are looking for doesn’t exist or has been moved."
 msgstr "Сторінка, яку ви шукаєте, не існує або була переміщена."
 
-#: templates/404.html:42
+#: templates/404.html:61
 msgid "Oops, sorry! Page Not Found"
 msgstr ""
 
-#: templates/404.html:45
+#: templates/404.html:65
 #, fuzzy
 #| msgid ""
 #| "The page you are looking for might have been removed, it or is "
 #| "temporarily unavailable."
 msgid ""
-"The page you are looking for might have been removed, or it is temporarily "
-"unavailable."
+"The page you are looking for might have been removed, renamed, or is "
+"temporarily unavailable."
 msgstr ""
 "Можливо, сторінку, яку ви шукаєте, було видалено або вона тимчасово "
 "недоступна"
 
-#: templates/404.html:49 templates/500.html:49
+#: templates/404.html:71 templates/500.html:71
 msgid "Back to Main Page"
 msgstr "Назад на головну сторінку"
 
-#: templates/500.html:8
+#: templates/500.html:6 templates/500.html:14
 msgid "Server Error"
 msgstr ""
 
-#: templates/500.html:42
-msgid "Something went wrong"
+#: templates/500.html:10
+msgid "An internal server error occurred. Please try again later."
 msgstr ""
 
-#: templates/500.html:45
+#: templates/500.html:18
 msgid ""
-"We’re already looking into it. Please try again later or return to the "
-"homepage."
+"Something went wrong on our side. We’re already working on fixing the issue."
 msgstr ""
 
-#: templates/base.html:90
+#: templates/500.html:29
+msgid "Something went wrong on our side."
+msgstr ""
+
+#: templates/500.html:61
+msgid "Internal Server Error"
+msgstr ""
+
+#: templates/500.html:65
+msgid ""
+"We’re already looking into the problem. Please try again later or return to "
+"the homepage."
+msgstr ""
+
+#: templates/base.html:104
 msgid "About"
 msgstr "О Нас"
 
-#: templates/base.html:92
+#: templates/base.html:106
 msgid "Portfolio"
 msgstr "Портфоліо"
 
-#: templates/base.html:93
+#: templates/base.html:107
 msgid "Team"
 msgstr "Команда"
 
-#: templates/base.html:103 templates/base.html:128
+#: templates/base.html:117 templates/base.html:142
 msgid "Digital Marketing"
 msgstr "Цифровий маркетинг"
 
-#: templates/base.html:116
+#: templates/base.html:130
 msgid "Product Engineering"
 msgstr "Веб-розробка"
 
-#: templates/base.html:140
+#: templates/base.html:154
 msgid "Resources"
 msgstr "Ресурси"
 
-#: templates/base.html:158
+#: templates/base.html:172
 msgid ""
 "Design and development of scalable SaaS platforms and custom business "
 "systems."
@@ -2331,159 +2372,164 @@ msgstr ""
 "Проєктування та розробка масштабованих SaaS-платформ і кастомних бізнес-"
 "систем."
 
-#: templates/base.html:165
+#: templates/base.html:179
 msgid "High-performance, SEO-friendly interfaces focused on user experience."
 msgstr ""
 "Високопродуктивні, SEO-оптимізовані інтерфейси з фокусом на користувацький "
 "досвід."
 
-#: templates/base.html:172
+#: templates/base.html:186
 msgid "Secure, scalable backend systems with clean architecture and APIs."
 msgstr "Безпечні та масштабовані бекенд-системи з чистою архітектурою та API."
 
-#: templates/base.html:185
+#: templates/base.html:199
 msgid "Automation of business processes, notifications, and integrations."
 msgstr "Автоматизація бізнес-процесів, сповіщень та інтеграцій."
 
-#: templates/base.html:192
+#: templates/base.html:206
 msgid "Reliable API design and integration with third-party services."
 msgstr "Надійне проєктування API та інтеграція зі сторонніми сервісами."
 
-#: templates/base.html:199
+#: templates/base.html:213
 msgid "Efficient data models, performance tuning, and data integrity."
 msgstr "Оптимізація даних"
 
-#: templates/base.html:212 templates/base.html:282 templates/base.html:352
-#: templates/base.html:422
+#: templates/base.html:226 templates/base.html:296 templates/base.html:366
+#: templates/base.html:436
 msgid "More Details"
 msgstr "Детальніше"
 
-#: templates/base.html:228
+#: templates/base.html:242
 msgid "User research and product discovery to clearly define user needs."
 msgstr "Дослідження користувачів і формування продуктового бачення."
 
-#: templates/base.html:235
+#: templates/base.html:249
 msgid ""
 "Designing clear user flows that make complex products easy to understand."
 msgstr ""
 "Проєктування зрозумілих користувацьких сценаріїв для спрощення складних "
 "продуктів."
 
-#: templates/base.html:242
+#: templates/base.html:256
 msgid "Wireframes and prototypes for early validation."
 msgstr "Вайрфрейми та прототипи для ранньої перевірки рішень."
 
-#: templates/base.html:255
+#: templates/base.html:269
 msgid "Clean, scalable UI and design systems."
 msgstr "Чисті, масштабовані UI та дизайн-системи."
 
-#: templates/base.html:262
+#: templates/base.html:276
 msgid "Tested with users."
 msgstr "Перевірено на реальних користувачах."
 
-#: templates/base.html:269
+#: templates/base.html:283
 msgid ""
 "Close collaboration with developers, documentation, and ongoing design "
 "support."
 msgstr "Співпраця з розробниками, документація та дизайн-підтримка."
 
-#: templates/base.html:298
+#: templates/base.html:312
 msgid "Product positioning and growth strategy aligned with business goals."
 msgstr ""
 "Позиціонування продукту та стратегія зростання, узгоджені з бізнес-цілями."
 
-#: templates/base.html:305
+#: templates/base.html:319
 msgid "Launch planning, messaging, and acquisition strategy for new products."
 msgstr ""
 "Планування запуску, комунікація та стратегія залучення для нових продуктів."
 
-#: templates/base.html:312
+#: templates/base.html:326
 msgid "Organic growth through SEO, content, and intent-driven demand capture."
 msgstr ""
 "Органічне зростання через SEO, контент та роботу з користувацьким наміром."
 
-#: templates/base.html:325
+#: templates/base.html:339
 msgid ""
 "User onboarding, retention, and lifecycle automation via email &amp; "
 "messaging."
 msgstr "Онбординг, утримання та автоматизація через email і месенджери."
 
-#: templates/base.html:332
+#: templates/base.html:346
 msgid ""
 "Clear brand positioning across web, product, and communication channels."
 msgstr ""
 "Чітке позиціонування бренду у вебі, продукті та комунікаційних каналах."
 
-#: templates/base.html:339
+#: templates/base.html:353
 msgid ""
 "Actionable metrics, funnels, and dashboards focused on growth decisions."
 msgstr "Практичні метрики та дашборди для рішень щодо зростання."
 
-#: templates/base.html:351
+#: templates/base.html:365
 msgid "We grow digital products with clear strategy and measurable results."
 msgstr ""
 "Ми розвиваємо цифрові продукти з чіткою стратегією та вимірюваними "
 "результатами."
 
-#: templates/base.html:368
+#: templates/base.html:382
 msgid "Analytics strategy aligned with product and business goals."
 msgstr "Аналітична стратегія, узгоджена з цілями продукту та бізнесу."
 
-#: templates/base.html:375
+#: templates/base.html:389
 msgid "Metrics and insights to track growth, activation, and retention."
 msgstr "Метрики та інсайти для відстеження зростання, активації та утримання."
 
-#: templates/base.html:382
+#: templates/base.html:396
 msgid "Clear dashboards and reports for fast, informed decisions."
 msgstr "Зрозумілі дашборди та звіти для швидких і зважених рішень."
 
-#: templates/base.html:395
+#: templates/base.html:409
 msgid "Event tracking, funnels, and analytics tool setup."
 msgstr "Налаштування трекінгу подій, воронок та аналітичних інструментів."
 
-#: templates/base.html:402
+#: templates/base.html:416
 msgid "Advanced analysis and forecasting for product and revenue planning."
 msgstr "Поглиблений аналіз і прогнозування для планування продукту та доходів."
 
-#: templates/base.html:409
+#: templates/base.html:423
 msgid "Data validation, monitoring, and reliability controls."
 msgstr "Валідація даних, моніторинг та контроль надійності."
 
-#: templates/base.html:421
+#: templates/base.html:435
 msgid "We turn raw data into clear insights and data-driven decisions."
 msgstr "Перетворюємо дані на зрозумілі інсайти та обґрунтовані рішення."
 
-#: templates/base.html:490 templates/base_simple.html:102
+#: templates/base_tech.html:20 templates/base_tech.html:28
+#: templates/base_tech.html:38
+msgid "Technical page"
+msgstr ""
+
+#: templates/includes/footer.html:12
 msgid "We build, market and optimize digital products using data."
 msgstr ""
 "Ми створюємо, просуваємо на ринку та оптимізуємо цифрові продукти, "
 "використовуючи дані."
 
-#: templates/base.html:500 templates/base_simple.html:112
+#: templates/includes/footer.html:22
 msgid "Useful Links"
 msgstr "Корисні посилання"
 
-#: templates/base.html:503 templates/base_simple.html:115
+#: templates/includes/footer.html:25
 msgid "Terms of service"
 msgstr "Умови надання послуг"
 
-#: templates/base.html:504 templates/base_simple.html:116
+#: templates/includes/footer.html:26
 msgid "Privacy policy"
 msgstr "Політика конфіденційності"
 
-#: templates/base.html:520 templates/base_simple.html:132
+#: templates/includes/footer.html:42
 msgid "Ukraine"
 msgstr "Україна"
 
-#: templates/base.html:521 templates/base_simple.html:133
+#: templates/includes/footer.html:43
 msgid "Phone"
 msgstr "Телефон"
 
-#: templates/base.html:529 templates/base_simple.html:141
+#: templates/includes/footer.html:51
 msgid "Copyright"
 msgstr "Авторське право"
 
-#: templates/base.html:529 templates/base_simple.html:141
+#: templates/includes/footer.html:51
 msgid "All Rights Reserved"
 msgstr "Усі права захищено"
 
