@@ -39,14 +39,15 @@
   /**
    * Hide mobile nav on same-page/hash links
    */
-  document.querySelectorAll('#navmenu a').forEach(navmenu => {
-    navmenu.addEventListener('click', () => {
+document.querySelectorAll('#navmenu a:not([data-no-close])')
+  .forEach(link => {
+    link.addEventListener('click', () => {
       if (document.querySelector('.mobile-nav-active')) {
         mobileNavToogle();
       }
     });
-
   });
+
 
   /**
    * Toggle mobile nav dropdowns
@@ -205,35 +206,6 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 
-
-document.addEventListener("DOMContentLoaded", () => {
-  const switcher = document.getElementById("langSwitcher");
-  if (!switcher) return;
-
-  const button = switcher.querySelector(".lang-current");
-  const dropdown = switcher.querySelector(".lang-dropdown");
-
-  const open = (e) => {
-    e.preventDefault();
-    switcher.classList.toggle("active");
-  };
-
-  button.addEventListener("click", open);
-  button.addEventListener("touchstart", open, { passive: false });
-
-  
-  document.addEventListener("click", (e) => {
-    if (!switcher.contains(e.target)) {
-      switcher.classList.remove("active");
-    }
-  });
-
-  document.addEventListener("touchstart", (e) => {
-    if (!switcher.contains(e.target)) {
-      switcher.classList.remove("active");
-    }
-  });
-});
 
 
 

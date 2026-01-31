@@ -89,8 +89,14 @@
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="{% url 'pages:index' %}" class="logo d-flex align-items-center">
-          <img src="{% static "assets/img/nl.png" %}" alt="neverlandLabs">
+          <img
+            src="{% static 'assets/img/nl.png' %}"
+            alt="Neverland Labs"
+            class="img-fluid"
+            style="max-height: 64px;"
+            >
         </a>
+
 
         <nav id="navmenu" class="navmenu">
           <ul>
@@ -472,6 +478,7 @@
             </li><!-- End Megamenu 2 -->
 
             <li><a href="#contact">{% trans "Contact" %}</a></li>
+            {% include "includes/language_mob.html" %}
 
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
