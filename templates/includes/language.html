@@ -2,12 +2,12 @@
 {% get_current_language as CURRENT_LANG %}
 
 <style>
-.lang-switcher-topbar {
+  .lang-switcher-topbar {
     position: relative;
     margin-left: 16px;
-}
+  }
 
-.lang-current {
+  .lang-current {
     background: none;
     border: none;
     display: flex;
@@ -15,15 +15,15 @@
     gap: 6px;
     cursor: pointer;
     padding: 0;
-}
+  }
 
-.lang-current img {
+  .lang-current img {
     width: 18px;
     height: 18px;
     border-radius: 50%;
-}
+  }
 
-.lang-dropdown {
+  .lang-dropdown {
     position: absolute;
     top: 130%;
     right: 0;
@@ -32,13 +32,13 @@
     min-width: 140px;
     display: none;
     z-index: 1000;
-}
+  }
 
-.lang-switcher-topbar:focus-within .lang-dropdown {
+  .lang-switcher-topbar:focus-within .lang-dropdown {
     display: block;
-}
+  }
 
-.lang-dropdown button {
+  .lang-dropdown button {
     width: 100%;
     background: none;
     border: none;
@@ -48,23 +48,21 @@
     align-items: center;
     gap: 8px;
     cursor: pointer;
-}
+  }
 
-.lang-dropdown button:hover {
+  .lang-dropdown button:hover {
     background: rgba(255,255,255,0.08);
-}
+  }
 
-.lang-switcher-topbar {
-  position: relative;
-  z-index: 9999;
-  -webkit-tap-highlight-color: transparent;
-}
+  .lang-switcher-topbar {
+    position: relative;
+    z-index: 9999;
+    -webkit-tap-highlight-color: transparent;
+  }
 
-.lang-current {
-  cursor: pointer;
-}
-
-
+  .lang-current {
+    cursor: pointer;
+  }
 </style>
 
 <div class="lang-switcher-topbar" id="langSwitcher">
