@@ -206,29 +206,35 @@
 
 
 
-  document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   const switcher = document.getElementById("langSwitcher");
   if (!switcher) return;
 
   const button = switcher.querySelector(".lang-current");
+  const dropdown = switcher.querySelector(".lang-dropdown");
 
-  const toggle = (e) => {
+  const open = (e) => {
     e.preventDefault();
-    e.stopPropagation();
     switcher.classList.toggle("active");
   };
 
-  button.addEventListener("click", toggle);
-  button.addEventListener("touchstart", toggle, { passive: false });
+  button.addEventListener("click", open);
+  button.addEventListener("touchstart", open, { passive: false });
 
-  document.addEventListener("click", () => {
-    switcher.classList.remove("active");
+  
+  document.addEventListener("click", (e) => {
+    if (!switcher.contains(e.target)) {
+      switcher.classList.remove("active");
+    }
   });
 
-  document.addEventListener("touchstart", () => {
-    switcher.classList.remove("active");
+  document.addEventListener("touchstart", (e) => {
+    if (!switcher.contains(e.target)) {
+      switcher.classList.remove("active");
+    }
   });
 });
+
 
 
 
