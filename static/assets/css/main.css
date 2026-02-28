@@ -224,6 +224,7 @@ h6 {
 
 .header .logo img {
   max-height: 10vh;
+  width: 90%;
 }
 
 .header .logo h1 {

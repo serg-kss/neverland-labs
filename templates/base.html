@@ -12,7 +12,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="description" content="{{ description|default:'Digital product development, marketing &amp; analytics.' }}">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Neverland Labs">
+  <meta property="og:site_name" content="NullFrame Lab">
   <meta property="og:title" content="{{ og_title|default:title }}">
   <meta property="og:description" content="{{ og_description|default:'' }}">
   <meta property="og:url"
@@ -24,10 +24,9 @@
   <meta name="twitter:description" content="{{ og_description|default:description }}">
   <meta name="twitter:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'assets/img/nl_dark.png' %}">
 
-  <title>{{ title|default:"Neverland Labs" }}</title>
+  <title>{{ title|default:"NullFrame Lab" }}</title>
   <!-- Favicons -->
-  <link rel="icon" type="image/png" href="{% static 'assets/img/favicon.png' %}?v=2">
-  <link rel="apple-touch-icon" href="{% static 'assets/img/apple-touch-icon.png' %}?v=2">
+  {% include "includes/favicons.html" %}
 
   {% for lang in languages %}
   <link rel="alternate"
@@ -61,7 +60,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Neverland Labs",
+      "name": "NullFrame Lab",
       "url": "{{ request.scheme }}://{{ request.get_host }}",
       "logo": "{{ request.scheme }}://{{ request.get_host }}{% static 'assets/img/nl.png' %}",
       "sameAs": [
@@ -90,10 +89,9 @@
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="{% url 'pages:index' %}" class="logo d-flex align-items-center">
           <img
-            src="{% static 'assets/img/nl.png' %}"
-            alt="Neverland Labs"
+            src="{% static 'assets/img/nullframe.png' %}"
+            alt="Logo"
             class="img-fluid"
-            style="max-height: 64px;"
             >
         </a>
 
@@ -107,7 +105,7 @@
             <li><a href="#team">{% trans "Team" %}</a></li>
 
             <!-- Megamenu 2 -->
-            <li class="megamenu-2"><a href="#"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600;">Neverland<span style="color: #257433; font-weight: 600;"> Labs</span></span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li class="megamenu-2"><a href="#"><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600;">NullFrame Lab<i class="bi bi-chevron-down toggle-dropdown"></i></a>
 
               <!-- Mobile Megamenu -->
               <ul class="mobile-megamenu">
