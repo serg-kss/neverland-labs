@@ -4,8 +4,10 @@
 
 {% if LANGUAGE_CODE == "uk" %}
   {% static "assets/img/portfolio/s-action_uk.png" as s_action_img %}
+  {% static "assets/img/portfolio/dimon.png" as dimon_img %}
 {% else %}
   {% static "assets/img/portfolio/s-action_en.png" as s_action_img %}
+  {% static "assets/img/portfolio/dimon.png" as dimon_img %}
 {% endif %}
 
 
@@ -44,7 +46,7 @@
                   <p>{% trans "Web Application" %}</p>
                   <div class="portfolio-links">
                     <a href="{{s_action_img}}" class="glightbox"><i class="bi bi-zoom-in"></i></a>
-                    <a href="https://strikeshopaction.org.ua/" title="Go to StrikeShop Action web"><i class="bi bi-link-45deg"></i></a>
+                    <a href="{% url "pages:strikeshopaction" %}" title="Go to StrikeShop Action web"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
               </div>
@@ -52,13 +54,13 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-wrap">
-                <img src="{% static "assets/img/portfolio/portfolio-2.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <img src="{% static "assets/img/portfolio/dimon.png" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                 <div class="portfolio-info">
-                  <h4>Woodcraft Design</h4>
-                  <p>Web Design</p>
+                  <h4><a href="{% url "pages:woodlife" %}">WOOD LIFE</a></h4>
+                  <p>{% trans "Web Application" %}</p>
                   <div class="portfolio-links">
-                    <a href="{% static "assets/img/portfolio/portfolio-2.webp" %}" class="glightbox" title="Woodcraft Design"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                    <a href="{{dimon_img}}" class="glightbox" title="Woodcraft Design"><i class="bi bi-zoom-in"></i></a>
+                    <a href="{% url "pages:woodlife" %}" title="More Details"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
               </div>

@@ -85,6 +85,15 @@ def portfolio_action(request):
     })
 
 
+def portfolio_woodlife(request):
+    return render(request, 'pages/portfolio/woodlife.html', {
+        'title': _("Airsoft Game Management System | NullFrame Lab"),
+        'description': _("A custom web platform for managing airsoft games, equipment rentals, and player coordination."),
+        'og_title': _("Strike Shop Action — Case Study"),
+        'og_description': _("Case study: a platform for managing airsoft games, rentals, and player coordination."),
+    })
+
+
 
 @require_POST
 def contact_form(request):

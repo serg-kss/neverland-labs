@@ -23,4 +23,5 @@ urlpatterns = [
     path("download/data-pdf/", views.download_data_pdf, name="download_data_pdf"),
 
     path("portfolio/strike-shop-action", views.portfolio_action, name="strikeshopaction"),
+    path("portfolio/wood-life", views.portfolio_woodlife, name="woodlife"),
 ]
