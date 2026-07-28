@@ -24,4 +24,5 @@ urlpatterns = [
 
     path("portfolio/strike-shop-action", views.portfolio_action, name="strikeshopaction"),
     path("portfolio/wood-life", views.portfolio_woodlife, name="woodlife"),
+    path("portfolio/building-estate", views.portfolio_estate, name="estate"),
 ]

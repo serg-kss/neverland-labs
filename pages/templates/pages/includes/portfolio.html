@@ -4,10 +4,12 @@
 
 {% if LANGUAGE_CODE == "uk" %}
   {% static "assets/img/portfolio/s-action_uk.png" as s_action_img %}
-  {% static "assets/img/portfolio/dimon.png" as dimon_img %}
+  {% static "assets/img/portfolio/woodlife_uk.png" as woodlife %}
+    {% static "assets/img/portfolio/estate_uk.png" as estate %}
 {% else %}
   {% static "assets/img/portfolio/s-action_en.png" as s_action_img %}
-  {% static "assets/img/portfolio/dimon.png" as dimon_img %}
+  {% static "assets/img/portfolio/woodlife_en.png" as woodlife %}
+    {% static "assets/img/portfolio/estate_en.png" as estate %}
 {% endif %}
 
 
@@ -28,17 +30,17 @@
             <div class="col-lg-12 d-flex justify-content-center mt-4">
               <ul class="portfolio-filters isotope-filters">
                 <li data-filter="*" class="filter-active">{% trans "All" %}</li>
-                <li data-filter=".filter-photography">{% trans "Development" %}</li>
+                <li data-filter=".filter-dev">{% trans "Development" %}</li>
                 <li data-filter=".filter-design">{% trans "Design" %}</li>
-                <li data-filter=".filter-automotive">{% trans "Data" %}</li>
-                <li data-filter=".filter-nature">{% trans "Marketing" %}</li>
+                <li data-filter=".filter-data">{% trans "Data" %}</li>
+                <li data-filter=".filter-marketing">{% trans "Marketing" %}</li>
               </ul>
             </div>
           </div>
 
           <div class="row gy-4 portfolio-container isotope-container">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dev">
               <div class="portfolio-wrap">
                 <img src="{{s_action_img}}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                 <div class="portfolio-info">
@@ -52,35 +54,35 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dev">
               <div class="portfolio-wrap">
-                <img src="{% static "assets/img/portfolio/dimon.png" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <img src="{{woodlife}}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                 <div class="portfolio-info">
                   <h4><a href="{% url "pages:woodlife" %}">WOOD LIFE</a></h4>
                   <p>{% trans "Web Application" %}</p>
                   <div class="portfolio-links">
-                    <a href="{{dimon_img}}" class="glightbox" title="Woodcraft Design"><i class="bi bi-zoom-in"></i></a>
-                    <a href="{% url "pages:woodlife" %}" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                    <a href="{{woodlife}}" class="glightbox" title="Woodcraft Design"><i class="bi bi-zoom-in"></i></a>
+                    <a href="{% url "pages:woodlife" %}" title="Go to WOOD LIFE web"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-automotive">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dev">
               <div class="portfolio-wrap">
-                <img src="{% static "assets/img/portfolio/portfolio-portrait-2.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <img src="{{estate}}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                 <div class="portfolio-info">
-                  <h4>Classic Beauty</h4>
-                  <p>Automotive</p>
+                  <h4><a href="{% url "pages:estate" %}">BUILDING ESTATE</a></h4>
+                  <p>{% trans "Web Application" %}</p>
                   <div class="portfolio-links">
-                    <a href="{% static "assets/img/portfolio/portfolio-portrait-2.webp" %}" class="glightbox" title="Classic Beauty"><i class="bi bi-zoom-in"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                    <a href="{{estate}}" class="glightbox" title="Classic Beauty"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="Go to BUILDING ESTATE web"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-nature">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-nature">
               <div class="portfolio-wrap">
                 <img src="{% static "assets/img/portfolio/portfolio-portrait-4.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                 <div class="portfolio-info">
@@ -92,9 +94,9 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
+            <!--<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
               <div class="portfolio-wrap">
                 <img src="{% static "assets/img/portfolio/portfolio-5.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                 <div class="portfolio-info">
@@ -106,9 +108,9 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div> End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+            <!--<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-wrap">
                 <img src="{% static "assets/img/portfolio/portfolio-6.webp" %}" class="img-fluid" alt="Portfolio Image" loading="lazy">
                 <div class="portfolio-info">
@@ -120,7 +122,7 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div> End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
 

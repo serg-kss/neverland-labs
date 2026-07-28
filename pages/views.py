@@ -87,10 +87,18 @@ def portfolio_action(request):
 
 def portfolio_woodlife(request):
     return render(request, 'pages/portfolio/woodlife.html', {
-        'title': _("Airsoft Game Management System | NullFrame Lab"),
-        'description': _("A custom web platform for managing airsoft games, equipment rentals, and player coordination."),
-        'og_title': _("Strike Shop Action — Case Study"),
-        'og_description': _("Case study: a platform for managing airsoft games, rentals, and player coordination."),
+        'title': _("Django Web App - Wood Life | NullFrame Lab"),
+        'description': _("A custom Django web app with admin pannel"),
+        'og_title': _("Wood Life — Case Study"),
+        'og_description': _("Case study: webb app for small business "),
+    })
+
+def portfolio_estate(request):
+    return render(request, 'pages/portfolio/estate.html', {
+        'title': _("Django Web App - Building Estate | NullFrame Lab"),
+        'description': _("A custom Django web app with admin pannel."),
+        'og_title': _("Building Estate — Case Study"),
+        'og_description': _("Case study: webb app for business "),
     })
 
 
