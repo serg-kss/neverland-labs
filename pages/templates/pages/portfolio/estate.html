@@ -8,18 +8,11 @@
 
 {% get_current_language as LANGUAGE_CODE %}
 
-{% if LANGUAGE_CODE == "uk" %}
-  {% static "assets/img/portfolio/wood_banner.png" as p_wood_img %}
-  {% static "assets/img/portfolio/wood_banner.png" as p_wood_img %}
-{% else %}
-  {% static "assets/img/portfolio/wood_banner.png" as p_wood_img %}
-  {% static "assets/img/portfolio/wood_banner.png" as p_wood_img %}
-{% endif %}
 
 <!-- Page Title -->
 <div class="page-title dark-background hero-background">
   <div class="container position-relative">
-    <h2>{% trans "Web Application / Platform" %}: Wood Life</h2>
+    <h2>{% trans "Web Application / Platform" %}: Building Estate</h2>
     <nav class="breadcrumbs" data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="300"
@@ -28,7 +21,7 @@
         <li>
           <a href="{% url 'pages:index' %}">{% trans "Home" %}</a>
         </li>
-        <li class="current">{% trans "Portfolio details" %}: Wood Life</li>
+        <li class="current">{% trans "Portfolio details" %}: Building Estate</li>
       </ol>
     </nav>
   </div>
@@ -49,19 +42,19 @@
         <div class="project-header">
           <div class="row">
             <div class="col-lg-7">
-              <h1 class="project-title">Wood Life — {% trans "Private Mountain Retreat Website" %}</h1>
+              <h1 class="project-title">Building Estate — {% trans "Building company Website" %}</h1>
               <div class="project-meta">
                 <div class="meta-item">
                   <i class="bi bi-calendar3"></i>
-                  <span>{% trans "February" %} 2026</span>
+                  <span>{% trans "June" %} 2026</span>
                 </div>
                 <div class="meta-item">
                   <i class="bi bi-building"></i>
-                  <span>Wood Life</span>
+                  <span>Building Estate</span>
                 </div>
                 <div class="meta-item">
                   <i class="bi bi-link-45deg"></i>
-                  <a href="https://woodlifeua.com/" target="_blank">woodlifeua.com</a>
+                  <a href="https://building-estate.com/" target="_blank">building-estate.com</a>
                 </div>
               </div>
               <div class="project-tags">
@@ -76,7 +69,8 @@
                   <span>PostgreSQL</span>
                   <span>Responsive UI</span>
                   <span>SEO Optimization</span>
-                  <span>Multilingual</span>
+                  <span>Django Admin</span>
+                  <span>Telegram API</span>
                 </div>
               </div>
             </div>
@@ -88,28 +82,28 @@
             <div class="col-lg-7">
               <div class="description-box">
                 <h3>{% trans "Project Overview" %}</h3>
-                <p class="lead">{% trans "Wood Life is a modern website developed for a private mountain retreat in Mykulychyn, located in the heart of the Ukrainian Carpathians." %}</p>
-                <p>{% trans "The platform was designed to present the cottages, highlight amenities, and provide a seamless way for guests to explore and contact the property. The project combines elegant visual design with structured content architecture, multilingual support (UA/EN), and full mobile responsiveness." %}</p>
+                <p class="lead">{% trans "Building Estate is a corporate website developed for a Ukrainian construction company specializing in general contracting, commercial construction, and renovation projects." %}</p>
+                <p>{% trans "The platform was built from the ground up to present completed projects, company services, and expertise while providing a professional online presence and an intuitive content management experience. Developed with Django, the project includes a custom CMS based on Django Admin, Telegram notifications for new inquiries, responsive design, and technical SEO optimization." %}</p>
               </div>
             </div>
 
             <div class="col-lg-5">
               <div class="project-stats">
                 <div class="stat-item align-content-center">
-                  <h3 class="color-green">{% trans "3 Applications" %}</h3>
-                  <div class="stat-label">{% trans "Admin Panel, Public Website, Backend API" %}</div>
+                  <h3 class="color-green">{% trans "Custom CMS" %}</h3>
+                  <div class="stat-label">{% trans "Powered by Django Admin" %}</div>
                 </div>
                 <div class="stat-item align-content-center">
-                  <h3 class="color-green">{% trans "6 Months Development" %}</h3>
-                  <div class="stat-label">{% trans "From concept to production-ready system" %}</div>
+                  <h3 class="color-green">{% trans "1 Month Development" %}</h3>
+                  <div class="stat-label">{% trans "From concept to production deployment" %}</div>
                 </div>
                 <div class="stat-item align-content-center">
-                  <h3 class="color-green">{% trans "API-first Architecture" %}</h3>
-                  <div class="stat-label">{% trans "Ready for future integrations" %}</div>
+                  <h3 class="color-green">{% trans "Telegram Integration" %}</h3>
+                  <div class="stat-label">{% trans "Instant notifications for new inquiries" %}</div>
                 </div>
                 <div class="stat-item align-content-center">
-                  <h3 class="color-green">{% trans "Multi-channel Communication" %}</h3>
-                  <div class="stat-label">{% trans "Email &amp; SMS automation" %}</div>
+                  <h3 class="color-green">{% trans "SEO Ready" %}</h3>
+                  <div class="stat-label">{% trans "Optimized structure, metadata and sitemap" %}</div>
                 </div>
               </div>
             </div>
@@ -122,16 +116,17 @@
                   <i class="bi bi-lightbulb"></i>
                 </div>
                 <h4>{% trans "The Challenge" %}</h4>
-                <p>{% trans "Organizing airsoft events traditionally relies on fragmented tools — messengers, spreadsheets, manual registrations, and ad-hoc communication." %}</p>
-                <p class="mt-2">{% trans "This creates several challenges:" %}</p>
+                <p>{% trans "The client required a modern corporate website that would strengthen the company's online presence and effectively showcase construction services and completed projects." %}</p>
+                <p class="mt-2">{% trans "Key requirements included:" %}</p>
                 <ul class="mt-2">
-                    <li>{% trans "No centralized event management" %}</li>
-                    <li>{% trans "Poor visibility of upcoming games and locations" %}</li>
-                    <li>{% trans "Manual team coordination and confirmations" %}</li>
-                    <li>{% trans "Lack of automated notifications and updates" %}</li>
-                    <li>{% trans "Difficult scaling for organizers" %}</li>
+                    <li>{% trans "Professional corporate presentation" %}</li>
+                    <li>{% trans "Easy content management" %}</li>
+                    <li>{% trans "Mobile-first responsive experience" %}</li>
+                    <li>{% trans "Fast inquiry processing" %}</li>
+                    <li>{% trans "Strong technical SEO foundation" %}</li>
+                    <li>{% trans "Reliable deployment and scalability" %}</li>
                 </ul>
-                <p>{% trans "The client needed a single digital platform that could handle logistics, communication, and growth — without sacrificing performance or usability." %}</p>
+                <p>{% trans "The solution needed to be easy to maintain while supporting future growth." %}</p>
               </div>
             </div>
 
@@ -141,20 +136,24 @@
                   <i class="bi bi-trophy"></i>
                 </div>
                 <h4>{% trans "The Solution" %}</h4>
-                <p>{% trans "We designed and built a modular, high-performance platform tailored specifically for airsoft communities." %}</p>
+                <p>{% trans "A complete web platform was designed and developed using Django and PostgreSQL, covering the entire development lifecycle—from planning and implementation to deployment." %}</p>
                 <p class="mt-2">{% trans "Core Solution Highlights:" %}</p>
                 <ul class="mt-2">
-                    <li>{% trans "Public website for discovering events, locations, and rules" %}</li>
-                    <li>{% trans "Admin panel for organizers to manage games, teams, and participants" %}</li>
-                    <li>{% trans "Backend API handling business logic, permissions, and integrations" %}</li>
-                    <li>{% trans "Automated email &amp; SMS notifications via SendPulse" %}</li>
-                    <li>{% trans "Flexible data storage using PostgreSQL and MongoDB for different workloads" %}</li>
+                    <li>{% trans "Responsive corporate website" %}</li>
+                    <li>{% trans "Custom CMS powered by Django Admin" %}</li>
+                    <li>{% trans "PostgreSQL database" %}</li>
+                    <li>{% trans "Telegram Bot integration for instant inquiry notifications" %}</li>
+                    <li>{% trans "Contact forms with automated processing" %}</li>
+                    <li>{% trans "SEO-friendly architecture" %}</li>
+                    <li>{% trans "Performance optimization" %}</li>
+                    <li>{% trans "Production deployment" %}</li>
+
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="key-features">
+          <!--<div class="key-features">
             <h3>{% trans "Platform Architecture" %}</h3>
             <p>{% trans "StrikeShop Action consists of three applications:" %}</p>
             <div class="row g-4">
@@ -212,7 +211,7 @@
             </div>
 
           
-        </div>
+        </div>-->
 
       </div>
 
