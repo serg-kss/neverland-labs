@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-28 13:54+0200\n"
+"POT-Creation-Date: 2026-07-29 11:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,7 +44,9 @@ msgstr ""
 
 #: pages/templates/pages/data.html:19 pages/templates/pages/development.html:19
 #: pages/templates/pages/marketing.html:19
-#: pages/templates/pages/portfolio/action.html:29
+#: pages/templates/pages/portfolio/action.html:27
+#: pages/templates/pages/portfolio/estate.html:22
+#: pages/templates/pages/portfolio/woodlife.html:23
 #: pages/templates/pages/privacy.html:14 pages/templates/pages/terms.html:14
 #: pages/templates/pages/ux.html:20 templates/404.html:36 templates/500.html:36
 #: templates/base.html:101 templates/includes/footer.html:24
@@ -54,8 +56,7 @@ msgstr "Головна"
 #: pages/templates/pages/data.html:21
 #: pages/templates/pages/includes/about.html:33
 #: pages/templates/pages/includes/services.html:97
-#: pages/templates/pages/includes/workprocess.html:45
-#: pages/templates/pages/ux.html:22 templates/base.html:116
+#: pages/templates/pages/includes/workprocess.html:45 templates/base.html:116
 #: templates/base.html:146 templates/base.html:191
 #: templates/includes/footer.html:36
 msgid "Data &amp; Analytics"
@@ -528,7 +529,7 @@ msgstr ""
 "розвиватися."
 
 #: pages/templates/pages/includes/about.html:17
-#: pages/templates/pages/includes/portfolio.html:29
+#: pages/templates/pages/includes/portfolio.html:33
 #: pages/templates/pages/includes/workprocess.html:23
 msgid "Development"
 msgstr "Розробка програмного забеспечення"
@@ -538,7 +539,7 @@ msgid "Building reliable digital products"
 msgstr "Створення надійних цифрових продуктів"
 
 #: pages/templates/pages/includes/about.html:25
-#: pages/templates/pages/includes/portfolio.html:32
+#: pages/templates/pages/includes/portfolio.html:36
 #: pages/templates/pages/includes/workprocess.html:34
 #: pages/templates/pages/marketing.html:21
 msgid "Marketing"
@@ -671,8 +672,8 @@ msgid ""
 "your business."
 msgstr ""
 "Ми допомагаємо компаніям створювати та масштабувати цифрові продукти, "
-"орієнтовані на підвищення ефективності. Веб-платформи та "
-"рішення, які працюють і розвиваються разом із бізнесом."
+"орієнтовані на підвищення ефективності. Веб-платформи та рішення, які "
+"працюють і розвиваються разом із бізнесом."
 
 #: pages/templates/pages/includes/hero.html:16
 msgid "Our Capabilities"
@@ -698,11 +699,11 @@ msgstr "Створюємо для продуктивності"
 msgid "Business-Driven Decisions"
 msgstr "Рішення, керовані потребами бізнесу"
 
-#: pages/templates/pages/includes/portfolio.html:16
+#: pages/templates/pages/includes/portfolio.html:20
 msgid "Real projects. Clear decisions. Measurable outcomes."
 msgstr "Реальні проєкти. Обґрунтовані рішення. Вимірюваний результат."
 
-#: pages/templates/pages/includes/portfolio.html:17
+#: pages/templates/pages/includes/portfolio.html:21
 msgid ""
 "Each project reflects our product mindset, technical depth, and focus on "
 "business impact."
@@ -710,23 +711,23 @@ msgstr ""
 "Кожен проєкт відображає наш продуктовий підхід, технічну глибину та фокус на "
 "бізнес-результаті."
 
-#: pages/templates/pages/includes/portfolio.html:28
+#: pages/templates/pages/includes/portfolio.html:32
 msgid "All"
 msgstr "Всі"
 
-#: pages/templates/pages/includes/portfolio.html:30
+#: pages/templates/pages/includes/portfolio.html:34
 msgid "Design"
 msgstr "Дизайн"
 
-#: pages/templates/pages/includes/portfolio.html:31
+#: pages/templates/pages/includes/portfolio.html:35
 msgid "Data"
 msgstr "Дата"
 
-#: pages/templates/pages/includes/portfolio.html:44
-#, fuzzy
-#| msgid "Custom Web Application Development"
+#: pages/templates/pages/includes/portfolio.html:48
+#: pages/templates/pages/includes/portfolio.html:62
+#: pages/templates/pages/includes/portfolio.html:76
 msgid "Web Application"
-msgstr "Розробка кастомних веб-застосунків"
+msgstr "Веб-застосунок"
 
 #: pages/templates/pages/includes/services.html:8 templates/base.html:103
 msgid "Services"
@@ -869,8 +870,9 @@ msgid "Head of Marketing, StrikeShop"
 msgstr "Керівниця відділу маркетингу, StrikeShop"
 
 #: pages/templates/pages/includes/testimonials.html:32
-msgid "Ongoing project"
-msgstr "Проєкт у роботі"
+#: pages/templates/pages/includes/testimonials.html:54
+msgid "Finished project"
+msgstr "Проєкт завершено"
 
 #: pages/templates/pages/includes/testimonials.html:45
 msgid ""
@@ -879,7 +881,11 @@ msgid ""
 "reflected. The website is modern, user-friendly, and fully responsive. "
 "Communication was smooth and professional. We highly recommend as a reliable "
 "partner."
-msgstr "Ми дуже задоволені співпрацею над сайтом Wood Life. Усі наші побажання були враховані, а атмосфера бренду передана максимально точно. Сайт вийшов сучасним, зручним та адаптивним. Працювати було легко та приємно. Рекомендуємо як надійного партнера."
+msgstr ""
+"Ми дуже задоволені співпрацею над сайтом Wood Life. Усі наші побажання були "
+"враховані, а атмосфера бренду передана максимально точно. Сайт вийшов "
+"сучасним, зручним та адаптивним. Працювати було легко та приємно. "
+"Рекомендуємо як надійного партнера."
 
 #: pages/templates/pages/includes/testimonials.html:52
 msgid "Dmitriy"
@@ -888,10 +894,6 @@ msgstr "Дмитро"
 #: pages/templates/pages/includes/testimonials.html:53
 msgid "Owner of WoodLife Ukraine"
 msgstr "Власник WoodLife Україна"
-
-#: pages/templates/pages/includes/testimonials.html:54
-msgid "Finished project"
-msgstr "Проєкт завершено"
 
 #: pages/templates/pages/includes/workprocess.html:8
 msgid "Expertise Working as One"
@@ -1111,32 +1113,40 @@ msgstr ""
 msgid "Download Marketing Services PDF"
 msgstr "Завантажити Marketing Services PDF"
 
-#: pages/templates/pages/portfolio/action.html:22
+#: pages/templates/pages/portfolio/action.html:20
+#: pages/templates/pages/portfolio/estate.html:15
+#: pages/templates/pages/portfolio/woodlife.html:16
 msgid "Web Application / Platform"
 msgstr "Веб-платформа"
 
-#: pages/templates/pages/portfolio/action.html:31
+#: pages/templates/pages/portfolio/action.html:29
+#: pages/templates/pages/portfolio/estate.html:24
+#: pages/templates/pages/portfolio/woodlife.html:25
 msgid "Portfolio details"
 msgstr "Детальніше"
 
-#: pages/templates/pages/portfolio/action.html:52
+#: pages/templates/pages/portfolio/action.html:50
 msgid "Airsoft Events Platform"
 msgstr "платформа для страйкбольних івентів"
 
-#: pages/templates/pages/portfolio/action.html:56
+#: pages/templates/pages/portfolio/action.html:54
 #: venv/lib/python3.11/site-packages/django/utils/dates.py:26
 msgid "February"
 msgstr "Лютий"
 
-#: pages/templates/pages/portfolio/action.html:74
+#: pages/templates/pages/portfolio/action.html:72
+#: pages/templates/pages/portfolio/estate.html:66
+#: pages/templates/pages/portfolio/woodlife.html:67
 msgid "Technologies Used"
 msgstr "Технології"
 
-#: pages/templates/pages/portfolio/action.html:123
+#: pages/templates/pages/portfolio/action.html:121
+#: pages/templates/pages/portfolio/estate.html:84
+#: pages/templates/pages/portfolio/woodlife.html:84
 msgid "Project Overview"
 msgstr "Огляд проєкту"
 
-#: pages/templates/pages/portfolio/action.html:124
+#: pages/templates/pages/portfolio/action.html:122
 msgid ""
 "StrikeShop Action is a full-scale web platform designed to organize, manage, "
 "and participate in airsoft events across Ukraine."
@@ -1144,7 +1154,7 @@ msgstr ""
 "StrikeShop Action — це повнофункціональна веб-платформа для створення, "
 "організації та проведення страйкбольних ігор по всій Україні."
 
-#: pages/templates/pages/portfolio/action.html:125
+#: pages/templates/pages/portfolio/action.html:123
 msgid ""
 "The platform connects players, teams, and organizers in a single ecosystem — "
 "enabling event creation, team management, registrations, and communication. "
@@ -1160,43 +1170,45 @@ msgstr ""
 "модульну систему з чітким розділенням відповідальностей, що забезпечує "
 "стабільність, продуктивність і готовність до подальшого розвитку."
 
-#: pages/templates/pages/portfolio/action.html:132
+#: pages/templates/pages/portfolio/action.html:130
 msgid "3 Applications"
 msgstr "3 застосунки"
 
-#: pages/templates/pages/portfolio/action.html:133
+#: pages/templates/pages/portfolio/action.html:131
 msgid "Admin Panel, Public Website, Backend API"
 msgstr "публічний сайт, адмін-панель, backend API"
 
-#: pages/templates/pages/portfolio/action.html:136
+#: pages/templates/pages/portfolio/action.html:134
 msgid "6 Months Development"
 msgstr "6 місяців розробки"
 
-#: pages/templates/pages/portfolio/action.html:137
+#: pages/templates/pages/portfolio/action.html:135
 msgid "From concept to production-ready system"
 msgstr "від ідеї до production-рішення"
 
-#: pages/templates/pages/portfolio/action.html:140
+#: pages/templates/pages/portfolio/action.html:138
 msgid "API-first Architecture"
 msgstr "API-first архітектура"
 
-#: pages/templates/pages/portfolio/action.html:141
+#: pages/templates/pages/portfolio/action.html:139
 msgid "Ready for future integrations"
 msgstr "готовність до масштабування"
 
-#: pages/templates/pages/portfolio/action.html:144
+#: pages/templates/pages/portfolio/action.html:142
 msgid "Multi-channel Communication"
 msgstr "Автоматизована комунікація"
 
-#: pages/templates/pages/portfolio/action.html:145
+#: pages/templates/pages/portfolio/action.html:143
 msgid "Email &amp; SMS automation"
 msgstr "email та SMS-сповіщення"
 
-#: pages/templates/pages/portfolio/action.html:157
+#: pages/templates/pages/portfolio/action.html:155
+#: pages/templates/pages/portfolio/estate.html:118
+#: pages/templates/pages/portfolio/woodlife.html:118
 msgid "The Challenge"
 msgstr "Виклик"
 
-#: pages/templates/pages/portfolio/action.html:158
+#: pages/templates/pages/portfolio/action.html:156
 msgid ""
 "Organizing airsoft events traditionally relies on fragmented tools — "
 "messengers, spreadsheets, manual registrations, and ad-hoc communication."
@@ -1204,31 +1216,31 @@ msgstr ""
 "Організація страйкбольних івентів зазвичай відбувається через розрізнені "
 "інструменти: месенджери, таблиці, ручні списки та хаотичну комунікацію."
 
-#: pages/templates/pages/portfolio/action.html:159
+#: pages/templates/pages/portfolio/action.html:157
 msgid "This creates several challenges:"
 msgstr "Це створює низку проблем:"
 
-#: pages/templates/pages/portfolio/action.html:161
+#: pages/templates/pages/portfolio/action.html:159
 msgid "No centralized event management"
 msgstr "Відсутність централізованого управління іграми"
 
-#: pages/templates/pages/portfolio/action.html:162
+#: pages/templates/pages/portfolio/action.html:160
 msgid "Poor visibility of upcoming games and locations"
 msgstr "Складність пошуку подій та локацій"
 
-#: pages/templates/pages/portfolio/action.html:163
+#: pages/templates/pages/portfolio/action.html:161
 msgid "Manual team coordination and confirmations"
 msgstr "Ручне керування командами та підтвердженнями"
 
-#: pages/templates/pages/portfolio/action.html:164
+#: pages/templates/pages/portfolio/action.html:162
 msgid "Lack of automated notifications and updates"
 msgstr "Неефективна комунікація з учасниками"
 
-#: pages/templates/pages/portfolio/action.html:165
+#: pages/templates/pages/portfolio/action.html:163
 msgid "Difficult scaling for organizers"
 msgstr "Обмежені можливості масштабування"
 
-#: pages/templates/pages/portfolio/action.html:167
+#: pages/templates/pages/portfolio/action.html:165
 msgid ""
 "The client needed a single digital platform that could handle logistics, "
 "communication, and growth — without sacrificing performance or usability."
@@ -1236,11 +1248,13 @@ msgstr ""
 "Клієнту була потрібна єдина цифрова платформа, яка вирішує ці задачі та "
 "зростає разом зі спільнотою."
 
-#: pages/templates/pages/portfolio/action.html:176
+#: pages/templates/pages/portfolio/action.html:174
+#: pages/templates/pages/portfolio/estate.html:138
+#: pages/templates/pages/portfolio/woodlife.html:137
 msgid "The Solution"
 msgstr "Рішення"
 
-#: pages/templates/pages/portfolio/action.html:177
+#: pages/templates/pages/portfolio/action.html:175
 msgid ""
 "We designed and built a modular, high-performance platform tailored "
 "specifically for airsoft communities."
@@ -1248,104 +1262,154 @@ msgstr ""
 "Ми спроєктували та реалізували масштабовану платформу, спеціально адаптовану "
 "під потреби страйкбольної спільноти."
 
-#: pages/templates/pages/portfolio/action.html:178
+#: pages/templates/pages/portfolio/action.html:176
+#: pages/templates/pages/portfolio/estate.html:140
+#: pages/templates/pages/portfolio/woodlife.html:139
 msgid "Core Solution Highlights:"
 msgstr "Ключові елементи рішення:"
 
-#: pages/templates/pages/portfolio/action.html:180
+#: pages/templates/pages/portfolio/action.html:178
 msgid "Public website for discovering events, locations, and rules"
 msgstr "Публічний веб-сайт для перегляду ігор, локацій і правил"
 
-#: pages/templates/pages/portfolio/action.html:181
+#: pages/templates/pages/portfolio/action.html:179
 msgid "Admin panel for organizers to manage games, teams, and participants"
 msgstr "Адмін-панель для керування івентами, командами та учасниками"
 
-#: pages/templates/pages/portfolio/action.html:182
+#: pages/templates/pages/portfolio/action.html:180
 msgid "Backend API handling business logic, permissions, and integrations"
 msgstr "Backend API з бізнес-логікою та контролем доступів"
 
-#: pages/templates/pages/portfolio/action.html:183
+#: pages/templates/pages/portfolio/action.html:181
 msgid "Automated email &amp; SMS notifications via SendPulse"
 msgstr "Email та SMS-сповіщення через інтеграцію з SendPulse"
 
-#: pages/templates/pages/portfolio/action.html:184
+#: pages/templates/pages/portfolio/action.html:182
 msgid ""
 "Flexible data storage using PostgreSQL and MongoDB for different workloads"
 msgstr "Гібридне зберігання даних (PostgreSQL + MongoDB)"
 
-#: pages/templates/pages/portfolio/action.html:217
+#: pages/templates/pages/portfolio/action.html:189
+#, fuzzy
+#| msgid "Project Overview"
+msgid "Project Gallery"
+msgstr "Огляд проєкту"
+
+#: pages/templates/pages/portfolio/action.html:225
+#: pages/templates/pages/portfolio/estate.html:157
+#: pages/templates/pages/portfolio/woodlife.html:155
 msgid "Platform Architecture"
 msgstr "Архітектура платформи"
 
-#: pages/templates/pages/portfolio/action.html:218
+#: pages/templates/pages/portfolio/action.html:226
+#: pages/templates/pages/portfolio/estate.html:158
+#: pages/templates/pages/portfolio/woodlife.html:156
 msgid "StrikeShop Action consists of three applications:"
 msgstr "StrikeShop Action складається з трьох незалежних застосунків:"
 
-#: pages/templates/pages/portfolio/action.html:223
+#: pages/templates/pages/portfolio/action.html:231
+#: pages/templates/pages/portfolio/estate.html:163
+#: pages/templates/pages/portfolio/woodlife.html:161
 msgid "Public Web Application"
 msgstr "Публічний веб-застосунок"
 
-#: pages/templates/pages/portfolio/action.html:225
+#: pages/templates/pages/portfolio/action.html:233
+#: pages/templates/pages/portfolio/estate.html:165
+#: pages/templates/pages/portfolio/woodlife.html:163
 msgid "Event listings and detailed pages"
 msgstr "список ігор та детальні сторінки"
 
-#: pages/templates/pages/portfolio/action.html:226
+#: pages/templates/pages/portfolio/action.html:234
+#: pages/templates/pages/portfolio/estate.html:166
+#: pages/templates/pages/portfolio/woodlife.html:164
 msgid "Team and player registration"
 msgstr "реєстрація гравців і команд"
 
-#: pages/templates/pages/portfolio/action.html:227
+#: pages/templates/pages/portfolio/action.html:235
+#: pages/templates/pages/portfolio/estate.html:167
+#: pages/templates/pages/portfolio/woodlife.html:165
 msgid "Location maps and schedules"
 msgstr "карти доступних локацій"
 
-#: pages/templates/pages/portfolio/action.html:228
+#: pages/templates/pages/portfolio/action.html:236
+#: pages/templates/pages/portfolio/estate.html:168
+#: pages/templates/pages/portfolio/woodlife.html:166
 msgid "Responsive, mobile-first UI"
 msgstr "адаптивний, mobile-first інтерфейс"
 
-#: pages/templates/pages/portfolio/action.html:235
+#: pages/templates/pages/portfolio/action.html:243
+#: pages/templates/pages/portfolio/estate.html:175
+#: pages/templates/pages/portfolio/woodlife.html:173
 msgid "Admin Panel"
 msgstr "Адмін-панель"
 
-#: pages/templates/pages/portfolio/action.html:237
+#: pages/templates/pages/portfolio/action.html:245
+#: pages/templates/pages/portfolio/estate.html:177
+#: pages/templates/pages/portfolio/woodlife.html:175
 msgid "Event and team management"
 msgstr "керування івентами та командами"
 
-#: pages/templates/pages/portfolio/action.html:238
+#: pages/templates/pages/portfolio/action.html:246
+#: pages/templates/pages/portfolio/estate.html:178
+#: pages/templates/pages/portfolio/woodlife.html:176
 msgid "Operational control for organizers"
 msgstr "операційний контроль для організаторів"
 
-#: pages/templates/pages/portfolio/action.html:239
+#: pages/templates/pages/portfolio/action.html:247
+#: pages/templates/pages/portfolio/estate.html:179
+#: pages/templates/pages/portfolio/woodlife.html:177
 msgid "Registration approvals and tracking"
 msgstr "контроль реєстрацій і підтверджень"
 
-#: pages/templates/pages/portfolio/action.html:240
+#: pages/templates/pages/portfolio/action.html:248
+#: pages/templates/pages/portfolio/estate.html:180
+#: pages/templates/pages/portfolio/woodlife.html:178
 msgid "Communication triggers (email &amp; SMS)"
 msgstr "запуск email та SMS-кампаній"
 
-#: pages/templates/pages/portfolio/action.html:247
+#: pages/templates/pages/portfolio/action.html:249
+msgid "SEO, analytics, financial monitoring "
+msgstr "SEO, аналітика, фінансовий моніторинг"
+
+#: pages/templates/pages/portfolio/action.html:256
+#: pages/templates/pages/portfolio/estate.html:187
+#: pages/templates/pages/portfolio/woodlife.html:185
 msgid "Backend API (NestJS)"
 msgstr "Backend API (NestJS)"
 
-#: pages/templates/pages/portfolio/action.html:249
+#: pages/templates/pages/portfolio/action.html:258
+#: pages/templates/pages/portfolio/estate.html:189
+#: pages/templates/pages/portfolio/woodlife.html:187
 msgid "Authentication &amp; authorization"
 msgstr "автентифікація та ролі користувачів"
 
-#: pages/templates/pages/portfolio/action.html:250
+#: pages/templates/pages/portfolio/action.html:259
+#: pages/templates/pages/portfolio/estate.html:190
+#: pages/templates/pages/portfolio/woodlife.html:188
 msgid "Business logic and validations"
 msgstr "бізнес-логіка та валідації"
 
-#: pages/templates/pages/portfolio/action.html:251
+#: pages/templates/pages/portfolio/action.html:260
+#: pages/templates/pages/portfolio/estate.html:191
+#: pages/templates/pages/portfolio/woodlife.html:189
 msgid "Scalable API-first architecture"
 msgstr "масштабована API-first архітектура"
 
-#: pages/templates/pages/portfolio/action.html:252
+#: pages/templates/pages/portfolio/action.html:261
+#: pages/templates/pages/portfolio/estate.html:192
+#: pages/templates/pages/portfolio/woodlife.html:190
 msgid "Integrations with external services"
 msgstr "інтеграції зі сторонніми сервісами"
 
-#: pages/templates/pages/portfolio/action.html:261
+#: pages/templates/pages/portfolio/action.html:270
+#: pages/templates/pages/portfolio/estate.html:201
+#: pages/templates/pages/portfolio/woodlife.html:199
 msgid "Integrations"
 msgstr "Інтеграції"
 
-#: pages/templates/pages/portfolio/action.html:262
+#: pages/templates/pages/portfolio/action.html:271
+#: pages/templates/pages/portfolio/estate.html:202
+#: pages/templates/pages/portfolio/woodlife.html:200
 msgid ""
 "This significantly reduced manual communication and improved participant "
 "engagement."
@@ -1353,21 +1417,322 @@ msgstr ""
 "Це значно скоротило ручну роботу організаторів та покращило залучення "
 "учасників."
 
-#: pages/templates/pages/portfolio/action.html:264
+#: pages/templates/pages/portfolio/action.html:275
+#: pages/templates/pages/portfolio/estate.html:204
+#: pages/templates/pages/portfolio/woodlife.html:202
 msgid "Automated email and SMS notifications for"
 msgstr "Автоматизовані email та SMS-повідомлення для:"
 
-#: pages/templates/pages/portfolio/action.html:266
+#: pages/templates/pages/portfolio/action.html:277
+#: pages/templates/pages/portfolio/estate.html:206
+#: pages/templates/pages/portfolio/woodlife.html:204
 msgid "Event confirmations"
 msgstr "підтвердження участі"
 
-#: pages/templates/pages/portfolio/action.html:267
+#: pages/templates/pages/portfolio/action.html:278
+#: pages/templates/pages/portfolio/estate.html:207
+#: pages/templates/pages/portfolio/woodlife.html:205
 msgid "Schedule updates"
 msgstr "змін у розкладі ігор"
 
-#: pages/templates/pages/portfolio/action.html:268
+#: pages/templates/pages/portfolio/action.html:279
+#: pages/templates/pages/portfolio/estate.html:208
+#: pages/templates/pages/portfolio/woodlife.html:206
 msgid "Important announcements"
 msgstr "важливих анонсів та оновлень"
+
+#: pages/templates/pages/portfolio/estate.html:45
+msgid "Building company Website"
+msgstr "Вебсайт для будівельної компанії"
+
+#: pages/templates/pages/portfolio/estate.html:49
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr "Червень"
+
+#: pages/templates/pages/portfolio/estate.html:85
+msgid ""
+"Building Estate is a corporate website developed for a Ukrainian "
+"construction company specializing in general contracting, commercial "
+"construction, and renovation projects."
+msgstr ""
+"Building Estate — це корпоративний вебсайт, розроблений для української "
+"будівельної компанії, що спеціалізується на генеральному підряді, "
+"комерційному будівництві та реалізації проєктів із реконструкції й ремонту."
+
+#: pages/templates/pages/portfolio/estate.html:86
+msgid ""
+"The platform was built from the ground up to present completed projects, "
+"company services, and expertise while providing a professional online "
+"presence and an intuitive content management experience. Developed with "
+"Django, the project includes a custom CMS based on Django Admin, Telegram "
+"notifications for new inquiries, responsive design, and technical SEO "
+"optimization."
+msgstr ""
+"Платформу було створено з нуля для презентації реалізованих проєктів, "
+"послуг компанії та її експертизи, забезпечуючи професійну онлайн-присутність "
+"і зручне керування контентом. Проєкт розроблено на Django та включає "
+"індивідуальну CMS на базі Django Admin, Telegram-сповіщення про нові "
+"звернення, адаптивний дизайн і технічну SEO-оптимізацію."
+
+#: pages/templates/pages/portfolio/estate.html:93
+msgid "Custom CMS"
+msgstr "Індивідуальна CMS"
+
+#: pages/templates/pages/portfolio/estate.html:94
+msgid "Powered by Django Admin"
+msgstr "На базі Django Admin"
+
+#: pages/templates/pages/portfolio/estate.html:97
+#: pages/templates/pages/portfolio/woodlife.html:97
+msgid "1 Month Development"
+msgstr "1 місяць розробки"
+
+#: pages/templates/pages/portfolio/estate.html:98
+msgid "From concept to production deployment"
+msgstr "Від концепції до запуску в продакшн"
+
+#: pages/templates/pages/portfolio/estate.html:101
+msgid "Telegram Integration"
+msgstr "Інтеграція з Telegram"
+
+#: pages/templates/pages/portfolio/estate.html:102
+msgid "Instant notifications for new inquiries"
+msgstr "Миттєві сповіщення про нові звернення"
+
+#: pages/templates/pages/portfolio/estate.html:105
+#: pages/templates/pages/portfolio/woodlife.html:105
+msgid "SEO Ready"
+msgstr "SEO-оптимізація"
+
+#: pages/templates/pages/portfolio/estate.html:106
+msgid "Optimized structure, metadata and sitemap"
+msgstr "Оптимізована структура, метадані та карта сайту"
+
+#: pages/templates/pages/portfolio/estate.html:119
+msgid ""
+"The client required a modern corporate website that would strengthen the "
+"company's online presence and effectively showcase construction services and "
+"completed projects."
+msgstr ""
+"Клієнту був потрібен сучасний корпоративний вебсайт, який би посилив "
+"онлайн-присутність компанії та ефективно презентував будівельні послуги й "
+"реалізовані проєкти."
+
+#: pages/templates/pages/portfolio/estate.html:120
+msgid "Key requirements included:"
+msgstr "Основні вимоги включали:"
+
+#: pages/templates/pages/portfolio/estate.html:122
+msgid "Professional corporate presentation"
+msgstr "Професійна презентація компанії"
+
+#: pages/templates/pages/portfolio/estate.html:123
+msgid "Easy content management"
+msgstr "Зручне керування контентом"
+
+#: pages/templates/pages/portfolio/estate.html:124
+msgid "Mobile-first responsive experience"
+msgstr "Адаптивний дизайн із пріоритетом мобільних пристроїв"
+
+#: pages/templates/pages/portfolio/estate.html:125
+msgid "Fast inquiry processing"
+msgstr "Швидка обробка звернень"
+
+#: pages/templates/pages/portfolio/estate.html:126
+msgid "Strong technical SEO foundation"
+msgstr "Надійна технічна SEO-основа"
+
+#: pages/templates/pages/portfolio/estate.html:127
+msgid "Reliable deployment and scalability"
+msgstr "Надійне розгортання та масштабованість"
+
+#: pages/templates/pages/portfolio/estate.html:129
+msgid ""
+"The solution needed to be easy to maintain while supporting future growth."
+msgstr ""
+"Рішення мало бути простим у підтримці та готовим до подальшого розвитку й "
+"масштабування."
+
+#: pages/templates/pages/portfolio/estate.html:139
+msgid ""
+"A complete web platform was designed and developed using Django and "
+"PostgreSQL, covering the entire development lifecycle—from planning and "
+"implementation to deployment."
+msgstr ""
+"Було спроєктовано та розроблено повноцінну вебплатформу на базі Django і "
+"PostgreSQL, що охоплює весь цикл розробки — від планування та реалізації до "
+"розгортання в продакшн."
+
+#: pages/templates/pages/portfolio/estate.html:142
+msgid "Responsive corporate website"
+msgstr "Адаптивний корпоративний вебсайт"
+
+#: pages/templates/pages/portfolio/estate.html:143
+msgid "Custom CMS powered by Django Admin"
+msgstr "Індивідуальна CMS на базі Django Admin"
+
+#: pages/templates/pages/portfolio/estate.html:144
+#: pages/templates/pages/portfolio/woodlife.html:144
+msgid "PostgreSQL database"
+msgstr "База даних PostgreSQL"
+
+#: pages/templates/pages/portfolio/estate.html:145
+msgid "Telegram Bot integration for instant inquiry notifications"
+msgstr "Інтеграція Telegram-бота для миттєвих сповіщень про нові звернення"
+
+#: pages/templates/pages/portfolio/estate.html:146
+msgid "Contact forms with automated processing"
+msgstr "Форми зворотного зв'язку з автоматизованою обробкою"
+
+#: pages/templates/pages/portfolio/estate.html:147
+msgid "SEO-friendly architecture"
+msgstr "SEO-оптимізована архітектура"
+
+#: pages/templates/pages/portfolio/estate.html:148
+msgid "Performance optimization"
+msgstr "Оптимізація продуктивності"
+
+#: pages/templates/pages/portfolio/estate.html:149
+msgid "Production deployment"
+msgstr "Розгортання в продакшн"
+
+#: pages/templates/pages/portfolio/woodlife.html:46
+msgid "Private Mountain Retreat Website"
+msgstr "Вебсайт приватної бази відпочинку в горах"
+
+#: pages/templates/pages/portfolio/woodlife.html:50
+#: venv/lib/python3.11/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr "Квітень"
+
+#: pages/templates/pages/portfolio/woodlife.html:85
+msgid ""
+"Wood Life is a modern website developed for a private mountain retreat in "
+"Mykulychyn, located in the heart of the Ukrainian Carpathians."
+msgstr ""
+"Wood Life — це сучасний вебсайт, розроблений для приватної бази відпочинку "
+"в Микуличині, розташованої в самому серці Українських Карпат."
+
+#: pages/templates/pages/portfolio/woodlife.html:86
+msgid ""
+"The project was designed to showcase premium cottages, highlight the natural "
+"surroundings, and provide visitors with a seamless browsing experience "
+"across all devices. Built from concept to production, the platform combines "
+"a custom Django backend, multilingual support (Ukrainian / English), "
+"responsive design, and a flexible content management system powered by "
+"Django Admin."
+msgstr ""
+"Проєкт створено для презентації преміальних котеджів, мальовничої природи "
+"Карпат та забезпечення комфортного користування сайтом на будь-яких "
+"пристроях. Платформу реалізовано повністю — від концепції до запуску в "
+"продакшн. Вона поєднує власний бекенд на Django, мультимовність "
+"(українська / англійська), адаптивний дизайн і гнучку систему керування "
+"контентом на базі Django Admin."
+
+#: pages/templates/pages/portfolio/woodlife.html:93
+msgid "Django Backend"
+msgstr "Бекенд на Django"
+
+#: pages/templates/pages/portfolio/woodlife.html:94
+msgid "Custom Admin Panel"
+msgstr "Індивідуальна адмінпанель"
+
+#: pages/templates/pages/portfolio/woodlife.html:98
+msgid "From initial concept to production deployment"
+msgstr "Від початкової концепції до запуску в продакшн"
+
+#: pages/templates/pages/portfolio/woodlife.html:101
+msgid "Multilingual Platform"
+msgstr "Мультимовна платформа"
+
+#: pages/templates/pages/portfolio/woodlife.html:102
+msgid "Ukrainian &amp; English localization"
+msgstr "Українська та англійська локалізація"
+
+#: pages/templates/pages/portfolio/woodlife.html:106
+msgid "Optimized structure, metadata, sitemap and semantic markup."
+msgstr "Оптимізована структура, метадані, карта сайту та семантична розмітка."
+
+#: pages/templates/pages/portfolio/woodlife.html:119
+msgid ""
+"The client needed a modern digital presence that would reflect the "
+"atmosphere of the retreat while remaining easy to manage without technical "
+"knowledge."
+msgstr ""
+"Клієнту був потрібен сучасний вебсайт, який би передавав атмосферу бази "
+"відпочинку та водночас залишався простим у керуванні навіть без технічних "
+"знань."
+
+#: pages/templates/pages/portfolio/woodlife.html:120
+msgid "The main challenges included:"
+msgstr "Основні завдання проєкту:"
+
+#: pages/templates/pages/portfolio/woodlife.html:122
+msgid "Presenting cottages in a visually engaging way"
+msgstr "Приваблива презентація котеджів"
+
+#: pages/templates/pages/portfolio/woodlife.html:123
+msgid "Managing multilingual content"
+msgstr "Керування мультимовним контентом"
+
+#: pages/templates/pages/portfolio/woodlife.html:124
+msgid "Creating a responsive experience for all devices"
+msgstr "Адаптивний інтерфейс для всіх типів пристроїв"
+
+#: pages/templates/pages/portfolio/woodlife.html:125
+msgid "Providing an intuitive content management workflow"
+msgstr "Зручна система керування контентом"
+
+#: pages/templates/pages/portfolio/woodlife.html:126
+msgid "Building a scalable foundation for future expansion"
+msgstr "Масштабована архітектура для подальшого розвитку"
+
+#: pages/templates/pages/portfolio/woodlife.html:128
+msgid ""
+"The solution also needed to deliver fast loading times and solid search "
+"engine visibility."
+msgstr ""
+"Також рішення мало забезпечувати високу швидкість завантаження сторінок "
+"і хорошу видимість у пошукових системах."
+
+#: pages/templates/pages/portfolio/woodlife.html:138
+msgid ""
+"A complete custom solution was designed and developed using Django and "
+"PostgreSQL, covering every stage of the project—from planning and UI "
+"implementation to deployment."
+msgstr ""
+"Було спроєктовано та розроблено повністю індивідуальне рішення на базі "
+"Django та PostgreSQL, що охоплює всі етапи проєкту — від планування й "
+"розробки інтерфейсу до розгортання в продакшн."
+
+#: pages/templates/pages/portfolio/woodlife.html:141
+msgid "Responsive public website"
+msgstr "Адаптивний публічний вебсайт"
+
+#: pages/templates/pages/portfolio/woodlife.html:142
+msgid "Custom Django Admin Panel"
+msgstr "Індивідуальна панель керування на базі Django Admin"
+
+#: pages/templates/pages/portfolio/woodlife.html:143
+msgid "Multilingual architecture (UA / EN)"
+msgstr "Мультимовна архітектура (UA / EN)"
+
+#: pages/templates/pages/portfolio/woodlife.html:145
+msgid "SEO-friendly page structure"
+msgstr "SEO-оптимізована структура сторінок"
+
+#: pages/templates/pages/portfolio/woodlife.html:146
+msgid "Dynamic content management"
+msgstr "Динамічне керування контентом"
+
+#: pages/templates/pages/portfolio/woodlife.html:147
+msgid "Optimized performance"
+msgstr "Оптимізована продуктивність"
+
+#: pages/templates/pages/portfolio/woodlife.html:148
+msgid "Production deployment and configuration"
+msgstr "Розгортання та налаштування в продакшн"
 
 #: pages/templates/pages/privacy.html:9
 msgid ""
@@ -1940,6 +2305,12 @@ msgid ""
 msgstr ""
 "Ми проєктуємо зрозумілі та інтуїтивні інтерфейси, узгоджені з бізнес-цілями."
 
+#: pages/templates/pages/ux.html:22
+#, fuzzy
+#| msgid "UX Design"
+msgid "UI Design"
+msgstr "UX-дизайн"
+
 #: pages/templates/pages/ux.html:48 templates/base.html:292
 msgid "Product-Focused UX &amp; UI Design"
 msgstr "UX та UI дизайн, орієнтований на продукт"
@@ -2284,14 +2655,45 @@ msgid ""
 msgstr ""
 "Кейс: платформа для управління страйкбольними іграми, орендою спорядження та "
 "взаємодією гравців."
+#: pages/views.py:90
+msgid "Django Web App - Wood Life | NullFrame Lab"
+msgstr "Django вебзастосунок — Wood Life | NullFrame Lab"
+
+#: pages/views.py:91
+msgid "A custom Django web app with admin panel"
+msgstr "Індивідуальний вебзастосунок на Django з панеллю адміністрування"
+
+#: pages/views.py:92
+msgid "Wood Life — Case Study"
+msgstr "Wood Life — Кейс"
+
+#: pages/views.py:93
+msgid "Case study: webb app for small business "
+msgstr "Кейс: вебзастосунок для малого бізнесу"
+
+#: pages/views.py:98
+msgid "Django Web App - Building Estate | NullFrame Lab"
+msgstr "Django вебзастосунок — Building Estate | NullFrame Lab"
+
+#: pages/views.py:99
+msgid "A custom Django web app with admin pannel."
+msgstr "Індивідуальний вебзастосунок на Django з панеллю адміністрування."
+
+#: pages/views.py:100
+msgid "Building Estate — Case Study"
+msgstr "Building Estate — Кейс"
+
+#: pages/views.py:101
+msgid "Case study: web app for business "
+msgstr "Кейс: вебзастосунок для бізнесу"
 
 #: templates/404.html:6 templates/404.html:14
 msgid "Page Not Found"
-msgstr ""
+msgstr "Сторінка не знайдена"
 
 #: templates/404.html:10
 msgid "The requested page was not found on this server."
-msgstr ""
+msgstr "Сторінку не знайдено на цьому сервері"
 
 #: templates/404.html:18 templates/404.html:29
 msgid "The page you are looking for doesn’t exist or has been moved."
@@ -2299,7 +2701,7 @@ msgstr "Сторінка, яку ви шукаєте, не існує або б�
 
 #: templates/404.html:61
 msgid "Oops, sorry! Page Not Found"
-msgstr ""
+msgstr "Вибачте! Сторінку не знайдено"
 
 #: templates/404.html:65
 #, fuzzy
@@ -2319,30 +2721,30 @@ msgstr "Назад на головну сторінку"
 
 #: templates/500.html:6 templates/500.html:14
 msgid "Server Error"
-msgstr ""
+msgstr "Помилка Сервера"
 
 #: templates/500.html:10
 msgid "An internal server error occurred. Please try again later."
-msgstr ""
+msgstr "Помилка сервера. Будь-ласка спробуйте пізніше"
 
 #: templates/500.html:18
 msgid ""
 "Something went wrong on our side. We’re already working on fixing the issue."
-msgstr ""
+msgstr "Щось пошло не так! Ми вже працюємо!"
 
 #: templates/500.html:29
 msgid "Something went wrong on our side."
-msgstr ""
+msgstr "Щось пішло не так з нашої сторони. "
 
 #: templates/500.html:61
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Внутрішня помилка серверу"
 
 #: templates/500.html:65
 msgid ""
 "We’re already looking into the problem. Please try again later or return to "
 "the homepage."
-msgstr ""
+msgstr "Ми вже прауюємо над проблемою. Поверніться пізніше. "
 
 #: templates/base.html:102
 msgid "About"
@@ -3322,16 +3724,8 @@ msgstr ""
 msgid "March"
 msgstr ""
 
-#: venv/lib/python3.11/site-packages/django/utils/dates.py:28
-msgid "April"
-msgstr ""
-
 #: venv/lib/python3.11/site-packages/django/utils/dates.py:29
 msgid "May"
-msgstr ""
-
-#: venv/lib/python3.11/site-packages/django/utils/dates.py:30
-msgid "June"
 msgstr ""
 
 #: venv/lib/python3.11/site-packages/django/utils/dates.py:31
@@ -3757,6 +4151,9 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
+#~ msgid "Ongoing project"
+#~ msgstr "Проєкт у роботі"
+
 #~ msgid "Core Expertise Areas"
 #~ msgstr "Ключові напрями експертизи"
 
@@ -3789,9 +4186,6 @@ msgstr ""
 
 #~ msgid "Workflow Automation"
 #~ msgstr "Автоматизація робочого процесу"
-
-#~ msgid "Document Management"
-#~ msgstr "Управління документами"
 
 #~ msgid "Business Intelligence"
 #~ msgstr "Бізнес-аналітика"
